@@ -15,6 +15,7 @@ class CalcState {
   final String? attackerTeraType;
   final String? defenderTeraType;
   final DamageResult? result;
+  final String? error;
 
   const CalcState({
     this.attacker,
@@ -27,6 +28,7 @@ class CalcState {
     this.attackerTeraType,
     this.defenderTeraType,
     this.result,
+    this.error,
   });
 
   CalcState copyWith({
@@ -40,6 +42,9 @@ class CalcState {
     String? attackerTeraType,
     String? defenderTeraType,
     DamageResult? result,
+    bool clearResult = false,
+    String? error,
+    bool clearError = false,
   }) {
     return CalcState(
       attacker: attacker ?? this.attacker,
@@ -51,7 +56,8 @@ class CalcState {
       defenderEvs: defenderEvs ?? this.defenderEvs,
       attackerTeraType: attackerTeraType ?? this.attackerTeraType,
       defenderTeraType: defenderTeraType ?? this.defenderTeraType,
-      result: result ?? this.result,
+      result: clearResult ? null : (result ?? this.result),
+      error: clearError ? null : (error ?? this.error),
     );
   }
 }
@@ -109,47 +115,66 @@ class CalcProvider extends ChangeNotifier {
     _calculate();
   }
 
+  // ボタンから明示的に呼べるように公開
+  void calculate() => _calculate();
+
   void _calculate() {
     final a = _state.attacker;
     final d = _state.defender;
     final m = _state.move;
+
     if (a == null || d == null || m == null) {
+      _state = _state.copyWith(clearResult: true, clearError: true);
       notifyListeners();
       return;
     }
 
-    final isPhysical = m.category == 'ぶつり';
-    final atkStat = calcStat(
-      base: isPhysical ? a.baseStats['atk']! : a.baseStats['spa']!,
-      ev: isPhysical ? _state.attackerEvs['atk']! : _state.attackerEvs['spa']!,
-      nature: _state.attackerNature,
-      stat: isPhysical ? 'atk' : 'spa',
-    );
-    final defStat = calcStat(
-      base: isPhysical ? d.baseStats['def']! : d.baseStats['spd']!,
-      ev: isPhysical ? _state.defenderEvs['def']! : _state.defenderEvs['spd']!,
-      nature: _state.defenderNature,
-      stat: isPhysical ? 'def' : 'spd',
-    );
-    final defHp = calcStat(
-      base: d.baseStats['hp']!,
-      ev: _state.defenderEvs['hp']!,
-      nature: _state.defenderNature,
-      stat: 'hp',
-    );
+    if (m.category == 'へんか') {
+      _state = _state.copyWith(
+        clearResult: true,
+        error: 'へんか技はダメージ計算できません',
+      );
+      notifyListeners();
+      return;
+    }
 
-    final result = calcDamage(
-      attackStat: atkStat,
-      defenseStat: defStat,
-      power: m.power,
-      moveType: m.type,
-      attackerTypes: a.types,
-      defenderTypes: d.types,
-      teraType: _state.attackerTeraType,
-      defenderHp: defHp,
-    );
+    try {
+      final isPhysical = m.category == 'ぶつり';
+      final atkStat = calcStat(
+        base: isPhysical ? a.baseStats['atk']! : a.baseStats['spa']!,
+        ev: isPhysical ? _state.attackerEvs['atk']! : _state.attackerEvs['spa']!,
+        nature: _state.attackerNature,
+        stat: isPhysical ? 'atk' : 'spa',
+      );
+      final defStat = calcStat(
+        base: isPhysical ? d.baseStats['def']! : d.baseStats['spd']!,
+        ev: isPhysical ? _state.defenderEvs['def']! : _state.defenderEvs['spd']!,
+        nature: _state.defenderNature,
+        stat: isPhysical ? 'def' : 'spd',
+      );
+      final defHp = calcStat(
+        base: d.baseStats['hp']!,
+        ev: _state.defenderEvs['hp']!,
+        nature: _state.defenderNature,
+        stat: 'hp',
+      );
 
-    _state = _state.copyWith(result: result);
+      final result = calcDamage(
+        attackStat: atkStat,
+        defenseStat: defStat,
+        power: m.power,
+        moveType: m.type,
+        attackerTypes: a.types,
+        defenderTypes: d.types,
+        teraType: _state.attackerTeraType,
+        defenderHp: defHp,
+      );
+
+      _state = _state.copyWith(result: result, clearError: true);
+    } catch (e) {
+      _state = _state.copyWith(clearResult: true, error: '計算エラー: $e');
+    }
+
     notifyListeners();
   }
 }

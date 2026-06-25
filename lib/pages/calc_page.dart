@@ -30,7 +30,9 @@ class _CalcPageBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final result = context.watch<CalcProvider>().state.result;
+    final state = context.watch<CalcProvider>().state;
+    final result = state.result;
+    final error = state.error;
 
     return Scaffold(
       appBar: AppBar(title: const Text('ダメージ計算')),
@@ -42,7 +44,10 @@ class _CalcPageBody extends StatelessWidget {
             _SectionCard(title: '攻撃側', child: const _AttackerSection()),
             const SizedBox(height: 12),
             _SectionCard(title: '防御側', child: const _DefenderSection()),
+            const SizedBox(height: 16),
+            const _CalcButton(),
             const SizedBox(height: 12),
+            if (error != null) _ErrorCard(message: error),
             if (result != null) _ResultCard(result: result),
           ],
         ),
@@ -343,6 +348,53 @@ class _TeraTypeSelector extends StatelessWidget {
           }).toList(),
         ),
       ],
+    );
+  }
+}
+
+// ─── 計算ボタン ────────────────────────────────────────
+
+class _CalcButton extends StatelessWidget {
+  const _CalcButton();
+
+  @override
+  Widget build(BuildContext context) {
+    final provider = context.watch<CalcProvider>();
+    final state = provider.state;
+    final canCalc = state.attacker != null && state.defender != null && state.move != null;
+
+    return SizedBox(
+      width: double.infinity,
+      child: FilledButton.icon(
+        onPressed: canCalc ? provider.calculate : null,
+        icon: const Icon(Icons.calculate),
+        label: const Text('ダメージを計算'),
+        style: FilledButton.styleFrom(padding: const EdgeInsets.symmetric(vertical: 14)),
+      ),
+    );
+  }
+}
+
+// ─── エラー表示 ────────────────────────────────────────
+
+class _ErrorCard extends StatelessWidget {
+  final String message;
+  const _ErrorCard({required this.message});
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      color: Theme.of(context).colorScheme.errorContainer,
+      child: Padding(
+        padding: const EdgeInsets.all(12),
+        child: Row(
+          children: [
+            Icon(Icons.warning_amber, color: Theme.of(context).colorScheme.error),
+            const SizedBox(width: 8),
+            Expanded(child: Text(message)),
+          ],
+        ),
+      ),
     );
   }
 }
