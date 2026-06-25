@@ -3,6 +3,7 @@ import '../models/pokemon.dart';
 import '../models/move.dart';
 import '../utils/damage_calculator.dart';
 import '../utils/stat_calculator.dart';
+import '../utils/type_chart.dart';
 
 class CalcState {
   final Pokemon? attacker;
@@ -138,6 +139,19 @@ class CalcProvider extends ChangeNotifier {
       return;
     }
 
+    final effectiveDefTypes = _state.defenderTeraType != null
+        ? [_state.defenderTeraType!]
+        : d.types;
+    final typeEff = getTypeEffectiveness(m.type, effectiveDefTypes);
+    if (typeEff == 0.0) {
+      _state = _state.copyWith(
+        clearResult: true,
+        error: '効果なし（${effectiveDefTypes.join('/')}に無効）',
+      );
+      notifyListeners();
+      return;
+    }
+
     try {
       final isPhysical = m.category == 'ぶつり';
       final atkStat = calcStat(
@@ -165,7 +179,7 @@ class CalcProvider extends ChangeNotifier {
         power: m.power,
         moveType: m.type,
         attackerTypes: a.types,
-        defenderTypes: d.types,
+        defenderTypes: effectiveDefTypes,
         teraType: _state.attackerTeraType,
         defenderHp: defHp,
       );

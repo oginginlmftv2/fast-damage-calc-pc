@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import '../providers/calc_provider.dart';
 import '../utils/damage_calculator.dart';
 import '../utils/nature_table.dart';
+import '../utils/stat_calculator.dart';
 import '../widgets/move_search_field.dart';
 import '../widgets/pokemon_search_field.dart';
 
@@ -98,6 +99,14 @@ class _AttackerSection extends StatelessWidget {
           value: state.attacker,
           onSelected: provider.setAttacker,
         ),
+        if (state.attacker != null) ...[
+          const SizedBox(height: 6),
+          _StatDisplay(
+            pokemon: state.attacker!,
+            evs: state.attackerEvs,
+            nature: state.attackerNature,
+          ),
+        ],
         const SizedBox(height: 8),
         MoveSearchField(
           value: state.move,
@@ -143,6 +152,14 @@ class _DefenderSection extends StatelessWidget {
           value: state.defender,
           onSelected: provider.setDefender,
         ),
+        if (state.defender != null) ...[
+          const SizedBox(height: 6),
+          _StatDisplay(
+            pokemon: state.defender!,
+            evs: state.defenderEvs,
+            nature: state.defenderNature,
+          ),
+        ],
         const SizedBox(height: 8),
         _NatureDropdown(
           value: state.defenderNature,
@@ -348,6 +365,58 @@ class _TeraTypeSelector extends StatelessWidget {
           }).toList(),
         ),
       ],
+    );
+  }
+}
+
+// ─── 実数値表示 ────────────────────────────────────────
+
+class _StatDisplay extends StatelessWidget {
+  final dynamic pokemon;
+  final Map<String, int> evs;
+  final String nature;
+
+  const _StatDisplay({
+    required this.pokemon,
+    required this.evs,
+    required this.nature,
+  });
+
+  static const _labels = [
+    ('H', 'hp'), ('A', 'atk'), ('B', 'def'),
+    ('C', 'spa'), ('D', 'spd'), ('S', 'spe'),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
+    return Container(
+      padding: const EdgeInsets.symmetric(vertical: 6, horizontal: 4),
+      decoration: BoxDecoration(
+        color: Theme.of(context).colorScheme.surfaceContainerHighest,
+        borderRadius: BorderRadius.circular(6),
+      ),
+      child: Row(
+        children: _labels.map((entry) {
+          final (label, key) = entry;
+          final val = calcStat(
+            base: pokemon.baseStats[key] as int,
+            ev: evs[key] ?? 0,
+            nature: nature,
+            stat: key,
+          );
+          return Expanded(
+            child: Column(
+              children: [
+                Text(label,
+                    style: textTheme.labelSmall?.copyWith(
+                        color: Theme.of(context).colorScheme.primary)),
+                Text('$val', style: textTheme.bodySmall),
+              ],
+            ),
+          );
+        }).toList(),
+      ),
     );
   }
 }
