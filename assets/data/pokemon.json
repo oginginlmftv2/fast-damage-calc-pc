@@ -1,392 +1,525 @@
 [
   {
-    "id": 1,
-    "national_num": 1,
-    "name": "フシギダネ",
+    "id": "charizard_mega_x",
+    "name_ja": "メガリザードンX",
     "types": [
-      "くさ",
-      "どく"
-    ],
-    "abilities": [
-      "しんりょく",
-      "ようりょくそ"
+      "ほのお",
+      "ドラゴン"
     ],
     "base_stats": {
-      "hp": 45,
-      "attack": 49,
-      "defense": 49,
-      "sp_attack": 65,
-      "sp_defense": 65,
-      "speed": 45
+      "hp": 78,
+      "attack": 130,
+      "defense": 111,
+      "sp_attack": 130,
+      "sp_defense": 85,
+      "speed": 100
     },
-    "champions_tags": [
-      "kanto_starter"
-    ],
-    "forms": []
-  },
-  {
-    "id": 2,
-    "national_num": 2,
-    "name": "フシギソウ",
-    "types": [
-      "くさ",
-      "どく"
-    ],
     "abilities": [
-      "しんりょく",
-      "ようりょくそ"
+      "かたいツメ"
     ],
-    "base_stats": {
-      "hp": 60,
-      "attack": 62,
-      "defense": 63,
-      "sp_attack": 80,
-      "sp_defense": 80,
-      "speed": 60
-    },
-    "champions_tags": [],
-    "forms": []
-  },
-  {
-    "id": 3,
-    "national_num": 3,
-    "name": "フシギバナ",
-    "types": [
-      "くさ",
-      "どく"
-    ],
-    "abilities": [
-      "しんりょく",
-      "ようりょくそ"
-    ],
-    "base_stats": {
-      "hp": 80,
-      "attack": 82,
-      "defense": 83,
-      "sp_attack": 100,
-      "sp_defense": 100,
-      "speed": 80
-    },
-    "champions_tags": [
-      "ace_pokemon"
-    ],
-    "forms": [
-      {
-        "form_name": "メガフシギバナ",
-        "types": [
-          "くさ",
-          "どく"
-        ],
-        "abilities": [
-          "あついしぼう"
-        ],
-        "base_stats": {
-          "hp": 80,
-          "attack": 100,
-          "defense": 123,
-          "sp_attack": 122,
-          "sp_defense": 120,
-          "speed": 80
-        }
-      },
-      {
-        "form_name": "キョダイマックスフシギバナ",
-        "types": [
-          "くさ",
-          "どく"
-        ],
-        "abilities": [
-          "しんりょく",
-          "ようりょくそ"
-        ],
-        "base_stats": {
-          "hp": 80,
-          "attack": 82,
-          "defense": 83,
-          "sp_attack": 100,
-          "sp_defense": 100,
-          "speed": 80
-        }
-      }
+    "learnset": [
+      "flare_blitz",
+      "outrage",
+      "swords_dance",
+      "dragon_dance",
+      "roost"
     ]
   },
   {
-    "id": 4,
-    "national_num": 4,
-    "name": "ヒトカゲ",
-    "types": [
-      "ほのお"
-    ],
-    "abilities": [
-      "もうか",
-      "サンパワー"
-    ],
-    "base_stats": {
-      "hp": 39,
-      "attack": 52,
-      "defense": 43,
-      "sp_attack": 60,
-      "sp_defense": 50,
-      "speed": 65
-    },
-    "champions_tags": [
-      "kanto_starter"
-    ],
-    "forms": []
-  },
-  {
-    "id": 5,
-    "national_num": 5,
-    "name": "リザード",
-    "types": [
-      "ほのお"
-    ],
-    "abilities": [
-      "もうか",
-      "サンパワー"
-    ],
-    "base_stats": {
-      "hp": 58,
-      "attack": 64,
-      "defense": 58,
-      "sp_attack": 80,
-      "sp_defense": 65,
-      "speed": 80
-    },
-    "champions_tags": [],
-    "forms": []
-  },
-  {
-    "id": 6,
-    "national_num": 6,
-    "name": "リザードン",
+    "id": "charizard_mega_y",
+    "name_ja": "メガリザードンY",
     "types": [
       "ほのお",
       "ひこう"
     ],
-    "abilities": [
-      "もうか",
-      "サンパワー"
-    ],
     "base_stats": {
       "hp": 78,
-      "attack": 84,
+      "attack": 104,
       "defense": 78,
-      "sp_attack": 109,
-      "sp_defense": 85,
+      "sp_attack": 159,
+      "sp_defense": 115,
       "speed": 100
     },
-    "champions_tags": [
-      "leon_ace",
-      "ace_pokemon"
+    "abilities": [
+      "ひでり"
     ],
-    "forms": [
-      {
-        "form_name": "メガリザードンX",
-        "types": [
-          "ほのお",
-          "ドラゴン"
-        ],
-        "abilities": [
-          "かたいツメ"
-        ],
-        "base_stats": {
-          "hp": 78,
-          "attack": 130,
-          "defense": 111,
-          "sp_attack": 130,
-          "sp_defense": 85,
-          "speed": 100
-        }
-      },
-      {
-        "form_name": "メガリザードンY",
-        "types": [
-          "ほのお",
-          "ひこう"
-        ],
-        "abilities": [
-          "ひでり"
-        ],
-        "base_stats": {
-          "hp": 78,
-          "attack": 104,
-          "defense": 78,
-          "sp_attack": 159,
-          "sp_defense": 115,
-          "speed": 100
-        }
-      },
-      {
-        "form_name": "キョダイマックスリザードン",
-        "types": [
-          "ほのお",
-          "ひこう"
-        ],
-        "abilities": [
-          "もうか",
-          "サンパワー"
-        ],
-        "base_stats": {
-          "hp": 78,
-          "attack": 84,
-          "defense": 78,
-          "sp_attack": 109,
-          "sp_defense": 85,
-          "speed": 100
-        }
-      }
+    "learnset": [
+      "flamethrower",
+      "fire_blast",
+      "energy_ball",
+      "hurricane",
+      "roost"
     ]
   },
   {
-    "id": 7,
-    "national_num": 7,
-    "name": "ゼニガメ",
-    "types": [
-      "みず"
-    ],
-    "abilities": [
-      "げきりゅう",
-      "あめのうけざら"
-    ],
-    "base_stats": {
-      "hp": 44,
-      "attack": 48,
-      "defense": 65,
-      "sp_attack": 50,
-      "sp_defense": 64,
-      "speed": 43
-    },
-    "champions_tags": [
-      "kanto_starter"
-    ],
-    "forms": []
-  },
-  {
-    "id": 8,
-    "national_num": 8,
-    "name": "カメール",
-    "types": [
-      "みず"
-    ],
-    "abilities": [
-      "げきりゅう",
-      "あめのうけざら"
-    ],
-    "base_stats": {
-      "hp": 59,
-      "attack": 63,
-      "defense": 80,
-      "sp_attack": 65,
-      "sp_defense": 80,
-      "speed": 58
-    },
-    "champions_tags": [],
-    "forms": []
-  },
-  {
-    "id": 9,
-    "national_num": 9,
-    "name": "カメックス",
-    "types": [
-      "みず"
-    ],
-    "abilities": [
-      "げきりゅう",
-      "あめのうけざら"
-    ],
-    "base_stats": {
-      "hp": 79,
-      "attack": 83,
-      "defense": 100,
-      "sp_attack": 85,
-      "sp_defense": 105,
-      "speed": 78
-    },
-    "champions_tags": [
-      "blue_ace",
-      "ace_pokemon"
-    ],
-    "forms": [
-      {
-        "form_name": "メガカメックス",
-        "types": [
-          "みず"
-        ],
-        "abilities": [
-          "メガランチャー"
-        ],
-        "base_stats": {
-          "hp": 79,
-          "attack": 103,
-          "defense": 120,
-          "sp_attack": 135,
-          "sp_defense": 115,
-          "speed": 78
-        }
-      },
-      {
-        "form_name": "キョダイマックスカメックス",
-        "types": [
-          "みず"
-        ],
-        "abilities": [
-          "げきりゅう",
-          "あめのうけざら"
-        ],
-        "base_stats": {
-          "hp": 79,
-          "attack": 83,
-          "defense": 100,
-          "sp_attack": 85,
-          "sp_defense": 105,
-          "speed": 78
-        }
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "national_num": 25,
-    "name": "ピカチュウ",
+    "id": "raichu_mega_y",
+    "name_ja": "メガライチュウY",
     "types": [
       "でんき"
     ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "sp_attack": 135,
+      "sp_defense": 110,
+      "speed": 125
+    },
     "abilities": [
-      "せいでんき",
-      "ひらいしん"
+      "ノーガード"
+    ],
+    "learnset": [
+      "thunderbolt",
+      "thunder",
+      "surf",
+      "focus_blast",
+      "nasty_plot"
+    ]
+  },
+  {
+    "id": "eelektross_mega",
+    "name_ja": "メガシビルドン",
+    "types": [
+      "でんき"
     ],
     "base_stats": {
-      "hp": 35,
-      "attack": 55,
-      "defense": 40,
+      "hp": 85,
+      "attack": 135,
+      "defense": 100,
+      "sp_attack": 125,
+      "sp_defense": 100,
+      "speed": 70
+    },
+    "abilities": [
+      "うなぎのぼり"
+    ],
+    "learnset": [
+      "wild_charge",
+      "thunderbolt",
+      "flamethrower",
+      "crunch",
+      "u_turn"
+    ]
+  },
+  {
+    "id": "froslass_mega",
+    "name_ja": "メガユキメノコ",
+    "types": [
+      "こおり",
+      "ゴースト"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 85,
+      "sp_attack": 120,
+      "sp_defense": 85,
+      "speed": 140
+    },
+    "abilities": [
+      "おみとおし"
+    ],
+    "learnset": [
+      "ice_beam",
+      "blizzard",
+      "shadow_ball",
+      "will_o_wisp",
+      "spikes"
+    ]
+  },
+  {
+    "id": "garchomp",
+    "name_ja": "ガブリアス",
+    "types": [
+      "ドラゴン",
+      "じめん"
+    ],
+    "base_stats": {
+      "hp": 108,
+      "attack": 130,
+      "defense": 95,
+      "sp_attack": 80,
+      "sp_defense": 85,
+      "speed": 102
+    },
+    "abilities": [
+      "さめはだ",
+      "すながくれ"
+    ],
+    "learnset": [
+      "earthquake",
+      "outrage",
+      "stone_edge",
+      "swords_dance",
+      "stealth_rock"
+    ]
+  },
+  {
+    "id": "gengar_mega",
+    "name_ja": "メガゲンガー",
+    "types": [
+      "ゴースト",
+      "どく"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 80,
+      "sp_attack": 170,
+      "sp_defense": 95,
+      "speed": 130
+    },
+    "abilities": [
+      "かげふみ"
+    ],
+    "learnset": [
+      "shadow_ball",
+      "sludge_bomb",
+      "will_o_wisp",
+      "nasty_plot",
+      "substitute"
+    ]
+  },
+  {
+    "id": "metagross_mega",
+    "name_ja": "メガメタグロス",
+    "types": [
+      "はがね",
+      "エスパー"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 145,
+      "defense": 150,
+      "sp_attack": 105,
+      "sp_defense": 110,
+      "speed": 110
+    },
+    "abilities": [
+      "かたいツメ"
+    ],
+    "learnset": [
+      "iron_head",
+      "zen_headbutt",
+      "earthquake",
+      "crunch",
+      "swords_dance"
+    ]
+  },
+  {
+    "id": "mimikyu",
+    "name_ja": "ミミッキュ",
+    "types": [
+      "ゴースト",
+      "フェアリー"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 90,
+      "defense": 80,
       "sp_attack": 50,
-      "sp_defense": 50,
+      "sp_defense": 105,
+      "speed": 96
+    },
+    "abilities": [
+      "ばけのかわ"
+    ],
+    "learnset": [
+      "play_rough",
+      "shadow_claw",
+      "swords_dance",
+      "trick",
+      "will_o_wisp"
+    ]
+  },
+  {
+    "id": "archaludon",
+    "name_ja": "ブリジュラス",
+    "types": [
+      "はがね",
+      "ドラゴン"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 105,
+      "defense": 130,
+      "sp_attack": 125,
+      "sp_defense": 65,
+      "speed": 85
+    },
+    "abilities": [
+      "じきょく",
+      "がんじょう"
+    ],
+    "learnset": [
+      "flash_cannon",
+      "draco_meteor",
+      "dark_pulse",
+      "stealth_rock",
+      "thunder_wave"
+    ]
+  },
+  {
+    "id": "corviknight",
+    "name_ja": "アーマーガア",
+    "types": [
+      "ひこう",
+      "はがね"
+    ],
+    "base_stats": {
+      "hp": 98,
+      "attack": 87,
+      "defense": 105,
+      "sp_attack": 53,
+      "sp_defense": 85,
+      "speed": 67
+    },
+    "abilities": [
+      "ミラーアーマー",
+      "プレッシャー"
+    ],
+    "learnset": [
+      "brave_bird",
+      "iron_head",
+      "u_turn",
+      "roost",
+      "taunt"
+    ]
+  },
+  {
+    "id": "dragapult",
+    "name_ja": "ドラパルト",
+    "types": [
+      "ドラゴン",
+      "ゴースト"
+    ],
+    "base_stats": {
+      "hp": 88,
+      "attack": 120,
+      "defense": 75,
+      "sp_attack": 100,
+      "sp_defense": 75,
+      "speed": 142
+    },
+    "abilities": [
+      "クリアボディ",
+      "すりぬけ"
+    ],
+    "learnset": [
+      "dragon_dance",
+      "outrage",
+      "shadow_ball",
+      "u_turn",
+      "will_o_wisp"
+    ]
+  },
+  {
+    "id": "porygon_z",
+    "name_ja": "ポリゴンZ",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 80,
+      "defense": 70,
+      "sp_attack": 135,
+      "sp_defense": 75,
       "speed": 90
     },
-    "champions_tags": [
-      "red_ace",
-      "ash_partner"
+    "abilities": [
+      "適応力",
+      "ダウンロード"
     ],
-    "forms": [
-      {
-        "form_name": "キョダイマックスピカチュウ",
-        "types": [
-          "でんき"
-        ],
-        "abilities": [
-          "せいでんき",
-          "ひらいしん"
-        ],
-        "base_stats": {
-          "hp": 35,
-          "attack": 55,
-          "defense": 40,
-          "sp_attack": 50,
-          "sp_defense": 50,
-          "speed": 90
-        }
-      }
+    "learnset": [
+      "hyper_voice",
+      "tri_attack",
+      "thunderbolt",
+      "ice_beam",
+      "nasty_plot"
+    ]
+  },
+  {
+    "id": "scizor_mega",
+    "name_ja": "メガハッサム",
+    "types": [
+      "むし",
+      "はがね"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 150,
+      "defense": 140,
+      "sp_attack": 65,
+      "sp_defense": 100,
+      "speed": 75
+    },
+    "abilities": [
+      "テクニシャン"
+    ],
+    "learnset": [
+      "bullet_punch",
+      "u_turn",
+      "swords_dance",
+      "roost",
+      "knock_off"
+    ]
+  },
+  {
+    "id": "tyranitar",
+    "name_ja": "バンギラス",
+    "types": [
+      "いわ",
+      "あく"
+    ],
+    "base_stats": {
+      "hp": 100,
+      "attack": 134,
+      "defense": 110,
+      "sp_attack": 95,
+      "sp_defense": 100,
+      "speed": 61
+    },
+    "abilities": [
+      "すなおこし"
+    ],
+    "learnset": [
+      "stone_edge",
+      "crunch",
+      "earthquake",
+      "dragon_dance",
+      "stealth_rock"
+    ]
+  },
+  {
+    "id": "excadrill",
+    "name_ja": "ドリュウズ",
+    "types": [
+      "じめん",
+      "はがね"
+    ],
+    "base_stats": {
+      "hp": 110,
+      "attack": 135,
+      "defense": 60,
+      "sp_attack": 50,
+      "sp_defense": 65,
+      "speed": 88
+    },
+    "abilities": [
+      "すなかき",
+      "かたやぶり"
+    ],
+    "learnset": [
+      "earthquake",
+      "iron_head",
+      "stone_edge",
+      "swords_dance",
+      "rapid_spin"
+    ]
+  },
+  {
+    "id": "pelipper",
+    "name_ja": "ペリッパー",
+    "types": [
+      "みず",
+      "ひこう"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 100,
+      "sp_attack": 95,
+      "sp_defense": 70,
+      "speed": 65
+    },
+    "abilities": [
+      "あめふらし"
+    ],
+    "learnset": [
+      "surf",
+      "hydro_pump",
+      "hurricane",
+      "u_turn",
+      "roost"
+    ]
+  },
+  {
+    "id": "swampert_mega",
+    "name_ja": "メガラグラージ",
+    "types": [
+      "みず",
+      "じめん"
+    ],
+    "base_stats": {
+      "hp": 100,
+      "attack": 150,
+      "defense": 110,
+      "sp_attack": 95,
+      "sp_defense": 110,
+      "speed": 70
+    },
+    "abilities": [
+      "すいすい"
+    ],
+    "learnset": [
+      "water_fall",
+      "earthquake",
+      "ice_punch",
+      "stealth_rock",
+      "yawn"
+    ]
+  },
+  {
+    "id": "amoonguss",
+    "name_ja": "モロバレル",
+    "types": [
+      "くさ",
+      "どく"
+    ],
+    "base_stats": {
+      "hp": 114,
+      "attack": 85,
+      "defense": 70,
+      "sp_attack": 85,
+      "sp_defense": 80,
+      "speed": 30
+    },
+    "abilities": [
+      "さいせいりょく"
+    ],
+    "learnset": [
+      "spore",
+      "energy_ball",
+      "sludge_bomb",
+      "foul_play",
+      "protect"
+    ]
+  },
+  {
+    "id": "togekiss",
+    "name_ja": "トゲキッス",
+    "types": [
+      "フェアリー",
+      "ひこう"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 50,
+      "defense": 95,
+      "sp_attack": 120,
+      "sp_defense": 115,
+      "speed": 80
+    },
+    "abilities": [
+      "てんのめぐみ"
+    ],
+    "learnset": [
+      "air_slash",
+      "moonblast",
+      "flamethrower",
+      "nasty_plot",
+      "roost"
     ]
   }
 ]

@@ -18,7 +18,7 @@ class Move {
   factory Move.fromJson(Map<String, dynamic> json) {
     return Move(
       id: json['id'] as String,
-      name: json['name'] as String,
+      name: (json['name_ja'] ?? json['name']) as String,
       type: json['type'] as String,
       category: json['category'] as String,
       power: json['power'] as int,

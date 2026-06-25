@@ -12,17 +12,9 @@ class PokemonRepository {
 
     final result = <Pokemon>[];
     for (final entry in list) {
-      final map = entry as Map<String, dynamic>;
       try {
-        result.add(Pokemon.fromJson(map));
+        result.add(Pokemon.fromJson(entry as Map<String, dynamic>));
       } catch (_) {}
-
-      final forms = map['forms'] as List? ?? [];
-      for (final form in forms) {
-        try {
-          result.add(Pokemon.fromJsonForm(map, form as Map<String, dynamic>));
-        } catch (_) {}
-      }
     }
     _cache = result;
     return result;

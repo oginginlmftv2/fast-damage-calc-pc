@@ -24,8 +24,8 @@ class Pokemon {
 
   // 新Geminiフォーマット（タイプ日本語・base_statsにアンダースコア）
   factory Pokemon.fromJson(Map<String, dynamic> json) {
-    final entryId = json['id']?.toString() ?? json['slug'] ?? json['name'];
-    final name = json['name'] as String;
+    final entryId = json['id']?.toString() ?? json['slug'] ?? json['name_ja'] ?? json['name'];
+    final name = (json['name_ja'] ?? json['name']) as String;
     final types = List<String>.from(json['types'] as List);
     final baseStats = _parseStats(json['base_stats'] as Map<String, dynamic>);
     final abilities = List<String>.from(json['abilities'] as List);
