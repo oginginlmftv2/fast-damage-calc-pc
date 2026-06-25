@@ -1,1703 +1,391 @@
 [
   {
-    "no": 3,
+    "id": 1,
+    "national_num": 1,
+    "name": "フシギダネ",
+    "types": [
+      "くさ",
+      "どく"
+    ],
+    "abilities": [
+      "しんりょく",
+      "ようりょくそ"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "sp_attack": 65,
+      "sp_defense": 65,
+      "speed": 45
+    },
+    "champions_tags": [
+      "kanto_starter"
+    ],
+    "forms": []
+  },
+  {
+    "id": 2,
+    "national_num": 2,
+    "name": "フシギソウ",
+    "types": [
+      "くさ",
+      "どく"
+    ],
+    "abilities": [
+      "しんりょく",
+      "ようりょくそ"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "sp_attack": 80,
+      "sp_defense": 80,
+      "speed": 60
+    },
+    "champions_tags": [],
+    "forms": []
+  },
+  {
+    "id": 3,
+    "national_num": 3,
     "name": "フシギバナ",
-    "slug": "venusaur",
-    "isFormEnclosing": false,
+    "types": [
+      "くさ",
+      "どく"
+    ],
+    "abilities": [
+      "しんりょく",
+      "ようりょくそ"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "sp_attack": 100,
+      "sp_defense": 100,
+      "speed": 80
+    },
+    "champions_tags": [
+      "ace_pokemon"
+    ],
     "forms": [
       {
-        "formId": "0003-default",
-        "formName": "通常",
-        "types": ["Grass", "Poison"],
-        "baseStats": { "hp": 80, "attack": 82, "defense": 83, "spAttack": 100, "spDefense": 100, "speed": 80 },
-        "abilities": ["しんりょく"],
-        "hiddenAbility": "ようりょくそ",
-        "terastalOptions": { "recommendedTypes": ["Fire", "Ground"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["SpecialAttacker", "SunSweeper"], "customNotes": "晴れ下でのアタッカー、あるいは眠り粉による展開要員。" }
+        "form_name": "メガフシギバナ",
+        "types": [
+          "くさ",
+          "どく"
+        ],
+        "abilities": [
+          "あついしぼう"
+        ],
+        "base_stats": {
+          "hp": 80,
+          "attack": 100,
+          "defense": 123,
+          "sp_attack": 122,
+          "sp_defense": 120,
+          "speed": 80
+        }
+      },
+      {
+        "form_name": "キョダイマックスフシギバナ",
+        "types": [
+          "くさ",
+          "どく"
+        ],
+        "abilities": [
+          "しんりょく",
+          "ようりょくそ"
+        ],
+        "base_stats": {
+          "hp": 80,
+          "attack": 82,
+          "defense": 83,
+          "sp_attack": 100,
+          "sp_defense": 100,
+          "speed": 80
+        }
       }
     ]
   },
   {
-    "no": 6,
+    "id": 4,
+    "national_num": 4,
+    "name": "ヒトカゲ",
+    "types": [
+      "ほのお"
+    ],
+    "abilities": [
+      "もうか",
+      "サンパワー"
+    ],
+    "base_stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "sp_attack": 60,
+      "sp_defense": 50,
+      "speed": 65
+    },
+    "champions_tags": [
+      "kanto_starter"
+    ],
+    "forms": []
+  },
+  {
+    "id": 5,
+    "national_num": 5,
+    "name": "リザード",
+    "types": [
+      "ほのお"
+    ],
+    "abilities": [
+      "もうか",
+      "サンパワー"
+    ],
+    "base_stats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "sp_attack": 80,
+      "sp_defense": 65,
+      "speed": 80
+    },
+    "champions_tags": [],
+    "forms": []
+  },
+  {
+    "id": 6,
+    "national_num": 6,
     "name": "リザードン",
-    "slug": "charizard",
-    "isFormEnclosing": false,
+    "types": [
+      "ほのお",
+      "ひこう"
+    ],
+    "abilities": [
+      "もうか",
+      "サンパワー"
+    ],
+    "base_stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "sp_attack": 109,
+      "sp_defense": 85,
+      "speed": 100
+    },
+    "champions_tags": [
+      "leon_ace",
+      "ace_pokemon"
+    ],
     "forms": [
       {
-        "formId": "0006-default",
-        "formName": "通常",
-        "types": ["Fire", "Flying"],
-        "baseStats": { "hp": 78, "attack": 84, "defense": 78, "spAttack": 109, "spDefense": 85, "speed": 100 },
-        "abilities": ["もうか"],
-        "hiddenAbility": "サンパワー",
-        "terastalOptions": { "recommendedTypes": ["Fire", "Dragon"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["SpecialAttacker"], "customNotes": "古代活性勢の台頭で晴れ選出時のパワーは健在。" }
+        "form_name": "メガリザードンX",
+        "types": [
+          "ほのお",
+          "ドラゴン"
+        ],
+        "abilities": [
+          "かたいツメ"
+        ],
+        "base_stats": {
+          "hp": 78,
+          "attack": 130,
+          "defense": 111,
+          "sp_attack": 130,
+          "sp_defense": 85,
+          "speed": 100
+        }
+      },
+      {
+        "form_name": "メガリザードンY",
+        "types": [
+          "ほのお",
+          "ひこう"
+        ],
+        "abilities": [
+          "ひでり"
+        ],
+        "base_stats": {
+          "hp": 78,
+          "attack": 104,
+          "defense": 78,
+          "sp_attack": 159,
+          "sp_defense": 115,
+          "speed": 100
+        }
+      },
+      {
+        "form_name": "キョダイマックスリザードン",
+        "types": [
+          "ほのお",
+          "ひこう"
+        ],
+        "abilities": [
+          "もうか",
+          "サンパワー"
+        ],
+        "base_stats": {
+          "hp": 78,
+          "attack": 84,
+          "defense": 78,
+          "sp_attack": 109,
+          "sp_defense": 85,
+          "speed": 100
+        }
       }
     ]
   },
   {
-    "no": 9,
+    "id": 7,
+    "national_num": 7,
+    "name": "ゼニガメ",
+    "types": [
+      "みず"
+    ],
+    "abilities": [
+      "げきりゅう",
+      "あめのうけざら"
+    ],
+    "base_stats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "sp_attack": 50,
+      "sp_defense": 64,
+      "speed": 43
+    },
+    "champions_tags": [
+      "kanto_starter"
+    ],
+    "forms": []
+  },
+  {
+    "id": 8,
+    "national_num": 8,
+    "name": "カメール",
+    "types": [
+      "みず"
+    ],
+    "abilities": [
+      "げきりゅう",
+      "あめのうけざら"
+    ],
+    "base_stats": {
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "sp_attack": 65,
+      "sp_defense": 80,
+      "speed": 58
+    },
+    "champions_tags": [],
+    "forms": []
+  },
+  {
+    "id": 9,
+    "national_num": 9,
     "name": "カメックス",
-    "slug": "blastoise",
-    "isFormEnclosing": false,
+    "types": [
+      "みず"
+    ],
+    "abilities": [
+      "げきりゅう",
+      "あめのうけざら"
+    ],
+    "base_stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "sp_attack": 85,
+      "sp_defense": 105,
+      "speed": 78
+    },
+    "champions_tags": [
+      "blue_ace",
+      "ace_pokemon"
+    ],
     "forms": [
       {
-        "formId": "0009-default",
-        "formName": "通常",
-        "types": ["Water"],
-        "baseStats": { "hp": 79, "attack": 83, "defense": 100, "spAttack": 85, "spDefense": 105, "speed": 78 },
-        "abilities": ["げきりゅう"],
-        "hiddenAbility": "あめうけざら",
-        "terastalOptions": { "recommendedTypes": ["Water", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "C", "roles": ["Tank", "Support"], "customNotes": "からをやぶるによる全抜き性能も秘める。" }
-      }
-    ]
-  },
-  {
-    "no": 26,
-    "name": "ライチュウ",
-    "slug": "raichu",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0026-default",
-        "formName": "通常",
-        "types": ["Electric"],
-        "baseStats": { "hp": 60, "attack": 90, "defense": 55, "spAttack": 90, "spDefense": 80, "speed": 110 },
-        "abilities": ["せいでんき"],
-        "hiddenAbility": "ひらいしん",
-        "terastalOptions": { "recommendedTypes": ["Flying", "Grass"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["Support", "SpeedControl"], "customNotes": "ねこだましやひらいしんでダブルのサポート性能が高い。" }
+        "form_name": "メガカメックス",
+        "types": [
+          "みず"
+        ],
+        "abilities": [
+          "メガランチャー"
+        ],
+        "base_stats": {
+          "hp": 79,
+          "attack": 103,
+          "defense": 120,
+          "sp_attack": 135,
+          "sp_defense": 115,
+          "speed": 78
+        }
       },
       {
-        "formId": "0026-alola",
-        "formName": "アローラのすがた",
-        "types": ["Electric", "Psychic"],
-        "baseStats": { "hp": 60, "attack": 85, "defense": 50, "spAttack": 95, "spDefense": 85, "speed": 110 },
-        "abilities": ["サーフテール"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Psychic", "Water"], "exclusiveStellar": false },
-        "championsData": { "tier": "C", "roles": ["SpecialAttacker"], "customNotes": "エレキフィールド下で素早さが2倍になる。" }
-      }
-    ]
-  },
-  {
-    "no": 38,
-    "name": "キュウコン",
-    "slug": "ninetales",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0038-default",
-        "formName": "通常",
-        "types": ["Fire"],
-        "baseStats": { "hp": 73, "attack": 76, "defense": 75, "spAttack": 81, "spDefense": 100, "speed": 100 },
-        "abilities": ["もらいび"],
-        "hiddenAbility": "ひだり（にほんばれ）",
-        "terastalOptions": { "recommendedTypes": ["Fire", "Grass"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["WeatherSetter", "Support"], "customNotes": "特性ひだりによる晴れ始動要員。コータスより速い点が強み。" }
-      },
-      {
-        "formId": "0038-alola",
-        "formName": "アローラのすがた",
-        "types": ["Ice", "Fairy"],
-        "baseStats": { "hp": 73, "attack": 67, "defense": 75, "spAttack": 81, "spDefense": 100, "speed": 109 },
-        "abilities": ["ゆきがくれ"],
-        "hiddenAbility": "ゆきふらし",
-        "terastalOptions": { "recommendedTypes": ["Water", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["WeatherSetter", "ScreenSetter"], "customNotes": "オーロラベールを最速で展開する壁貼り・霰始動要員。" }
-      }
-    ]
-  },
-  {
-    "no": 53,
-    "name": "ペルシアン",
-    "slug": "persian",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0053-default",
-        "formName": "通常",
-        "types": ["Normal"],
-        "baseStats": { "hp": 65, "attack": 70, "defense": 60, "spAttack": 65, "spDefense": 65, "speed": 115 },
-        "abilities": ["じゅうなん", "テクニシャン"],
-        "hiddenAbility": "きんちょうかん",
-        "terastalOptions": { "recommendedTypes": ["Ghost"], "exclusiveStellar": false },
-        "championsData": { "tier": "D", "roles": ["Support"], "customNotes": "ねこだましや、すてゼリフ等のサポート技が豊富。" }
-      },
-      {
-        "formId": "0053-alola",
-        "formName": "アローラのすがた",
-        "types": ["Dark"],
-        "baseStats": { "hp": 65, "attack": 60, "defense": 60, "spAttack": 75, "spDefense": 65, "speed": 115 },
-        "abilities": ["ファーコート", "テクニシャン"],
-        "hiddenAbility": "びびり",
-        "terastalOptions": { "recommendedTypes": ["Ghost", "Poison"], "exclusiveStellar": false },
-        "championsData": { "tier": "C", "roles": ["Support", "PhysicalTank"], "customNotes": "ファーコートにより、物理耐久は数値以上に高い。" }
-      }
-    ]
-  },
-  {
-    "no": 59,
-    "name": "ウインディ",
-    "slug": "arcanine",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0059-default",
-        "formName": "通常",
-        "types": ["Fire"],
-        "baseStats": { "hp": 90, "attack": 110, "defense": 80, "spAttack": 100, "spDefense": 80, "speed": 95 },
-        "abilities": ["いかく", "もらいび"],
-        "hiddenAbility": "せいぎのこころ",
-        "terastalOptions": { "recommendedTypes": ["Grass", "Normal"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["Support", "PhysicalTank"], "customNotes": "いかく＋しんそく＋バークアウトがダブルバトルで非常に強力。" }
-      },
-      {
-        "formId": "0059-hisui",
-        "formName": "ヒスイのすがた",
-        "types": ["Fire", "Rock"],
-        "baseStats": { "hp": 95, "attack": 115, "defense": 80, "spAttack": 75, "spDefense": 80, "speed": 90 },
-        "abilities": ["いかく", "いしあたま"],
-        "hiddenAbility": "もりのかご",
-        "terastalOptions": { "recommendedTypes": ["Grass", "Normal"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalAttacker", "Support"], "customNotes": "いしあたま＋諸刃の頭突き・フレアドライブの超火力。いかく型も強力。" }
-      }
-    ]
-  },
-  {
-    "no": 130,
-    "name": "ギャラドス",
-    "slug": "gyarados",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0130-default",
-        "formName": "通常",
-        "types": ["Water", "Flying"],
-        "baseStats": { "hp": 95, "attack": 125, "defense": 79, "spAttack": 60, "spDefense": 100, "speed": 81 },
-        "abilities": ["いかく"],
-        "hiddenAbility": "じしんかじょう",
-        "terastalOptions": { "recommendedTypes": ["Ground", "Grass"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["PhysicalAttacker", "Support"], "customNotes": "いかく枠として優秀。りゅうのまい型での全抜きも視野。" }
-      }
-    ]
-  },
-  {
-    "no": 131,
-    "name": "ラプラス",
-    "slug": "lapras",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0131-default",
-        "formName": "通常",
-        "types": ["Water", "Ice"],
-        "baseStats": { "hp": 130, "attack": 85, "defense": 80, "spAttack": 85, "spDefense": 95, "speed": 60 },
-        "abilities": ["ちょすい", "シェルアーマー"],
-        "hiddenAbility": "うるおいボディ",
-        "terastalOptions": { "recommendedTypes": ["Water", "Grass"], "exclusiveStellar": false },
-        "championsData": { "tier": "C", "roles": ["Tank"], "customNotes": "フリーズドライをタイプ一致で打てる高耐久水。" }
-      }
-    ]
-  },
-  {
-    "no": 142,
-    "name": "プテラ",
-    "slug": "aerodactyl",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0142-default",
-        "formName": "通常",
-        "types": ["Rock", "Flying"],
-        "baseStats": { "hp": 80, "attack": 105, "defense": 65, "spAttack": 60, "spDefense": 75, "speed": 130 },
-        "abilities": ["いしあたま", "プレッシャー"],
-        "hiddenAbility": "きんちょうかん",
-        "terastalOptions": { "recommendedTypes": ["Flying", "Rock"], "exclusiveStellar": false },
-        "championsData": { "tier": "C", "roles": ["SpeedControl", "PhysicalAttacker"], "customNotes": "おいかぜ展開要員。きんちょうかんによるきのみ封じが刺さる局面も。" }
-      }
-    ]
-  },
-  {
-    "no": 143,
-    "name": "カビゴン",
-    "slug": "snorlax",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0143-default",
-        "formName": "通常",
-        "types": ["Normal"],
-        "baseStats": { "hp": 160, "attack": 110, "defense": 65, "spAttack": 65, "spDefense": 110, "speed": 30 },
-        "abilities": ["めんえき", "あついしぼう"],
-        "hiddenAbility": "くいしんぼう",
-        "terastalOptions": { "recommendedTypes": ["Ghost", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["TrickRoomSweeper", "Tank"], "customNotes": "はらだいこ＋くいしんぼう（きのみ）のコンボはトリル下で無類の強さ。" }
-      }
-    ]
-  },
-  {
-    "no": 149,
-    "name": "カイリュー",
-    "slug": "dragonite",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0149-default",
-        "formName": "通常",
-        "types": ["Dragon", "Flying"],
-        "baseStats": { "hp": 91, "attack": 134, "defense": 95, "spAttack": 100, "spDefense": 100, "speed": 80 },
-        "abilities": ["せいしんりょく"],
-        "hiddenAbility": "マルチスケイル",
-        "terastalOptions": { "recommendedTypes": ["Normal", "Flying", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["PhysicalAttacker"], "customNotes": "ノーマルテラス＋こだわりハチマキ＋しんそくの壊れコンボ。マルチスケイルによる行動保証。" }
-      }
-    ]
-  },
-  {
-    "no": 212,
-    "name": "ハッサム",
-    "slug": "scizor",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0212-default",
-        "formName": "通常",
-        "types": ["Bug", "Steel"],
-        "baseStats": { "hp": 70, "attack": 130, "defense": 100, "spAttack": 55, "spDefense": 80, "speed": 65 },
-        "abilities": ["むしのしらせ", "テクニシャン"],
-        "hiddenAbility": "ライトメタル",
-        "terastalOptions": { "recommendedTypes": ["Fire", "Water", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalAttacker"], "customNotes": "テクニシャン補正のバレットパンチ、はたきおとすがハバタクカミ等のフェアリーにメタとして刺さる。" }
-      }
-    ]
-  },
-  {
-    "no": 227,
-    "name": "エアームド",
-    "slug": "skarmory",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0227-default",
-        "formName": "通常",
-        "types": ["Steel", "Flying"],
-        "baseStats": { "hp": 65, "attack": 80, "defense": 140, "spAttack": 40, "spDefense": 70, "speed": 70 },
-        "abilities": ["するどいめ", "がんじょう"],
-        "hiddenAbility": "くだけるよろい",
-        "terastalOptions": { "recommendedTypes": ["Water", "Fighting"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["PhysicalTank", "HazardSetter"], "customNotes": "てっぺき＋ボディプレスや、ステルスロック・まきびしによるサイクル戦特化。" }
-      }
-    ]
-  },
-  {
-    "no": 242,
-    "name": "ハピナス",
-    "slug": "blissey",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0242-default",
-        "formName": "通常",
-        "types": ["Normal"],
-        "baseStats": { "hp": 255, "attack": 10, "defense": 10, "spAttack": 75, "spDefense": 135, "speed": 55 },
-        "abilities": ["しぜんかいふく", "てんのめぐみ"],
-        "hiddenAbility": "いやしのこころ",
-        "terastalOptions": { "recommendedTypes": ["Ghost", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["SpecialTank"], "customNotes": "特殊受けの最高峰。シングルバトルにおける受けループの中核。" }
-      }
-    ]
-  },
-  {
-    "no": 248,
-    "name": "バンギラス",
-    "slug": "tyranitar",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0248-default",
-        "formName": "通常",
-        "types": ["Rock", "Dark"],
-        "baseStats": { "hp": 100, "attack": 134, "defense": 110, "spAttack": 95, "spDefense": 100, "speed": 61 },
-        "abilities": ["すなおこし"],
-        "hiddenAbility": "きんちょうかん",
-        "terastalOptions": { "recommendedTypes": ["Flying", "Ghost", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["WeatherSetter", "PhysicalAttacker", "Tank"], "customNotes": "すなあらしによる岩タイプの特防1.5倍補正により、驚異的な特殊耐久を誇る。" }
-      }
-    ]
-  },
-  {
-    "no": 286,
-    "name": "キノガッサ",
-    "slug": "breloom",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0286-default",
-        "formName": "通常",
-        "types": ["Grass", "Fighting"],
-        "baseStats": { "hp": 60, "attack": 130, "defense": 80, "spAttack": 60, "spDefense": 60, "speed": 70 },
-        "abilities": ["ほうし", "ポイズンヒール"],
-        "hiddenAbility": "テクニシャン",
-        "terastalOptions": { "recommendedTypes": ["Grass", "Ghost"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["PhysicalAttacker", "Disrupter"], "customNotes": "最速キノコのほうし枠。テクニシャン＋マッハパンチ・タネマシンガンの縛り性能。" }
-      }
-    ]
-  },
-  {
-    "no": 302,
-    "name": "ヤミラミ",
-    "slug": "sableye",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0302-default",
-        "formName": "通常",
-        "types": ["Dark", "Ghost"],
-        "baseStats": { "hp": 50, "attack": 75, "defense": 75, "spAttack": 65, "spDefense": 65, "speed": 50 },
-        "abilities": ["するどいめ", "あとだし"],
-        "hiddenAbility": "いたずらごころ",
-        "terastalOptions": { "recommendedTypes": ["Dark", "Fairy"], "exclusiveStellar": false },
-        "championsData": { "tier": "C", "roles": ["Support"], "customNotes": "いたずらごころによる先制おにび・ひかりのかべ・クォークチャージ対策が魅力。" }
-      }
-    ]
-  },
-  {
-    "no": 350,
-    "name": "ミロカロス",
-    "slug": "milotic",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0350-default",
-        "formName": "通常",
-        "types": ["Water"],
-        "baseStats": { "hp": 95, "attack": 60, "defense": 79, "spAttack": 100, "spDefense": 125, "speed": 81 },
-        "abilities": ["ふしぎなうろこ", "かちき"],
-        "hiddenAbility": "メロメロボディ",
-        "terastalOptions": { "recommendedTypes": ["Grass", "Dragon"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["Tank", "SpecialAttacker"], "customNotes": "かちきにより相手の「いかく」に対して強烈なメタを張れる。" }
-      }
-    ]
-  },
-  {
-    "no": 373,
-    "name": "ボーマンダ",
-    "slug": "salamence",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0373-default",
-        "formName": "通常",
-        "types": ["Dragon", "Flying"],
-        "baseStats": { "hp": 95, "attack": 135, "defense": 80, "spAttack": 110, "spDefense": 80, "speed": 100 },
-        "abilities": ["いかく"],
-        "hiddenAbility": "じしんかじょう",
-        "terastalOptions": { "recommendedTypes": ["Steel", "Flying"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["PhysicalAttacker", "SpecialAttacker"], "customNotes": "じしんかじょう＋おいかぜ・りゅうのまいによる全抜き型、または両刀型。" }
-      }
-    ]
-  },
-  {
-    "no": 376,
-    "name": "メタグロス",
-    "slug": "metagross",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0376-default",
-        "formName": "通常",
-        "types": ["Steel", "Psychic"],
-        "baseStats": { "hp": 80, "attack": 135, "defense": 130, "spAttack": 95, "spDefense": 90, "speed": 70 },
-        "abilities": ["クリアボディ"],
-        "hiddenAbility": "ライトメタル",
-        "terastalOptions": { "recommendedTypes": ["Water", "Grass", "Fire"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalAttacker", "Tank"], "customNotes": "クリアボディによりいかくを無効化できるヘビーアタッカー。グラスフィールドと相性が良い。" }
-      }
-    ]
-  },
-  {
-    "no": 423,
-    "name": "トリトドン",
-    "slug": "gastrodon",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0423-default",
-        "formName": "通常",
-        "types": ["Water", "Ground"],
-        "baseStats": { "hp": 111, "attack": 83, "defense": 68, "spAttack": 92, "spDefense": 82, "speed": 39 },
-        "abilities": ["ねんちゃく", "よびみず"],
-        "hiddenAbility": "すなのちから",
-        "terastalOptions": { "recommendedTypes": ["Grass", "Fire", "Poison"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["WaterRedirector", "Tank"], "customNotes": "特性よびみずにより、ウーラオス(連撃)やカイオーガへの最強の水メタとして機能。" }
-      }
-    ]
-  },
-  {
-    "no": 445,
-    "name": "ガブリアス",
-    "slug": "garchomp",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0445-default",
-        "formName": "通常",
-        "types": ["Ground", "Dragon"],
-        "baseStats": { "hp": 108, "attack": 130, "defense": 95, "spAttack": 80, "spDefense": 85, "speed": 102 },
-        "abilities": ["すながくれ"],
-        "hiddenAbility": "さめはだ",
-        "terastalOptions": { "recommendedTypes": ["Steel", "Ground", "Fire"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["PhysicalAttacker"], "customNotes": "激戦区100族を抜く絶妙な素早さ。じしんの単体・範囲打点が強力。" }
-      }
-    ]
-  },
-  {
-    "no": 460,
-    "name": "ユキノオー",
-    "slug": "abomasnow",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0460-default",
-        "formName": "通常",
-        "types": ["Ice", "Grass"],
-        "baseStats": { "hp": 90, "attack": 92, "defense": 75, "spAttack": 92, "spDefense": 85, "speed": 60 },
-        "abilities": ["ゆきふらし"],
-        "hiddenAbility": "ぼうじん",
-        "terastalOptions": { "recommendedTypes": ["Water", "Fire", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["WeatherSetter", "ScreenSetter"], "customNotes": "アローラキュウコンと並ぶ雪始動要員。ふぶきの超火力必中とオーロラベール展開。" }
-      }
-    ]
-  },
-  {
-    "no": 475,
-    "name": "エルレイド",
-    "slug": "gallade",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0475-default",
-        "formName": "通常",
-        "types": ["Psychic", "Fighting"],
-        "baseStats": { "hp": 68, "attack": 125, "defense": 65, "spAttack": 65, "spDefense": 115, "speed": 80 },
-        "abilities": ["ふくつのこころ", "きれあじ"],
-        "hiddenAbility": "せいぎのこころ",
-        "terastalOptions": { "recommendedTypes": ["Steel", "Dark"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalAttacker"], "customNotes": "特性きれあじによる「せいなるつるぎ」「サイコカッター」の威力が異常。" }
-      }
-    ]
-  },
-  {
-    "no": 479,
-    "name": "ロトム",
-    "slug": "rotom",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0479-wash",
-        "formName": "ウォッシュロトム",
-        "types": ["Water", "Electric"],
-        "baseStats": { "hp": 50, "attack": 65, "defense": 107, "spAttack": 105, "spDefense": 107, "speed": 86 },
-        "abilities": ["ふゆう"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Steel", "Grass"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["SpecialAttacker", "Pivot"], "customNotes": "ふゆうにより弱点が実質草のみ。ハイドロポンプ＋ボルトチェンジによるサイクル運用。" }
-      },
-      {
-        "formId": "0479-heat",
-        "formName": "ヒートロトム",
-        "types": ["Fire", "Electric"],
-        "baseStats": { "hp": 50, "attack": 65, "defense": 107, "spAttack": 105, "spDefense": 107, "speed": 86 },
-        "abilities": ["ふゆう"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Grass", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["SpecialAttacker", "Pivot"], "customNotes": "ふゆうのおかげで4倍弱点の地面が無効化される、優秀な耐性。" }
-      }
-    ]
-  },
-  {
-    "no": 483,
-    "name": "ディアルガ",
-    "slug": "dialga",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0483-default",
-        "formName": "通常",
-        "types": ["Steel", "Dragon"],
-        "baseStats": { "hp": 100, "attack": 120, "defense": 120, "spAttack": 150, "spDefense": 100, "speed": 90 },
-        "abilities": ["プレッシャー"],
-        "hiddenAbility": "テレパシー",
-        "terastalOptions": { "recommendedTypes": ["Steel", "Fairy"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["RestrictedDragon", "SpecialAttacker", "Tank"], "customNotes": "伝説枠。耐性が非常に優秀で、トリックルーム始動役やアタッカーとして強固。" }
-      },
-      {
-        "formId": "0483-origin",
-        "formName": "オリジンフォルム",
-        "types": ["Steel", "Dragon"],
-        "baseStats": { "hp": 100, "attack": 100, "defense": 120, "spAttack": 150, "spDefense": 120, "speed": 90 },
-        "abilities": ["プレッシャー"],
-        "hiddenAbility": "テレパシー",
-        "terastalOptions": { "recommendedTypes": ["Steel", "Ground"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["RestrictedDragon", "SpecialAttacker", "Tank"], "customNotes": "大金剛玉保持限定。特防が上昇し、より強固なサイクル戦が可能に。" }
-      }
-    ]
-  },
-  {
-    "no": 484,
-    "name": "パルキア",
-    "slug": "palkia",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0484-default",
-        "formName": "通常",
-        "types": ["Water", "Dragon"],
-        "baseStats": { "hp": 90, "attack": 120, "defense": 100, "spAttack": 150, "spDefense": 120, "speed": 100 },
-        "abilities": ["プレッシャー"],
-        "hiddenAbility": "テレパシー",
-        "terastalOptions": { "recommendedTypes": ["Water", "Dragon"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["RestrictedDragon", "SpecialAttacker"], "customNotes": "伝説枠。水・ドラゴンの攻撃補正が優秀。ハイドロポンプ、あくうせつだんが主軸。" }
-      },
-      {
-        "formId": "0484-origin",
-        "formName": "オリジンフォルム",
-        "types": ["Water", "Dragon"],
-        "baseStats": { "hp": 90, "attack": 100, "defense": 100, "spAttack": 150, "spDefense": 120, "speed": 120 },
-        "abilities": ["プレッシャー"],
-        "hiddenAbility": "テレパシー",
-        "terastalOptions": { "recommendedTypes": ["Water", "Fairy"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["RestrictedDragon", "SpeedSweeper"], "customNotes": "大白玉保持。素早さが120まで引き上がり、激戦区を上から叩ける高速伝説アタッカー。" }
-      }
-    ]
-  },
-  {
-    "no": 485,
-    "name": "ヒードラン",
-    "slug": "heatran",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0485-default",
-        "formName": "通常",
-        "types": ["Fire", "Steel"],
-        "baseStats": { "hp": 91, "attack": 90, "defense": 106, "spAttack": 130, "spDefense": 106, "speed": 77 },
-        "abilities": ["もらいび"],
-        "hiddenAbility": "ほのおのからだ",
-        "terastalOptions": { "recommendedTypes": ["Grass", "Fairly", "Water"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["SpecialTank", "SpecialAttacker"], "customNotes": "草テラスタルとの相性が抜群。4倍弱点の地面を消しつつ、水・地面に一矢報いる。" }
-      }
-    ]
-  },
-  {
-    "no": 487,
-    "name": "ギラティナ",
-    "slug": "giratina",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0487-altered",
-        "formName": "アナザーフォルム",
-        "types": ["Ghost", "Dragon"],
-        "baseStats": { "hp": 150, "attack": 100, "defense": 120, "spAttack": 100, "spDefense": 120, "speed": 90 },
-        "abilities": ["プレッシャー"],
-        "hiddenAbility": "テレパシー",
-        "terastalOptions": { "recommendedTypes": ["Steel", "Fairy"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["RestrictedDragon", "Tank"], "customNotes": "圧倒的なHPと防御・特防。詰ませ性能が高い。" }
-      },
-      {
-        "formId": "0487-origin",
-        "formName": "オリジンフォルム",
-        "types": ["Ghost", "Dragon"],
-        "baseStats": { "hp": 150, "attack": 120, "defense": 100, "spAttack": 120, "spDefense": 100, "speed": 90 },
-        "abilities": ["ふゆう"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Steel", "Ghost"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["RestrictedDragon", "PhysicalAttacker", "SpecialAttacker"], "customNotes": "大白金玉保持。ふゆうにより地面無効。アタッカー寄りの性能。" }
-      }
-    ]
-  },
-  {
-    "no": 488,
-    "name": "クレセリア",
-    "slug": "cresselia",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0488-default",
-        "formName": "通常",
-        "types": ["Psychic"],
-        "baseStats": { "hp": 120, "attack": 70, "defense": 110, "spAttack": 75, "spDefense": 120, "speed": 85 },
-        "abilities": ["ふゆう"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Fairy", "Steel", "Poison"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["TrickRoomSetter", "Support", "Healer"], "customNotes": "最強のトリックルーム始動要員。みかづきのいのりによる回復サポートが極めて強力。" }
-      }
-    ]
-  },
-  {
-    "no": 591,
-    "name": "モロバレル",
-    "slug": "amoonguss",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0591-default",
-        "formName": "通常",
-        "types": ["Grass", "Poison"],
-        "baseStats": { "hp": 114, "attack": 85, "defense": 70, "spAttack": 85, "spDefense": 80, "speed": 30 },
-        "abilities": ["ほうし"],
-        "hiddenAbility": "さいせいりょく",
-        "terastalOptions": { "recommendedTypes": ["Water", "Dark", "Poison"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["Support", "Disrupter", "Redirector"], "customNotes": "ダブルバトル界の絶対的サポート。キノコのほうし＋いかりのこな＋さいせいりょくが極悪。" }
-      }
-    ]
-  },
-  {
-    "no": 641,
-    "name": "トルネロス",
-    "slug": "tornadus",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0641-incarnate",
-        "formName": "けしんフォルム",
-        "types": ["Flying"],
-        "baseStats": { "hp": 79, "attack": 115, "defense": 70, "spAttack": 125, "spDefense": 80, "speed": 111 },
-        "abilities": ["いたずらごころ"],
-        "hiddenAbility": "まけんき",
-        "terastalOptions": { "recommendedTypes": ["Ghost", "Steel", "Dark"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["SpeedControl", "Support"], "customNotes": "いたずらごころ＋おいかぜ・あまごい・にほんばれ。環境のS操作の基準点。" }
-      },
-      {
-        "formId": "0641-therian",
-        "formName": "れいじゅうフォルム",
-        "types": ["Flying"],
-        "baseStats": { "hp": 79, "attack": 100, "defense": 80, "spAttack": 110, "spDefense": 90, "speed": 121 },
-        "abilities": ["さいせいりょく"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Water", "Electric"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["Pivot", "SpecialAttacker"], "customNotes": "命の珠持ちの暴風アタッカー兼、さいせいりょくを活かしたサイクル要員。" }
-      }
-    ]
-  },
-  {
-    "no": 642,
-    "name": "ボルトロス",
-    "slug": "thundurus",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0642-incarnate",
-        "formName": "けしんフォルム",
-        "types": ["Electric", "Flying"],
-        "baseStats": { "hp": 79, "attack": 115, "defense": 70, "spAttack": 125, "spDefense": 80, "speed": 111 },
-        "abilities": ["いたずらごころ"],
-        "hiddenAbility": "まけんき",
-        "terastalOptions": { "recommendedTypes": ["Flying", "Electric"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["Support", "Disrupter"], "customNotes": "いたずらごころで先制電磁波、かいでんぱを放つデバッファー。" }
-      },
-      {
-        "formId": "0642-therian",
-        "formName": "れいじゅうフォルム",
-        "types": ["Electric", "Flying"],
-        "baseStats": { "hp": 79, "attack": 105, "defense": 70, "spAttack": 145, "spDefense": 80, "speed": 101 },
-        "abilities": ["ちくでん"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Electric", "Ice"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["SpecialAttacker"], "customNotes": "ちくでんによる電気無効。高い特攻から放たれるボルトチェンジ、かみなりが強力。" }
-      }
-    ]
-  },
-  {
-    "no": 645,
-    "name": "ランドロス",
-    "slug": "landorus",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0645-incarnate",
-        "formName": "けしんフォルム",
-        "types": ["Ground", "Flying"],
-        "baseStats": { "hp": 89, "attack": 125, "defense": 90, "spAttack": 115, "spDefense": 80, "speed": 101 },
-        "abilities": ["すなのちから"],
-        "hiddenAbility": "ちからづく",
-        "terastalOptions": { "recommendedTypes": ["Ground", "Poison", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["SpecialAttacker"], "customNotes": "ちからづく＋命の珠＋だいちのちからによる超高火力特殊アタッカー。現環境の大害悪の一角。" }
-      },
-      {
-        "formId": "0645-therian",
-        "formName": "れいじゅうフォルム",
-        "types": ["Ground", "Flying"],
-        "baseStats": { "hp": 89, "attack": 145, "defense": 90, "spAttack": 105, "spDefense": 80, "speed": 91 },
-        "abilities": ["いかく"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Water", "Flying", "Fire"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["PhysicalAttacker", "Support", "Pivot"], "customNotes": "歴代最強格のいかく枠。とんぼがえり、じしん、いわなだれを駆使して場を支配する。" }
-      }
-    ]
-  },
-  {
-    "no": 646,
-    "name": "キュレム",
-    "slug": "kyurem",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0646-default",
-        "formName": "通常",
-        "types": ["Dragon", "Ice"],
-        "baseStats": { "hp": 125, "attack": 130, "defense": 90, "spAttack": 130, "spDefense": 90, "speed": 95 },
-        "abilities": ["プレッシャー"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Ice", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "C", "roles": ["RestrictedDragon"], "customNotes": "通常版。基本的にはホワイト・ブラックフォルムのベースとして扱う。" }
-      },
-      {
-        "formId": "0646-white",
-        "formName": "ホワイトキュレム",
-        "types": ["Dragon", "Ice"],
-        "baseStats": { "hp": 125, "attack": 120, "defense": 90, "spAttack": 170, "spDefense": 100, "speed": 95 },
-        "abilities": ["ターボブレイズ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Ice", "Fire", "Fairy"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["RestrictedDragon", "SpecialAttacker"], "customNotes": "伝説枠。特攻170から放たれる吹雪、クロスフレアの制圧力は最高クラス。" }
-      },
-      {
-        "formId": "0646-black",
-        "formName": "ブラックキュレム",
-        "types": ["Dragon", "Ice"],
-        "baseStats": { "hp": 125, "attack": 170, "defense": 100, "spAttack": 120, "spDefense": 90, "speed": 95 },
-        "abilities": ["テラボルテージ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Ground", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["RestrictedDragon", "PhysicalAttacker"], "customNotes": "伝説枠。攻撃170。今作はダイマックスがないため、少し技の通し方に工夫が必要。" }
-      }
-    ]
-  },
-  {
-    "no": 700,
-    "name": "ニンフィア",
-    "slug": "sylveon",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0700-default",
-        "formName": "通常",
-        "types": ["Fairy"],
-        "baseStats": { "hp": 95, "attack": 65, "defense": 65, "spAttack": 110, "spDefense": 130, "speed": 60 },
-        "abilities": ["メロメロボディ"],
-        "hiddenAbility": "フェアリースキン",
-        "terastalOptions": { "recommendedTypes": ["Fairy", "Fire", "Water"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["SpecialAttacker"], "customNotes": "フェアリースキン＋ハイパーボイスの広範囲超打点が代名詞。こだわりメガネと相性抜群。" }
-      }
-    ]
-  },
-  {
-    "no": 745,
-    "name": "ルガルガン",
-    "slug": "lycanroc",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0745-midday",
-        "formName": "まひるのすがた",
-        "types": ["Rock"],
-        "baseStats": { "hp": 75, "attack": 115, "defense": 65, "spAttack": 55, "spDefense": 65, "speed": 112 },
-        "abilities": ["するどいめ", "すなかき"],
-        "hiddenAbility": "ふくつのこころ",
-        "terastalOptions": { "recommendedTypes": ["Rock"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["SandSweeper", "PhysicalAttacker"], "customNotes": "バンギラスと組ませた「砂パ」の高速アタッカー。" }
-      },
-      {
-        "formId": "0745-dusk",
-        "formName": "たそがれのすがた",
-        "types": ["Rock"],
-        "baseStats": { "hp": 75, "attack": 117, "defense": 65, "spAttack": 55, "spDefense": 65, "speed": 110 },
-        "abilities": ["かたいツメ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Normal", "Rock"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["PhysicalAttacker"], "customNotes": "かたいツメ補正が乗るアクセルロック（先制技）が非常に強力。" }
-      }
-    ]
-  },
-  {
-    "no": 766,
-    "name": "ナゲツケサル",
-    "slug": "passimian",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0766-default",
-        "formName": "通常",
-        "types": ["Fighting"],
-        "baseStats": { "hp": 100, "attack": 120, "defense": 90, "spAttack": 40, "spDefense": 60, "speed": 80 },
-        "abilities": ["レシーバー"],
-        "hiddenAbility": "まけんき",
-        "terastalOptions": { "recommendedTypes": ["Steel", "Fighting"], "exclusiveStellar": false },
-        "championsData": { "tier": "C", "roles": ["PhysicalAttacker", "Pivot"], "customNotes": "ダブルバトルでのまけんき＋とんぼがえり要員としてピンポイント採用。" }
-      }
-    ]
-  },
-  {
-    "no": 778,
-    "name": "ミミッキュ",
-    "slug": "mimikyu",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0778-default",
-        "formName": "通常",
-        "types": ["Ghost", "Fairy"],
-        "baseStats": { "hp": 55, "attack": 90, "defense": 80, "spAttack": 50, "spDefense": 105, "speed": 96 },
-        "abilities": ["ばけのかわ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Ghost", "Fairy"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["TrickRoomSetter", "PhysicalAttacker", "Disrupter"], "customNotes": "ばけのかわによる確実な行動保証。トリックルーム始動や、つるぎのまいからのスイーパー。" }
-      }
-    ]
-  },
-  {
-    "no": 818,
-    "name": "インテレオン",
-    "slug": "inteleon",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0818-default",
-        "formName": "通常",
-        "types": ["Water"],
-        "baseStats": { "hp": 70, "attack": 85, "defense": 65, "spAttack": 125, "spDefense": 65, "speed": 120 },
-        "abilities": ["げきりゅう"],
-        "hiddenAbility": "スナイパー",
-        "terastalOptions": { "recommendedTypes": ["Water", "Ice"], "exclusiveStellar": false },
-        "championsData": { "tier": "C", "roles": ["SpecialAttacker"], "customNotes": "きあいだめ＋ピントレンズによる確定急所スナイパー型が有名。" }
-      }
-    ]
-  },
-  {
-    "no": 823,
-    "name": "アーマーガア",
-    "slug": "corviknight",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0823-default",
-        "formName": "通常",
-        "types": ["Flying", "Steel"],
-        "baseStats": { "hp": 98, "attack": 87, "defense": 105, "spAttack": 53, "spDefense": 85, "speed": 67 },
-        "abilities": ["プレッシャー", "きんちょうかん"],
-        "hiddenAbility": "ミラーアーマー",
-        "terastalOptions": { "recommendedTypes": ["Water", "Dragon", "Fire"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalTank", "Pivot", "SpeedControl"], "customNotes": "ミラーアーマーによりいかくや能力下降技を跳ね返す。おいかぜ、はねやすめによる詰ませ。" }
-      }
-    ]
-  },
-  {
-    "no": 839,
-    "name": "セキタンザン",
-    "slug": "coalossal",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0839-default",
-        "formName": "通常",
-        "types": ["Rock", "Fire"],
-        "baseStats": { "hp": 110, "attack": 80, "defense": 120, "spAttack": 80, "spDefense": 90, "speed": 30 },
-        "abilities": ["むら気", "じょうききかん"],
-        "hiddenAbility": "もらいび",
-        "terastalOptions": { "recommendedTypes": ["Water", "Grass"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["SpeedSweeper", "SpecialAttacker"], "customNotes": "味方の波乗り等で「じょうききかん」を即座に起動し、素早さを最速にするコンボギミック。" }
-      }
-    ]
-  },
-  {
-    "no": 858,
-    "name": "ブリムオン",
-    "slug": "hatterene",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0858-default",
-        "formName": "通常",
-        "types": ["Psychic", "Fairy"],
-        "baseStats": { "hp": 57, "attack": 90, "defense": 95, "spAttack": 136, "spDefense": 103, "speed": 29 },
-        "abilities": ["いやしのこころ", "危険予知"],
-        "hiddenAbility": "マジックミラー",
-        "terastalOptions": { "recommendedTypes": ["Psychic", "Fire", "Fairy"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["TrickRoomSetter", "TrickRoomSweeper"], "customNotes": "マジックミラーによりちょうはつやアンコールを無効化して確実にトリルを展開可能。" }
-      }
-    ]
-  },
-  {
-    "no": 862,
-    "name": "タチフサグマ",
-    "slug": "obstagoon",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0862-default",
-        "formName": "通常",
-        "types": ["Dark", "Normal"],
-        "baseStats": { "hp": 93, "attack": 90, "defense": 101, "spAttack": 60, "spDefense": 81, "speed": 95 },
-        "abilities": ["すてみ", "こんじょう"],
-        "hiddenAbility": "まけんき",
-        "terastalOptions": { "recommendedTypes": ["Normal", "Ghost"], "exclusiveStellar": false },
-        "championsData": { "tier": "C", "roles": ["PhysicalAttacker", "Pivot"], "customNotes": "かんだん（火炎玉）＋こんじょう＋からげんきによる高火力物理アタッカー。" }
-      }
-    ]
-  },
-  {
-    "no": 887,
-    "name": "ドラパルト",
-    "slug": "dragapult",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0887-default",
-        "formName": "通常",
-        "types": ["Dragon", "Ghost"],
-        "baseStats": { "hp": 88, "attack": 120, "defense": 75, "spAttack": 100, "spDefense": 75, "speed": 142 },
-        "abilities": ["クリアボディ", "すりぬけ"],
-        "hiddenAbility": "のろわれボディ",
-        "terastalOptions": { "recommendedTypes": ["Dragon", "Ghost", "Fire"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalAttacker", "Pivot"], "customNotes": "環境最速クラスの142族。クリアボディでのいかく無視、すりぬけによる壁無視が強力。" }
-      }
-    ]
-  },
-  {
-    "no": 892,
-    "name": "ウーラオス",
-    "slug": "urshifu",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0892-single-strike",
-        "formName": "いちげきのかた",
-        "types": ["Fighting", "Dark"],
-        "baseStats": { "hp": 100, "attack": 130, "defense": 100, "spAttack": 63, "spDefense": 60, "speed": 97 },
-        "abilities": ["ふかしのこぶし"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Dark", "Ghost", "Poison"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["PhysicalAttacker", "ShieldBreaker"], "customNotes": "確定急所かつ守るを貫通する「あんこくきょうだ」が壊れ性能。フェアリー4倍に注意。" }
-      },
-      {
-        "formId": "0892-rapid-strike",
-        "formName": "れんげきのかた",
-        "types": ["Fighting", "Water"],
-        "baseStats": { "hp": 100, "attack": 130, "defense": 100, "spAttack": 63, "spDefense": 60, "speed": 97 },
-        "abilities": ["ふかしのこぶし"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Water", "Grass", "Flying"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["PhysicalAttacker", "ShieldBreaker"], "customNotes": "3連続確定急所かつ守る貫通の「すいりゅうれんだ」を放つ、環境最強の物理アタッカー。" }
-      }
-    ]
-  },
-  {
-    "no": 898,
-    "name": "バドレックス",
-    "slug": "calyrex",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0898-default",
-        "formName": "通常",
-        "types": ["Psychic", "Grass"],
-        "baseStats": { "hp": 100, "attack": 80, "defense": 80, "spAttack": 80, "spDefense": 80, "speed": 80 },
-        "abilities": ["きんちょうかん"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Grass"], "exclusiveStellar": false },
-        "championsData": { "tier": "E", "roles": ["RestrictedLegend"], "customNotes": "通常形態。実戦では合体させて運用するのが基本。" }
-      },
-      {
-        "formId": "0898-ice",
-        "formName": "はくばじょうのすがた",
-        "types": ["Psychic", "Ice"],
-        "baseStats": { "hp": 100, "attack": 165, "defense": 150, "spAttack": 85, "spDefense": 130, "speed": 50 },
-        "abilities": ["じんばいったい（きんちょうかん＋しろのいななき）"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Water", "Fire", "Ice"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["RestrictedLegend", "TrickRoomSweeper", "PhysicalAttacker"], "customNotes": "伝説枠。トリックルーム下での「ブリザードランス」はダブルバトルを終わらせる破壊力。" }
-      },
-      {
-        "formId": "0898-shadow",
-        "formName": "こくばじょうのすがた",
-        "types": ["Psychic", "Ghost"],
-        "baseStats": { "hp": 100, "attack": 85, "defense": 80, "spAttack": 165, "spDefense": 100, "speed": 150 },
-        "abilities": ["じんばいったい（きんちょうかん＋くろのいななき）"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Ghost", "Normal", "Fairy"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["RestrictedLegend", "SpeedSweeper", "SpecialAttacker"], "customNotes": "伝説枠。素早さ150からの一致「アストラルビット」が超強力。悪・ゴースト4倍だけが弱点。" }
-      }
-    ]
-  },
-  {
-    "no": 905,
-    "name": "ラブトロス",
-    "slug": "enamorus",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0905-incarnate",
-        "formName": "けしんフォルム",
-        "types": ["Fairy", "Flying"],
-        "baseStats": { "hp": 74, "attack": 115, "defense": 70, "spAttack": 135, "spDefense": 80, "speed": 106 },
-        "abilities": ["メロメロボディ"],
-        "hiddenAbility": "あまのじゃく",
-        "terastalOptions": { "recommendedTypes": ["Fairy", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["SpecialAttacker"], "customNotes": "あまのじゃく＋ばかぢからによる攻撃・防御上昇コンボ、または単純なフェアリー特殊打点。" }
-      },
-      {
-        "formId": "0905-therian",
-        "formName": "れいじゅうフォルム",
-        "types": ["Fairy", "Flying"],
-        "baseStats": { "hp": 74, "attack": 115, "defense": 110, "spAttack": 135, "spDefense": 100, "speed": 46 },
-        "abilities": ["ぼうじん"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Steel", "Water"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["TrickRoomSweeper", "Tank"], "customNotes": "ぼうじんによりモロバレルのキノコの胞子を完全に無視できる、トリルアタッカー。" }
-      }
-    ]
-  },
-  {
-    "no": 906,
-    "name": "マスカーニャ",
-    "slug": "meowscarada",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0906-default",
-        "formName": "通常",
-        "types": ["Grass", "Dark"],
-        "baseStats": { "hp": 76, "attack": 110, "defense": 70, "spAttack": 81, "spDefense": 70, "speed": 123 },
-        "abilities": ["しんりょく"],
-        "hiddenAbility": "へんげんじざい",
-        "terastalOptions": { "recommendedTypes": ["Grass", "Dark", "Ghost"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalAttacker", "Pivot"], "customNotes": "確定急所の「トリックフラワー」と高速はたきおとす、とんぼがえりで高い汎用性を誇る。" }
-      }
-    ]
-  },
-  {
-    "no": 909,
-    "name": "ラウドボーン",
-    "slug": "skeledirge",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0909-default",
-        "formName": "通常",
-        "types": ["Fire", "Ghost"],
-        "baseStats": { "hp": 104, "attack": 75, "defense": 100, "spAttack": 110, "spDefense": 75, "speed": 66 },
-        "abilities": ["もうか"],
-        "hiddenAbility": "てんねん",
-        "terastalOptions": { "recommendedTypes": ["Fairly", "Water", "Fire"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["SpecialTank", "SpecialAttacker"], "customNotes": "特性てんねんによる積みアタッカーの完全ストッパー。フレアソングで攻撃しながら特攻を上げられる。" }
-      }
-    ]
-  },
-  {
-    "no": 911,
-    "name": "ウェーニバル",
-    "slug": "quaquaval",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0911-default",
-        "formName": "通常",
-        "types": ["Water", "Fighting"],
-        "baseStats": { "hp": 85, "attack": 120, "defense": 80, "spAttack": 85, "spDefense": 75, "speed": 85 },
-        "abilities": ["げきりゅう"],
-        "hiddenAbility": "じしんかじょう",
-        "terastalOptions": { "recommendedTypes": ["Water", "Flying"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["PhysicalAttacker", "SpeedSweeper"], "customNotes": "アクアステップで素早さを上げつつ、じしんかじょうで攻撃力を上昇させていくエース。" }
-      }
-    ]
-  },
-  {
-    "no": 913,
-    "name": "パーモット",
-    "slug": "pawmot",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0913-default",
-        "formName": "通常",
-        "types": ["Electric", "Fighting"],
-        "baseStats": { "hp": 70, "attack": 115, "defense": 70, "spAttack": 70, "spDefense": 60, "speed": 105 },
-        "abilities": ["ちく電", "しぜんかいふく"],
-        "hiddenAbility": "てつのこぶし",
-        "terastalOptions": { "recommendedTypes": ["Electric", "Fighting"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["PhysicalAttacker", "Healer"], "customNotes": "ひんしになった味方を復活させる専用技「さいきのいのり」を操る唯一無二の存在。" }
-      }
-    ]
-  },
-  {
-    "no": 916,
-    "name": "エクスレッグ",
-    "slug": "lokix",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0916-default",
-        "formName": "通常",
-        "types": ["Bug", "Dark"],
-        "baseStats": { "hp": 71, "attack": 102, "defense": 78, "spAttack": 52, "spDefense": 55, "speed": 92 },
-        "abilities": ["むしのしらせ"],
-        "hiddenAbility": "いろめがね",
-        "terastalOptions": { "recommendedTypes": ["Bug", "Dark"], "exclusiveStellar": false },
-        "championsData": { "tier": "C", "roles": ["PhysicalAttacker"], "customNotes": "特性いろめがね＋出会い頭による超強力先制奇襲アタッカー。" }
-      }
-    ]
-  },
-  {
-    "no": 934,
-    "name": "キョジオーン",
-    "slug": "garganacl",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0934-default",
-        "formName": "通常",
-        "types": ["Rock"],
-        "baseStats": { "hp": 100, "attack": 100, "defense": 130, "spAttack": 45, "spDefense": 90, "speed": 35 },
-        "abilities": ["きよめのしお", "がんじょう"],
-        "hiddenAbility": "クリアボディ",
-        "terastalOptions": { "recommendedTypes": ["Ghost", "Poison", "Water"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["PhysicalTank", "Staller"], "customNotes": "状態異常無効かつゴースト半減の「きよめのしお」が極めて凶悪。「しおづけ」で毎ターン固定ダメを与えてハメ殺す。" }
-      }
-    ]
-  },
-  {
-    "no": 937,
-    "name": "グレンアルマ",
-    "slug": "armarouge",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0937-default",
-        "formName": "通常",
-        "types": ["Fire", "Psychic"],
-        "baseStats": { "hp": 85, "attack": 60, "defense": 100, "spAttack": 125, "spDefense": 80, "speed": 75 },
-        "abilities": ["もらいび"],
-        "hiddenAbility": "くだけるよろい",
-        "terastalOptions": { "recommendedTypes": ["Psychic", "Grass"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["SpecialAttacker", "TrickRoomSweeper"], "customNotes": "イエッサン(♀)のサイコフィールド展開から、くだけるよろい＋弱点保険起動や、ワイドフォースを連打するダブルの超メジャー。" }
-      }
-    ]
-  },
-  {
-    "no": 939,
-    "name": "ソウブレイズ",
-    "slug": "ceruledge",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0939-default",
-        "formName": "通常",
-        "types": ["Fire", "Ghost"],
-        "baseStats": { "hp": 75, "attack": 125, "defense": 80, "spAttack": 60, "spDefense": 100, "speed": 85 },
-        "abilities": ["もらいび"],
-        "hiddenAbility": "くだけるよろい",
-        "terastalOptions": { "recommendedTypes": ["Fire", "Grass"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalAttacker"], "customNotes": "専用技「むねんのつるぎ」による高火力＋大回復。つるぎのまいを積んだ後の場持ちが非常に良い。" }
-      }
-    ]
-  },
-  {
-    "no": 941,
-    "name": "ハラバリー",
-    "slug": "bellibolt",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0941-default",
-        "formName": "通常",
-        "types": ["Electric"],
-        "baseStats": { "hp": 109, "attack": 64, "defense": 91, "spAttack": 103, "spDefense": 83, "speed": 45 },
-        "abilities": ["でんきにかえる", "マイペース"],
-        "hiddenAbility": "しめりけ",
-        "terastalOptions": { "recommendedTypes": ["Water", "Grass"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["Tank", "SpecialAttacker"], "customNotes": "攻撃を受けるたびに充電状態（電気技2倍）になる「でんきにかえる」＋パラボラチャージのゾンビ戦法。" }
-      }
-    ]
-  },
-  {
-    "no": 954,
-    "name": "リキキリン",
-    "slug": "farigiraf",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0954-default",
-        "formName": "通常",
-        "types": ["Normal", "Psychic"],
-        "baseStats": { "hp": 120, "attack": 90, "defense": 70, "spAttack": 110, "spDefense": 70, "speed": 60 },
-        "abilities": ["はんすう", "テイルアーマー"],
-        "hiddenAbility": "そうしょく",
-        "terastalOptions": { "recommendedTypes": ["Fairy", "Water", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["TrickRoomSetter", "PriorityBlocker", "Support"], "customNotes": "特性「テイルアーマー」により、相手の先制技（ねこだまし、しんそく等）を完全にシャットアウトする最強のトリル始動要員。" }
-      }
-    ]
-  },
-  {
-    "no": 964,
-    "name": "イルカマン",
-    "slug": "palafin",
-    "isFormEnclosing": true,
-    "forms": [
-      {
-        "formId": "0964-zero",
-        "formName": "ナイーブフォルム",
-        "types": ["Water"],
-        "baseStats": { "hp": 100, "attack": 70, "defense": 72, "spAttack": 53, "spDefense": 62, "speed": 100 },
-        "abilities": ["マイティチェンジ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Water"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["Pivot"], "customNotes": "戦闘に出て一度手持ちに戻ることで、超強化フォームへ移行するギミックポケモン。" }
-      },
-      {
-        "formId": "0964-hero",
-        "formName": "マイティフォルム",
-        "types": ["Water"],
-        "baseStats": { "hp": 100, "attack": 160, "defense": 97, "spAttack": 106, "spDefense": 87, "speed": 100 },
-        "abilities": ["マイティチェンジ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Water", "Grass"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalAttacker"], "customNotes": "実質伝説級の攻撃種族値160。高威力先制技「ジェットパンチ」をこだわりハチマキで打つだけで崩壊を狙える。" }
-      }
-    ]
-  },
-  {
-    "no": 975,
-    "name": "ハルクジラ",
-    "slug": "cetitan",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0975-default",
-        "formName": "通常",
-        "types": ["Ice"],
-        "baseStats": { "hp": 170, "attack": 113, "defense": 65, "spAttack": 45, "spDefense": 55, "speed": 73 },
-        "abilities": ["あついしぼう", "ゆきかき"],
-        "hiddenAbility": "ちからづく",
-        "terastalOptions": { "recommendedTypes": ["Water", "Ice"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["SandSweeper", "PhysicalAttacker"], "customNotes": "雪下で素早さが2倍になる「ゆきかき」エース。はらだいこ型も存在。" }
-      }
-    ]
-  },
-  {
-    "no": 977,
-    "name": "ヘイラッシャ",
-    "slug": "dondozo",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0977-default",
-        "formName": "通常",
-        "types": ["Water"],
-        "baseStats": { "hp": 150, "attack": 100, "defense": 115, "spAttack": 65, "spDefense": 65, "speed": 35 },
-        "abilities": ["てんねん", "どんかん"],
-        "hiddenAbility": "みずのベール",
-        "terastalOptions": { "recommendedTypes": ["Grass", "Steel", "Dragon"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalTank", "CommanderReceiver"], "customNotes": "シャリタツを口に入れる「しれいとう」ギミックで全ステータスが2段階上昇するダブルの要塞。" }
-      }
-    ]
-  },
-  {
-    "no": 978,
-    "name": "シャリタツ",
-    "slug": "tatsugiri",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0978-default",
-        "formName": "通常",
-        "types": ["Dragon", "Water"],
-        "baseStats": { "hp": 68, "attack": 50, "defense": 60, "spAttack": 120, "spDefense": 95, "speed": 82 },
-        "abilities": ["しれいとう"],
-        "hiddenAbility": "よびみず",
-        "terastalOptions": { "recommendedTypes": ["Water", "Dragon"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["Commander", "SpecialAttacker"], "customNotes": "ヘイラッシャと組み合わせる専用ギミック要員。単体としても高い特攻を持つ。" }
-      }
-    ]
-  },
-  {
-    "no": 979,
-    "name": "コノヨザル",
-    "slug": "annihilape",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0979-default",
-        "formName": "通常",
-        "types": ["Fighting", "Ghost"],
-        "baseStats": { "hp": 110, "attack": 115, "defense": 80, "spAttack": 50, "spDefense": 90, "speed": 90 },
-        "abilities": ["やるき", "せいしんりょく"],
-        "hiddenAbility": "まけんき",
-        "terastalOptions": { "recommendedTypes": ["Water", "Fire", "Ghost"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalTank", "PhysicalAttacker"], "customNotes": "攻撃を受けるたびに威力が上がる専用技「ふんどのこぶし」が崩壊レベル。耐久に厚く振るビルドアップ型が主流。" }
-      }
-    ]
-  },
-  {
-    "no": 983,
-    "name": "ドドゲザン",
-    "slug": "kingambit",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0983-default",
-        "formName": "通常",
-        "types": ["Dark", "Steel"],
-        "baseStats": { "hp": 100, "attack": 135, "defense": 120, "spAttack": 60, "spDefense": 85, "speed": 50 },
-        "abilities": ["まけんき", "そうだいしょう"],
-        "hiddenAbility": "プレッシャー",
-        "terastalOptions": { "recommendedTypes": ["Fire", "Dark", "Dragon", "Water"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["PhysicalAttacker", "LateGameSweeper"], "customNotes": "ひんしになった味方の数だけ火力が上がる「そうだいしょう」＋不意打ちのスイープ性能が最高峰。" }
-      }
-    ]
-  },
-  {
-    "no": 984,
-    "name": "イダイナキバ",
-    "slug": "great-tusk",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0984-default",
-        "formName": "通常",
-        "types": ["Ground", "Fighting"],
-        "baseStats": { "hp": 115, "attack": 131, "defense": 131, "spAttack": 53, "spDefense": 53, "speed": 87 },
-        "abilities": ["こだいかっせい"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Ground", "Fighting", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalAttacker", "Spinner"], "customNotes": "高い物理性能とぶちかまし、インファイト、高速スピンによるシングル環境の崩し役。" }
-      }
-    ]
-  },
-  {
-    "no": 985,
-    "name": "サケブシッポ",
-    "slug": "scream-tail",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0985-default",
-        "formName": "通常",
-        "types": ["Fairy", "Psychic"],
-        "baseStats": { "hp": 115, "attack": 65, "defense": 99, "spAttack": 65, "spDefense": 115, "speed": 111 },
-        "abilities": ["こだいかっせい"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Water", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["Support", "Staller"], "customNotes": "高耐久・快速からリフレクター・ひかりのかべ、滅びの歌を展開する。" }
-      }
-    ]
-  },
-  {
-    "no": 986,
-    "name": "タギケルゲ",
-    "slug": "brute-bonnet",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0986-default",
-        "formName": "通常",
-        "types": ["Grass", "Dark"],
-        "baseStats": { "hp": 111, "attack": 127, "defense": 99, "spAttack": 79, "spDefense": 99, "speed": 55 },
-        "abilities": ["こだいかっせい"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Poison", "Fire"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["Disrupter", "PhysicalAttacker"], "customNotes": "キノコのほうしを打てる古代パラドックス。不意打ちによる打点も侮れない。" }
-      }
-    ]
-  },
-  {
-    "no": 987,
-    "name": "ハバタクカミ",
-    "slug": "flutter-mane",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0987-default",
-        "formName": "通常",
-        "types": ["Ghost", "Fairy"],
-        "baseStats": { "hp": 55, "attack": 55, "defense": 55, "spAttack": 135, "spDefense": 135, "speed": 135 },
-        "abilities": ["こだいかっせい"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Fairy", "Ghost", "Water"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["SpecialAttacker", "SpeedControl"], "customNotes": "9世代の女王。特攻・特防・素早さ135から放たれるムーンフォース・シャドーボールの一貫性が異常。" }
-      }
-    ]
-  },
-  {
-    "no": 988,
-    "name": "チヲハウハネ",
-    "slug": "slither-wing",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0988-default",
-        "formName": "通常",
-        "types": ["Bug", "Fighting"],
-        "baseStats": { "hp": 85, "attack": 135, "defense": 79, "spAttack": 85, "spDefense": 105, "speed": 81 },
-        "abilities": ["こだいかっせい"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Fire", "Fighting"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["PhysicalAttacker"], "customNotes": "出会い頭、インファイトの瞬間火力。特殊耐久が地味に高め。" }
-      }
-    ]
-  },
-  {
-    "no": 989,
-    "name": "スナノケガワ",
-    "slug": "sandy-shocks",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0989-default",
-        "formName": "通常",
-        "types": ["Electric", "Ground"],
-        "baseStats": { "hp": 85, "attack": 81, "defense": 97, "spAttack": 121, "spDefense": 85, "speed": 101 },
-        "abilities": ["こだいかっせい"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Ground", "Ice"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["SpecialAttacker", "HazardSetter"], "customNotes": "大地の力＋10万ボルトの強力な補正、重力・ステルスロックによる起点作り。" }
-      }
-    ]
-  },
-  {
-    "no": 990,
-    "name": "テツノワダチ",
-    "slug": "iron-treads",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0990-default",
-        "formName": "通常",
-        "types": ["Ground", "Steel"],
-        "baseStats": { "hp": 90, "attack": 112, "defense": 120, "spAttack": 72, "spDefense": 70, "speed": 106 },
-        "abilities": ["クォークチャージ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Water", "Ground"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["Spinner", "Pivot"], "customNotes": "106という高い素早さからボルトチェンジ、高速スピンを操る未来パラドックス。" }
-      }
-    ]
-  },
-  {
-    "no": 991,
-    "name": "テツノツツミ",
-    "slug": "iron-bundle",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0991-default",
-        "formName": "通常",
-        "types": ["Ice", "Water"],
-        "baseStats": { "hp": 56, "attack": 80, "defense": 114, "spAttack": 124, "spDefense": 60, "speed": 136 },
-        "abilities": ["クォークチャージ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Water", "Ice", "Ghost"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["SpecialAttacker", "SpeedControl"], "customNotes": "ハバタクカミを1上回る素早さ136。フリーズドライとハイドロポンプの一貫性が凄まじい。" }
-      }
-    ]
-  },
-  {
-    "no": 992,
-    "name": "テツノドクガ",
-    "slug": "iron-moth",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0992-default",
-        "formName": "通常",
-        "types": ["Fire", "Poison"],
-        "baseStats": { "hp": 80, "attack": 70, "defense": 60, "spAttack": 140, "spDefense": 110, "speed": 110 },
-        "abilities": ["クォークチャージ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Grass", "Fire", "Ground"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["SpecialAttacker"], "customNotes": "特攻140から放たれるオーバーヒート、ヘドロウェーブ。草テラスで地面・水耐性を得る動きが強力。" }
-      }
-    ]
-  },
-  {
-    "no": 993,
-    "name": "テツノカイナ",
-    "slug": "iron-hands",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0993-default",
-        "formName": "通常",
-        "types": ["Fighting", "Electric"],
-        "baseStats": { "hp": 154, "attack": 140, "defense": 108, "spAttack": 50, "spDefense": 60, "speed": 50 },
-        "abilities": ["クォークチャージ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Grass", "Fire", "Water"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["PhysicalTank", "PhysicalAttacker", "Disrupter"], "customNotes": "ダブルバトル最強格の重戦車。ねこだまし＋ドレインパンチ＋ワイルドボルト。突撃チョッキとの相性が圧倒的。" }
-      }
-    ]
-  },
-  {
-    "no": 994,
-    "name": "テツノコウベ",
-    "slug": "iron-jugulis",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0994-default",
-        "formName": "通常",
-        "types": ["Dark", "Flying"],
-        "baseStats": { "hp": 94, "attack": 80, "defense": 86, "spAttack": 122, "spDefense": 80, "speed": 108 },
-        "abilities": ["クォークチャージ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Flying", "Steel"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["SpecialAttacker", "SpeedControl"], "customNotes": "おいかぜを扱える特殊パラドックス。クォークチャージで素早さを上げて上から悪のはどう・暴風。" }
-      }
-    ]
-  },
-  {
-    "no": 995,
-    "name": "テツノイバラ",
-    "slug": "iron-thorns",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "0995-default",
-        "formName": "通常",
-        "types": ["Rock", "Electric"],
-        "baseStats": { "hp": 100, "attack": 134, "defense": 110, "spAttack": 70, "spDefense": 84, "speed": 72 },
-        "abilities": ["クォークチャージ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Grass", "Ground"], "exclusiveStellar": false },
-        "championsData": { "tier": "C", "roles": ["PhysicalAttacker"], "customNotes": "りゅうのまいを搭載した未来のバンギラス枠。4倍弱点の地面のケアが必須。" }
-      }
-    ]
-  },
-  {
-    "no": 1000,
-    "name": "サーフゴー",
-    "slug": "gholdengo",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "1000-default",
-        "formName": "通常",
-        "types": ["Steel", "Ghost"],
-        "baseStats": { "hp": 87, "attack": 60, "defense": 95, "spAttack": 133, "spDefense": 91, "speed": 84 },
-        "abilities": ["おうごんのからだ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Steel", "Water", "Flying"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["SpecialAttacker", "StatusImmunity"], "customNotes": "変化技をすべて無効化するチート特性「おうごんのからだ」を持つ。専用技ゴールドラッシュの超火力。" }
-      }
-    ]
-  },
-  {
-    "no": 1001,
-    "name": "チオンジェン",
-    "slug": "wo-chien",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "1001-default",
-        "formName": "通常",
-        "types": ["Dark", "Grass"],
-        "baseStats": { "hp": 85, "attack": 85, "defense": 100, "spAttack": 95, "spDefense": 135, "speed": 70 },
-        "abilities": ["わざわいのうつわ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Poison", "Fire"], "exclusiveStellar": false },
-        "championsData": { "tier": "B", "roles": ["SpecialTank", "Staller"], "customNotes": "四災の一角。周囲の特攻を下げる特性を活かし、やどりぎのタネやカタストロフィで耐久戦を行う。" }
-      }
-    ]
-  },
-  {
-    "no": 1002,
-    "name": "パオジアン",
-    "slug": "chien-pao",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "1002-default",
-        "formName": "通常",
-        "types": ["Dark", "Ice"],
-        "baseStats": { "hp": 80, "attack": 120, "defense": 80, "spAttack": 90, "spDefense": 65, "speed": 135 },
-        "abilities": ["わざわいのつるぎ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Ghost", "Ice", "Dark", "Water"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["PhysicalAttacker", "StatDebuffer"], "customNotes": "四災。周囲の防御を0.75倍にするため、隣の物理アタッカー（カイリュー等）の火力を爆転させる凶悪な相棒。" }
-      }
-    ]
-  },
-  {
-    "no": 1003,
-    "name": "ディンルー",
-    "slug": "ting-lu",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "1003-default",
-        "formName": "通常",
-        "types": ["Dark", "Ground"],
-        "baseStats": { "hp": 155, "attack": 110, "defense": 125, "spAttack": 55, "spDefense": 80, "speed": 45 },
-        "abilities": ["わざわいのうつわ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Water", "Poison", "Grass"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["PhysicalTank", "HazardSetter"], "customNotes": "四災。異常なHPと防御数値に加え、特性で特殊耐久まで補う。砂地獄、ステルスロック、カタストロフィによる詰ませ性能。" }
-      }
-    ]
-  },
-  {
-    "no": 1004,
-    "name": "イーユイ",
-    "slug": "chi-yu",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "1004-default",
-        "formName": "通常",
-        "types": ["Dark", "Fire"],
-        "baseStats": { "hp": 55, "attack": 80, "defense": 80, "spAttack": 135, "spDefense": 120, "speed": 100 },
-        "abilities": ["わざわいのたま"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Fire", "Ghost", "Grass"], "exclusiveStellar": false },
-        "championsData": { "tier": "S", "roles": ["SpecialAttacker", "StatDebuffer"], "customNotes": "四災。周囲の特防を0.75倍にする。ハバタクカミやサーフゴーの隣に並んだ際の熱風は受かりきらない。" }
-      }
-    ]
-  },
-  {
-    "no": 1007,
-    "name": "トドロクツキ",
-    "slug": "roaring-moon",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "1007-default",
-        "formName": "通常",
-        "types": ["Dragon", "Dark"],
-        "baseStats": { "hp": 105, "attack": 139, "defense": 71, "spAttack": 55, "spDefense": 101, "speed": 119 },
-        "abilities": ["こだいかっせい"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Flying", "Steel", "Dark"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalAttacker", "SpeedSweeper"], "customNotes": "飛行テラスタル＋アクロバットによる奇襲性能、りゅうのまい・はたきおとすが超一線級。" }
-      }
-    ]
-  },
-  {
-    "no": 1008,
-    "name": "テツノブジン",
-    "slug": "iron-valiant",
-    "isFormEnclosing": false,
-    "forms": [
-      {
-        "formId": "1008-default",
-        "formName": "通常",
-        "types": ["Fairy", "Fighting"],
-        "baseStats": { "hp": 74, "attack": 130, "defense": 90, "spAttack": 120, "spDefense": 60, "speed": 116 },
-        "abilities": ["クォークチャージ"],
-        "hiddenAbility": null,
-        "terastalOptions": { "recommendedTypes": ["Fairy", "Ghost"], "exclusiveStellar": false },
-        "championsData": { "tier": "A", "roles": ["PhysicalAttacker", "SpecialAttacker"] }
+        "form_name": "キョダイマックスカメックス",
+        "types": [
+          "みず"
+        ],
+        "abilities": [
+          "げきりゅう",
+          "あめのうけざら"
+        ],
+        "base_stats": {
+          "hp": 79,
+          "attack": 83,
+          "defense": 100,
+          "sp_attack": 85,
+          "sp_defense": 105,
+          "speed": 78
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "national_num": 25,
+    "name": "ピカチュウ",
+    "types": [
+      "でんき"
+    ],
+    "abilities": [
+      "せいでんき",
+      "ひらいしん"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "sp_attack": 50,
+      "sp_defense": 50,
+      "speed": 90
+    },
+    "champions_tags": [
+      "red_ace",
+      "ash_partner"
+    ],
+    "forms": [
+      {
+        "form_name": "キョダイマックスピカチュウ",
+        "types": [
+          "でんき"
+        ],
+        "abilities": [
+          "せいでんき",
+          "ひらいしん"
+        ],
+        "base_stats": {
+          "hp": 35,
+          "attack": 55,
+          "defense": 40,
+          "sp_attack": 50,
+          "sp_defense": 50,
+          "speed": 90
+        }
       }
     ]
   }

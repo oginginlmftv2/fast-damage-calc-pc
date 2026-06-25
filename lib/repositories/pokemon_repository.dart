@@ -12,14 +12,16 @@ class PokemonRepository {
 
     final result = <Pokemon>[];
     for (final entry in list) {
-      final baseName = entry['name'] as String;
-      final forms = entry['forms'] as List;
+      final map = entry as Map<String, dynamic>;
+      try {
+        result.add(Pokemon.fromJson(map));
+      } catch (_) {}
+
+      final forms = map['forms'] as List? ?? [];
       for (final form in forms) {
         try {
-          result.add(Pokemon.fromGeminiForm(baseName, form as Map<String, dynamic>));
-        } catch (_) {
-          // 不正なフォームはスキップ
-        }
+          result.add(Pokemon.fromJsonForm(map, form as Map<String, dynamic>));
+        } catch (_) {}
       }
     }
     _cache = result;

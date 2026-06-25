@@ -1,11 +1,3 @@
-const _typeMap = {
-  'Normal': 'ノーマル', 'Fire': 'ほのお', 'Water': 'みず', 'Electric': 'でんき',
-  'Grass': 'くさ', 'Ice': 'こおり', 'Fighting': 'かくとう', 'Poison': 'どく',
-  'Ground': 'じめん', 'Flying': 'ひこう', 'Psychic': 'エスパー', 'Bug': 'むし',
-  'Rock': 'いわ', 'Ghost': 'ゴースト', 'Dragon': 'ドラゴン', 'Steel': 'はがね',
-  'Dark': 'あく', 'Fairy': 'フェアリー',
-};
-
 class Pokemon {
   final String id;
   final String name;
@@ -21,31 +13,44 @@ class Pokemon {
     required this.abilities,
   });
 
-  // Gemini形式（formsネスト）から1フォームぶんを生成
-  factory Pokemon.fromGeminiForm(String baseName, Map<String, dynamic> form) {
-    final formName = form['formName'] as String? ?? '通常';
-    final isDefault = formName == '通常';
-    final displayName = isDefault ? baseName : '$baseName（$formName）';
-    final formId = form['formId'] as String? ?? baseName;
+  static Map<String, int> _parseStats(Map<String, dynamic> raw) => {
+    'hp':  raw['hp'] as int,
+    'atk': raw['attack'] as int,
+    'def': raw['defense'] as int,
+    'spa': (raw['sp_attack'] ?? raw['spAttack']) as int,
+    'spd': (raw['sp_defense'] ?? raw['spDefense']) as int,
+    'spe': raw['speed'] as int,
+  };
 
-    final rawTypes = List<String>.from(form['types'] as List);
-    final types = rawTypes.map((t) => _typeMap[t] ?? t).toList();
-
-    final rawStats = Map<String, dynamic>.from(form['baseStats'] as Map);
-    final baseStats = <String, int>{
-      'hp':  rawStats['hp'] as int,
-      'atk': rawStats['attack'] as int,
-      'def': rawStats['defense'] as int,
-      'spa': rawStats['spAttack'] as int,
-      'spd': rawStats['spDefense'] as int,
-      'spe': rawStats['speed'] as int,
-    };
-
-    final abilities = List<String>.from(form['abilities'] as List);
+  // 新Geminiフォーマット（タイプ日本語・base_statsにアンダースコア）
+  factory Pokemon.fromJson(Map<String, dynamic> json) {
+    final entryId = json['id']?.toString() ?? json['slug'] ?? json['name'];
+    final name = json['name'] as String;
+    final types = List<String>.from(json['types'] as List);
+    final baseStats = _parseStats(json['base_stats'] as Map<String, dynamic>);
+    final abilities = List<String>.from(json['abilities'] as List);
 
     return Pokemon(
-      id: formId,
-      name: displayName,
+      id: entryId.toString(),
+      name: name,
+      types: types,
+      baseStats: baseStats,
+      abilities: abilities,
+    );
+  }
+
+  // フォームバリアントを生成
+  factory Pokemon.fromJsonForm(Map<String, dynamic> parent, Map<String, dynamic> form) {
+    final baseName = parent['name'] as String;
+    final formName = form['form_name'] as String;
+    final types = List<String>.from(form['types'] as List);
+    final baseStats = _parseStats(form['base_stats'] as Map<String, dynamic>);
+    final abilities = List<String>.from(form['abilities'] as List);
+    final entryId = '${parent["id"]}-$formName';
+
+    return Pokemon(
+      id: entryId,
+      name: '$baseName（$formName）',
       types: types,
       baseStats: baseStats,
       abilities: abilities,
