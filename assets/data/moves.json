@@ -180,6 +180,386 @@
     "effects": {}
   },
   {
+    "id": "bullet_punch",
+    "name_ja": "バレットパンチ",
+    "type": "はがね",
+    "category": "ぶつり",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 30,
+    "effects": {}
+  },
+  {
+    "id": "mach_punch",
+    "name_ja": "マッハパンチ",
+    "type": "かくとう",
+    "category": "ぶつり",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 30,
+    "effects": {}
+  },
+  {
+    "id": "ice_shard",
+    "name_ja": "こおりのつぶて",
+    "type": "こおり",
+    "category": "ぶつり",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 30,
+    "effects": {}
+  },
+  {
+    "id": "shadow_sneak",
+    "name_ja": "かげうち",
+    "type": "ゴースト",
+    "category": "ぶつり",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 30,
+    "effects": {}
+  },
+  {
+    "id": "sucker_punch",
+    "name_ja": "ふいうち",
+    "type": "あく",
+    "category": "ぶつり",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 5,
+    "effects": {}
+  },
+  {
+    "id": "fake_out",
+    "name_ja": "ねこだまし",
+    "type": "ノーマル",
+    "category": "ぶつり",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "knock_off",
+    "name_ja": "はたきおとす",
+    "type": "あく",
+    "category": "ぶつり",
+    "power": 65,
+    "accuracy": 100,
+    "pp": 20,
+    "effects": {}
+  },
+  {
+    "id": "liquidation",
+    "name_ja": "アクアブレイク",
+    "type": "みず",
+    "category": "ぶつり",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "wave_crash",
+    "name_ja": "ウェーブタックル",
+    "type": "みず",
+    "category": "ぶつり",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "triple_axel",
+    "name_ja": "トリプルアクセル",
+    "type": "こおり",
+    "category": "ぶつり",
+    "power": 20,
+    "accuracy": 90,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "head_smash",
+    "name_ja": "諸刃の頭突き",
+    "type": "いわ",
+    "category": "ぶつり",
+    "power": 150,
+    "accuracy": 80,
+    "pp": 5,
+    "effects": {}
+  },
+  {
+    "id": "rock_blast",
+    "name_ja": "ロックブラスト",
+    "type": "いわ",
+    "category": "ぶつり",
+    "power": 25,
+    "accuracy": 90,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "high_jump_kick",
+    "name_ja": "とびひざげり",
+    "type": "かくとう",
+    "category": "ぶつり",
+    "power": 130,
+    "accuracy": 90,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "drain_punch",
+    "name_ja": "ドレインパンチ",
+    "type": "かくとう",
+    "category": "ぶつり",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "body_press",
+    "name_ja": "ボディプレス",
+    "type": "かくとう",
+    "category": "ぶつり",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "seed_bomb",
+    "name_ja": "タネばくだん",
+    "type": "くさ",
+    "category": "ぶつり",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 15,
+    "effects": {}
+  },
+  {
+    "id": "power_whip",
+    "name_ja": "パワーウィップ",
+    "type": "くさ",
+    "category": "ぶつり",
+    "power": 120,
+    "accuracy": 85,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "grassy_glide",
+    "name_ja": "グラススライダー",
+    "type": "くさ",
+    "category": "ぶつり",
+    "power": 55,
+    "accuracy": 100,
+    "pp": 20,
+    "effects": {}
+  },
+  {
+    "id": "fire_punch",
+    "name_ja": "ほのおのパンチ",
+    "type": "ほのお",
+    "category": "ぶつり",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 15,
+    "effects": {}
+  },
+  {
+    "id": "thunder_punch",
+    "name_ja": "かみなりパンチ",
+    "type": "でんき",
+    "category": "ぶつり",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 15,
+    "effects": {}
+  },
+  {
+    "id": "ice_punch",
+    "name_ja": "れいとうパンチ",
+    "type": "こおり",
+    "category": "ぶつり",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 15,
+    "effects": {}
+  },
+  {
+    "id": "bolt_beak",
+    "name_ja": "電撃クチバシ",
+    "type": "でんき",
+    "category": "ぶつり",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "fishious_rend",
+    "name_ja": "エラがみ",
+    "type": "みず",
+    "category": "ぶつり",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "dragon_claw",
+    "name_ja": "ドラゴンクロー",
+    "type": "ドラゴン",
+    "category": "ぶつり",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 15,
+    "effects": {}
+  },
+  {
+    "id": "scale_shot",
+    "name_ja": "スケイルショット",
+    "type": "ドラゴン",
+    "category": "ぶつり",
+    "power": 25,
+    "accuracy": 90,
+    "pp": 20,
+    "effects": {}
+  },
+  {
+    "id": "poltergeist",
+    "name_ja": "ポルターガイスト",
+    "type": "ゴースト",
+    "category": "ぶつり",
+    "power": 110,
+    "accuracy": 90,
+    "pp": 5,
+    "effects": {}
+  },
+  {
+    "id": "spirit_shackle",
+    "name_ja": "かげぬい",
+    "type": "ゴースト",
+    "category": "ぶつり",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "foul_play",
+    "name_ja": "イカサマ",
+    "type": "あく",
+    "category": "ぶつり",
+    "power": 95,
+    "accuracy": 100,
+    "pp": 15,
+    "effects": {}
+  },
+  {
+    "id": "poison_jab",
+    "name_ja": "どくづき",
+    "type": "どく",
+    "category": "ぶつり",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 20,
+    "effects": {}
+  },
+  {
+    "id": "first_impression",
+    "name_ja": "出会い頭",
+    "type": "むし",
+    "category": "ぶつり",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "leech_life",
+    "name_ja": "きゅうけつ",
+    "type": "むし",
+    "category": "ぶつり",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "psychic_fangs",
+    "name_ja": "サイコファング",
+    "type": "エスパー",
+    "category": "ぶつり",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "double_edge",
+    "name_ja": "すてみタックル",
+    "type": "ノーマル",
+    "category": "ぶつり",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 15,
+    "effects": {}
+  },
+  {
+    "id": "facade",
+    "name_ja": "からげんき",
+    "type": "ノーマル",
+    "category": "ぶつり",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "effects": {}
+  },
+  {
+    "id": "rapid_spin",
+    "name_ja": "こうそくスピン",
+    "type": "ノーマル",
+    "category": "ぶつり",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 40,
+    "effects": {}
+  },
+  {
+    "id": "explosion",
+    "name_ja": "だいばくはつ",
+    "type": "ノーマル",
+    "category": "ぶつり",
+    "power": 250,
+    "accuracy": 100,
+    "pp": 5,
+    "effects": {}
+  },
+  {
+    "id": "steel_roller",
+    "name_ja": "アイアンローラー",
+    "type": "はがね",
+    "category": "ぶつり",
+    "power": 130,
+    "accuracy": 100,
+    "pp": 5,
+    "effects": {}
+  },
+  {
+    "id": "heavy_slam",
+    "name_ja": "ヘビーボンバー",
+    "type": "はがね",
+    "category": "ぶつり",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
     "id": "draco_meteor",
     "name_ja": "流星群",
     "type": "ドラゴン",
@@ -210,6 +590,26 @@
     "effects": {}
   },
   {
+    "id": "water_spout",
+    "name_ja": "しおふき",
+    "type": "みず",
+    "category": "とくしゅ",
+    "power": 150,
+    "accuracy": 100,
+    "pp": 5,
+    "effects": {}
+  },
+  {
+    "id": "scald",
+    "name_ja": "ねっとう",
+    "type": "みず",
+    "category": "とくしゅ",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 15,
+    "effects": {}
+  },
+  {
     "id": "ice_beam",
     "name_ja": "れいとうビーム",
     "type": "こおり",
@@ -227,6 +627,16 @@
     "power": 110,
     "accuracy": 70,
     "pp": 5,
+    "effects": {}
+  },
+  {
+    "id": "freeze_dry",
+    "name_ja": "フリーズドライ",
+    "type": "こおり",
+    "category": "とくしゅ",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
     "effects": {}
   },
   {
@@ -250,6 +660,36 @@
     "effects": {}
   },
   {
+    "id": "overheat",
+    "name_ja": "オーバーヒート",
+    "type": "ほのお",
+    "category": "とくしゅ",
+    "power": 130,
+    "accuracy": 90,
+    "pp": 5,
+    "effects": {}
+  },
+  {
+    "id": "eruption",
+    "name_ja": "ふんか",
+    "type": "ほのお",
+    "category": "とくしゅ",
+    "power": 150,
+    "accuracy": 100,
+    "pp": 5,
+    "effects": {}
+  },
+  {
+    "id": "heat_wave",
+    "name_ja": "ねっぷう",
+    "type": "ほのお",
+    "category": "とくしゅ",
+    "power": 95,
+    "accuracy": 90,
+    "pp": 10,
+    "effects": {}
+  },
+  {
     "id": "thunderbolt",
     "name_ja": "10まんボルト",
     "type": "でんき",
@@ -267,6 +707,16 @@
     "power": 110,
     "accuracy": 70,
     "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "volt_switch",
+    "name_ja": "ボルトチェンジ",
+    "type": "でんき",
+    "category": "とくしゅ",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
     "effects": {}
   },
   {
@@ -290,11 +740,41 @@
     "effects": {}
   },
   {
+    "id": "giga_drain",
+    "name_ja": "ギガドレイン",
+    "type": "くさ",
+    "category": "とくしゅ",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
     "id": "psychic",
     "name_ja": "サイコキネシス",
     "type": "エスパー",
     "category": "とくしゅ",
     "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "psyshock",
+    "name_ja": "サイコショック",
+    "type": "エスパー",
+    "category": "とくしゅ",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "expanding_force",
+    "name_ja": "ワイドフォース",
+    "type": "エスパー",
+    "category": "とくしゅ",
+    "power": 80,
     "accuracy": 100,
     "pp": 10,
     "effects": {}
@@ -310,6 +790,16 @@
     "effects": {}
   },
   {
+    "id": "hex",
+    "name_ja": "たたりめ",
+    "type": "ゴースト",
+    "category": "とくしゅ",
+    "power": 65,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
     "id": "moonblast",
     "name_ja": "ムーンフォース",
     "type": "フェアリー",
@@ -320,11 +810,31 @@
     "effects": {}
   },
   {
+    "id": "dazzling_gleam",
+    "name_ja": "マジカルシャイン",
+    "type": "フェアリー",
+    "category": "とくしゅ",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
     "id": "sludge_bomb",
     "name_ja": "ヘドロばくだん",
     "type": "どく",
     "category": "とくしゅ",
     "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "sludge_wave",
+    "name_ja": "ヘドロウェーブ",
+    "type": "どく",
+    "category": "とくしゅ",
+    "power": 95,
     "accuracy": 100,
     "pp": 10,
     "effects": {}
@@ -350,6 +860,16 @@
     "effects": {}
   },
   {
+    "id": "scorching_sands",
+    "name_ja": "熱砂の大地",
+    "type": "じめん",
+    "category": "とくしゅ",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
     "id": "flash_cannon",
     "name_ja": "ラスターカノン",
     "type": "はがね",
@@ -360,12 +880,32 @@
     "effects": {}
   },
   {
+    "id": "make_it_rain",
+    "name_ja": "ゴールドラッシュ",
+    "type": "はがね",
+    "category": "とくしゅ",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "effects": {}
+  },
+  {
     "id": "dark_pulse",
     "name_ja": "あくのはどう",
     "type": "あく",
     "category": "とくしゅ",
     "power": 80,
     "accuracy": 100,
+    "pp": 15,
+    "effects": {}
+  },
+  {
+    "id": "snarl",
+    "name_ja": "バークアウト",
+    "type": "あく",
+    "category": "とくしゅ",
+    "power": 55,
+    "accuracy": 95,
     "pp": 15,
     "effects": {}
   },
@@ -380,6 +920,16 @@
     "effects": {}
   },
   {
+    "id": "meteor_beam",
+    "name_ja": "メテオビーム",
+    "type": "いわ",
+    "category": "とくしゅ",
+    "power": 120,
+    "accuracy": 90,
+    "pp": 10,
+    "effects": {}
+  },
+  {
     "id": "hurricane",
     "name_ja": "ぼうふう",
     "type": "ひこう",
@@ -387,6 +937,16 @@
     "power": 110,
     "accuracy": 70,
     "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "air_slash",
+    "name_ja": "エアスラッシュ",
+    "type": "ひこう",
+    "category": "とくしゅ",
+    "power": 75,
+    "accuracy": 95,
+    "pp": 15,
     "effects": {}
   },
   {
@@ -400,13 +960,33 @@
     "effects": {}
   },
   {
-    "id": "focus_blast",
-    "name_ja": "きあいのだま",
+    "id": "boomburst",
+    "name_ja": "ばくおんぱ",
+    "type": "ノーマル",
+    "category": "とくしゅ",
+    "power": 140,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "tri_attack",
+    "name_ja": "トライアタック",
+    "type": "ノーマル",
+    "category": "とくしゅ",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "aura_sphere",
+    "name_ja": "はどうだん",
     "type": "かくとう",
     "category": "とくしゅ",
-    "power": 120,
-    "accuracy": 70,
-    "pp": 5,
+    "power": 80,
+    "accuracy": 101,
+    "pp": 20,
     "effects": {}
   },
   {
@@ -450,6 +1030,66 @@
     "effects": {}
   },
   {
+    "id": "quiver_dance",
+    "name_ja": "ちょうのまい",
+    "type": "むし",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 20,
+    "effects": {}
+  },
+  {
+    "id": "bulk_up",
+    "name_ja": "ビルドアップ",
+    "type": "かくとう",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 20,
+    "effects": {}
+  },
+  {
+    "id": "iron_defense",
+    "name_ja": "てっぺき",
+    "type": "はがね",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 15,
+    "effects": {}
+  },
+  {
+    "id": "agility",
+    "name_ja": "こうそくいどう",
+    "type": "エスパー",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 30,
+    "effects": {}
+  },
+  {
+    "id": "coil",
+    "name_ja": "とぐろをまく",
+    "type": "どく",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 20,
+    "effects": {}
+  },
+  {
+    "id": "geomancy",
+    "name_ja": "ジオコントロール",
+    "type": "フェアリー",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
     "id": "will_o_wisp",
     "name_ja": "おにび",
     "type": "ほのお",
@@ -490,6 +1130,26 @@
     "effects": {}
   },
   {
+    "id": "yawn",
+    "name_ja": "あくび",
+    "type": "ノーマル",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "glare",
+    "name_ja": "へびにらみ",
+    "type": "ノーマル",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 30,
+    "effects": {}
+  },
+  {
     "id": "stealth_rock",
     "name_ja": "ステルスロック",
     "type": "いわ",
@@ -500,9 +1160,79 @@
     "effects": {}
   },
   {
+    "id": "spikes",
+    "name_ja": "まきびし",
+    "type": "じめん",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 20,
+    "effects": {}
+  },
+  {
+    "id": "toxic_spikes",
+    "name_ja": "どくびし",
+    "type": "どく",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 20,
+    "effects": {}
+  },
+  {
+    "id": "sticky_web",
+    "name_ja": "ねばねばネット",
+    "type": "むし",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 20,
+    "effects": {}
+  },
+  {
     "id": "recover",
     "name_ja": "じこさいせい",
     "type": "ノーマル",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "roost",
+    "name_ja": "はねやすめ",
+    "type": "ひこう",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 5,
+    "effects": {}
+  },
+  {
+    "id": "soft_boiled",
+    "name_ja": "タマゴうみ",
+    "type": "ノーマル",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "slack_off",
+    "name_ja": "なまける",
+    "type": "ノーマル",
+    "category": "へんか",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 10,
+    "effects": {}
+  },
+  {
+    "id": "strengths_sap",
+    "name_ja": "ちからをすいとる",
+    "type": "くさ",
     "category": "へんか",
     "power": 0,
     "accuracy": 100,
@@ -530,19 +1260,9 @@
     "effects": {}
   },
   {
-    "id": "trick",
-    "name_ja": "トリック",
-    "type": "エスパー",
-    "category": "へんか",
-    "power": 0,
-    "accuracy": 100,
-    "pp": 10,
-    "effects": {}
-  },
-  {
-    "id": "roost",
-    "name_ja": "はねやすめ",
-    "type": "ひこう",
+    "id": "detect",
+    "name_ja": "みきり",
+    "type": "かくとう",
     "category": "へんか",
     "power": 0,
     "accuracy": 100,
@@ -550,39 +1270,29 @@
     "effects": {}
   },
   {
-    "id": "taunt",
-    "name_ja": "ちょうはつ",
-    "type": "あく",
+    "id": "spiky_shield",
+    "name_ja": "ニードルガード",
+    "type": "くさ",
     "category": "へんか",
     "power": 0,
     "accuracy": 100,
-    "pp": 20,
+    "pp": 10,
     "effects": {}
   },
   {
-    "id": "sticky_web",
-    "name_ja": "ねばねばネット",
-    "type": "むし",
+    "id": "baneful_bunker",
+    "name_ja": "トーチカ",
+    "type": "どく",
     "category": "へんか",
     "power": 0,
     "accuracy": 100,
-    "pp": 20,
+    "pp": 10,
     "effects": {}
   },
   {
-    "id": "haze",
-    "name_ja": "くろいきり",
-    "type": "こおり",
-    "category": "へんか",
-    "power": 0,
-    "accuracy": 100,
-    "pp": 30,
-    "effects": {}
-  },
-  {
-    "id": "yawn",
-    "name_ja": "あくび",
-    "type": "ノーマル",
+    "id": "kings_shield",
+    "name_ja": "キングシールド",
+    "type": "はがね",
     "category": "へんか",
     "power": 0,
     "accuracy": 100,

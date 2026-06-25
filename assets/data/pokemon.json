@@ -22,7 +22,10 @@
       "outrage",
       "swords_dance",
       "dragon_dance",
-      "roost"
+      "roost",
+      "earthquake",
+      "fire_punch",
+      "thunder_punch"
     ]
   },
   {
@@ -46,8 +49,11 @@
     "learnset": [
       "flamethrower",
       "fire_blast",
-      "energy_ball",
+      "overheat",
+      "heat_wave",
+      "air_slash",
       "hurricane",
+      "solarbeam",
       "roost"
     ]
   },
@@ -73,85 +79,10 @@
       "thunder",
       "surf",
       "focus_blast",
-      "nasty_plot"
-    ]
-  },
-  {
-    "id": "eelektross_mega",
-    "name_ja": "メガシビルドン",
-    "types": [
-      "でんき"
-    ],
-    "base_stats": {
-      "hp": 85,
-      "attack": 135,
-      "defense": 100,
-      "sp_attack": 125,
-      "sp_defense": 100,
-      "speed": 70
-    },
-    "abilities": [
-      "うなぎのぼり"
-    ],
-    "learnset": [
-      "wild_charge",
-      "thunderbolt",
-      "flamethrower",
-      "crunch",
-      "u_turn"
-    ]
-  },
-  {
-    "id": "froslass_mega",
-    "name_ja": "メガユキメノコ",
-    "types": [
-      "こおり",
-      "ゴースト"
-    ],
-    "base_stats": {
-      "hp": 70,
-      "attack": 80,
-      "defense": 85,
-      "sp_attack": 120,
-      "sp_defense": 85,
-      "speed": 140
-    },
-    "abilities": [
-      "おみとおし"
-    ],
-    "learnset": [
-      "ice_beam",
-      "blizzard",
-      "shadow_ball",
-      "will_o_wisp",
-      "spikes"
-    ]
-  },
-  {
-    "id": "garchomp",
-    "name_ja": "ガブリアス",
-    "types": [
-      "ドラゴン",
-      "じめん"
-    ],
-    "base_stats": {
-      "hp": 108,
-      "attack": 130,
-      "defense": 95,
-      "sp_attack": 80,
-      "sp_defense": 85,
-      "speed": 102
-    },
-    "abilities": [
-      "さめはだ",
-      "すながくれ"
-    ],
-    "learnset": [
-      "earthquake",
-      "outrage",
-      "stone_edge",
-      "swords_dance",
-      "stealth_rock"
+      "nasty_plot",
+      "volt_switch",
+      "thunder_wave",
+      "fake_out"
     ]
   },
   {
@@ -175,168 +106,73 @@
     "learnset": [
       "shadow_ball",
       "sludge_bomb",
+      "sludge_wave",
+      "focus_blast",
+      "dazzling_gleam",
+      "taunt",
       "will_o_wisp",
-      "nasty_plot",
-      "substitute"
+      "destiny_bond",
+      "perish_song",
+      "hex",
+      "hypnosis"
     ]
   },
   {
-    "id": "metagross_mega",
-    "name_ja": "メガメタグロス",
-    "types": [
-      "はがね",
-      "エスパー"
-    ],
-    "base_stats": {
-      "hp": 80,
-      "attack": 145,
-      "defense": 150,
-      "sp_attack": 105,
-      "sp_defense": 110,
-      "speed": 110
-    },
-    "abilities": [
-      "かたいツメ"
-    ],
-    "learnset": [
-      "iron_head",
-      "zen_headbutt",
-      "earthquake",
-      "crunch",
-      "swords_dance"
-    ]
-  },
-  {
-    "id": "mimikyu",
-    "name_ja": "ミミッキュ",
-    "types": [
-      "ゴースト",
-      "フェアリー"
-    ],
-    "base_stats": {
-      "hp": 55,
-      "attack": 90,
-      "defense": 80,
-      "sp_attack": 50,
-      "sp_defense": 105,
-      "speed": 96
-    },
-    "abilities": [
-      "ばけのかわ"
-    ],
-    "learnset": [
-      "play_rough",
-      "shadow_claw",
-      "swords_dance",
-      "trick",
-      "will_o_wisp"
-    ]
-  },
-  {
-    "id": "archaludon",
-    "name_ja": "ブリジュラス",
-    "types": [
-      "はがね",
-      "ドラゴン"
-    ],
-    "base_stats": {
-      "hp": 90,
-      "attack": 105,
-      "defense": 130,
-      "sp_attack": 125,
-      "sp_defense": 65,
-      "speed": 85
-    },
-    "abilities": [
-      "じきょく",
-      "がんじょう"
-    ],
-    "learnset": [
-      "flash_cannon",
-      "draco_meteor",
-      "dark_pulse",
-      "stealth_rock",
-      "thunder_wave"
-    ]
-  },
-  {
-    "id": "corviknight",
-    "name_ja": "アーマーガア",
-    "types": [
-      "ひこう",
-      "はがね"
-    ],
-    "base_stats": {
-      "hp": 98,
-      "attack": 87,
-      "defense": 105,
-      "sp_attack": 53,
-      "sp_defense": 85,
-      "speed": 67
-    },
-    "abilities": [
-      "ミラーアーマー",
-      "プレッシャー"
-    ],
-    "learnset": [
-      "brave_bird",
-      "iron_head",
-      "u_turn",
-      "roost",
-      "taunt"
-    ]
-  },
-  {
-    "id": "dragapult",
-    "name_ja": "ドラパルト",
-    "types": [
-      "ドラゴン",
-      "ゴースト"
-    ],
-    "base_stats": {
-      "hp": 88,
-      "attack": 120,
-      "defense": 75,
-      "sp_attack": 100,
-      "sp_defense": 75,
-      "speed": 142
-    },
-    "abilities": [
-      "クリアボディ",
-      "すりぬけ"
-    ],
-    "learnset": [
-      "dragon_dance",
-      "outrage",
-      "shadow_ball",
-      "u_turn",
-      "will_o_wisp"
-    ]
-  },
-  {
-    "id": "porygon_z",
-    "name_ja": "ポリゴンZ",
+    "id": "kangaskhan_mega",
+    "name_ja": "メガガルーラ",
     "types": [
       "ノーマル"
     ],
     "base_stats": {
-      "hp": 85,
-      "attack": 80,
-      "defense": 70,
-      "sp_attack": 135,
-      "sp_defense": 75,
-      "speed": 90
+      "hp": 105,
+      "attack": 125,
+      "defense": 100,
+      "sp_attack": 60,
+      "sp_defense": 100,
+      "speed": 100
     },
     "abilities": [
-      "適応力",
-      "ダウンロード"
+      "おやこあい"
     ],
     "learnset": [
-      "hyper_voice",
-      "tri_attack",
-      "thunderbolt",
-      "ice_beam",
-      "nasty_plot"
+      "double_edge",
+      "facade",
+      "fake_out",
+      "sucker_punch",
+      "crunch",
+      "earthquake",
+      "close_combat",
+      "drain_punch"
+    ]
+  },
+  {
+    "id": "gyarados_mega",
+    "name_ja": "メガギャラドス",
+    "types": [
+      "みず",
+      "あく"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 155,
+      "defense": 109,
+      "sp_attack": 70,
+      "sp_defense": 130,
+      "speed": 81
+    },
+    "abilities": [
+      "かたやぶり"
+    ],
+    "learnset": [
+      "water_fall",
+      "crunch",
+      "earthquake",
+      "stone_edge",
+      "ice_fang",
+      "dragon_dance",
+      "taunt",
+      "substitute",
+      "liquidation"
     ]
   },
   {
@@ -360,9 +196,1029 @@
     "learnset": [
       "bullet_punch",
       "u_turn",
+      "knock_off",
       "swords_dance",
       "roost",
+      "close_combat",
+      "iron_head"
+    ]
+  },
+  {
+    "id": "mendelek_mega",
+    "name_ja": "メガメタグロス",
+    "types": [
+      "はがね",
+      "エスパー"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 145,
+      "defense": 150,
+      "sp_attack": 105,
+      "sp_defense": 110,
+      "speed": 110
+    },
+    "abilities": [
+      "かたいツメ"
+    ],
+    "learnset": [
+      "iron_head",
+      "zen_headbutt",
+      "bullet_punch",
+      "earthquake",
+      "ice_punch",
+      "thunder_punch",
+      "agility",
+      "stealth_rock"
+    ]
+  },
+  {
+    "id": "salamence_mega",
+    "name_ja": "メガボーマンダ",
+    "types": [
+      "ドラゴン",
+      "ひこう"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 145,
+      "defense": 130,
+      "sp_attack": 120,
+      "sp_defense": 90,
+      "speed": 120
+    },
+    "abilities": [
+      "スカイスキン"
+    ],
+    "learnset": [
+      "double_edge",
+      "facade",
+      "hyper_voice",
+      "draco_meteor",
+      "dragon_claw",
+      "dragon_dance",
+      "roost",
+      "earthquake",
+      "fire_blast"
+    ]
+  },
+  {
+    "id": "garchomp_mega",
+    "name_ja": "メガガブリアス",
+    "types": [
+      "ドラゴン",
+      "じめん"
+    ],
+    "base_stats": {
+      "hp": 108,
+      "attack": 170,
+      "defense": 115,
+      "sp_attack": 120,
+      "sp_defense": 95,
+      "speed": 92
+    },
+    "abilities": [
+      "すなのちから"
+    ],
+    "learnset": [
+      "earthquake",
+      "outrage",
+      "dragon_claw",
+      "stone_edge",
+      "fire_blast",
+      "swords_dance",
+      "stealth_rock",
+      "scale_shot"
+    ]
+  },
+  {
+    "id": "lucario_mega",
+    "name_ja": "メガルカリオ",
+    "types": [
+      "かくとう",
+      "はがね"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 145,
+      "defense": 88,
+      "sp_attack": 140,
+      "sp_defense": 70,
+      "speed": 112
+    },
+    "abilities": [
+      "てきおうりょく"
+    ],
+    "learnset": [
+      "close_combat",
+      "bullet_punch",
+      "mach_punch",
+      "iron_head",
+      "flash_cannon",
+      "aura_sphere",
+      "nasty_plot",
+      "swords_dance",
+      "meteor_mash"
+    ]
+  },
+  {
+    "id": "eevee_mega",
+    "name_ja": "メガイーブイ",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 110,
+      "defense": 95,
+      "sp_attack": 110,
+      "sp_defense": 95,
+      "speed": 120
+    },
+    "abilities": [
+      "てきおうりょく"
+    ],
+    "learnset": [
+      "double_edge",
+      "hyper_voice",
+      "quick_attack",
+      "shadow_ball",
+      "calm_mind",
+      "yawn",
+      "baton_pass",
+      "protect"
+    ]
+  },
+  {
+    "id": "dragapult",
+    "name_ja": "ドラパルト",
+    "types": [
+      "ドラゴン",
+      "ゴースト"
+    ],
+    "base_stats": {
+      "hp": 88,
+      "attack": 120,
+      "defense": 75,
+      "sp_attack": 100,
+      "sp_defense": 75,
+      "speed": 142
+    },
+    "abilities": [
+      "クリアボディ",
+      "すりぬけ"
+    ],
+    "learnset": [
+      "dragon_darts",
+      "phantom_force",
+      "draco_meteor",
+      "shadow_ball",
+      "u_turn",
+      "sucker_punch",
+      "will_o_wisp",
+      "dragon_dance",
+      "thunderbolt",
+      "flamethrower",
+      "surf"
+    ]
+  },
+  {
+    "id": "gholdengo",
+    "name_ja": "サーフゴー",
+    "types": [
+      "はがね",
+      "ゴースト"
+    ],
+    "base_stats": {
+      "hp": 87,
+      "attack": 60,
+      "defense": 95,
+      "sp_attack": 133,
+      "sp_defense": 91,
+      "speed": 84
+    },
+    "abilities": [
+      "おうごんのからだ"
+    ],
+    "learnset": [
+      "make_it_rain",
+      "shadow_ball",
+      "nasty_plot",
+      "recover",
+      "trick",
+      "dazzling_gleam",
+      "power_gem",
+      "thunderbolt",
+      "substitute"
+    ]
+  },
+  {
+    "id": "tinkaton",
+    "name_ja": "デカヌチャン",
+    "types": [
+      "フェアリー",
+      "はがね"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 75,
+      "defense": 77,
+      "sp_attack": 70,
+      "sp_defense": 105,
+      "speed": 94
+    },
+    "abilities": [
+      "かたやぶり",
+      "マイペース"
+    ],
+    "learnset": [
+      "gigaton_hammer",
+      "play_rough",
+      "knock_off",
+      "stealth_rock",
+      "thunder_wave",
+      "swords_dance",
+      "encore",
+      "fake_out",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "kingambit",
+    "name_ja": "ドドゲザン",
+    "types": [
+      "あく",
+      "はがね"
+    ],
+    "base_stats": {
+      "hp": 100,
+      "attack": 135,
+      "defense": 120,
+      "sp_attack": 60,
+      "sp_defense": 85,
+      "speed": 50
+    },
+    "abilities": [
+      "そうだいしょう",
+      "まけんき"
+    ],
+    "learnset": [
+      "kowtow_cleave",
+      "sucker_punch",
+      "iron_head",
+      "swords_dance",
+      "low_kick",
+      "brick_break",
+      "stealth_rock",
+      "substitute"
+    ]
+  },
+  {
+    "id": "great_tusk",
+    "name_ja": "イダイナキバ",
+    "types": [
+      "じめん",
+      "かくとう"
+    ],
+    "base_stats": {
+      "hp": 115,
+      "attack": 131,
+      "defense": 131,
+      "sp_attack": 53,
+      "sp_defense": 53,
+      "speed": 87
+    },
+    "abilities": [
+      "こだいかっせい"
+    ],
+    "learnset": [
+      "earthquake",
+      "close_combat",
+      "head_long_rush",
+      "rapid_spin",
+      "knock_off",
+      "stealth_rock",
+      "ice_spinner",
+      "stone_edge",
+      "bulk_up"
+    ]
+  },
+  {
+    "id": "flutter_mane",
+    "name_ja": "ハバタクカミ",
+    "types": [
+      "ゴースト",
+      "フェアリー"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 55,
+      "sp_attack": 135,
+      "sp_defense": 135,
+      "speed": 135
+    },
+    "abilities": [
+      "こだいかっせい"
+    ],
+    "learnset": [
+      "moonblast",
+      "shadow_ball",
+      "dazzling_gleam",
+      "mystical_fire",
+      "psyshock",
+      "calm_mind",
+      "taunt",
+      "substitute",
+      "trick",
+      "thunder_wave"
+    ]
+  },
+  {
+    "id": "iron_valiant",
+    "name_ja": "テツノブジン",
+    "types": [
+      "フェアリー",
+      "かくとう"
+    ],
+    "base_stats": {
+      "hp": 74,
+      "attack": 130,
+      "defense": 90,
+      "sp_attack": 120,
+      "sp_defense": 60,
+      "speed": 116
+    },
+    "abilities": [
+      "クォークチャージ"
+    ],
+    "learnset": [
+      "close_combat",
+      "moonblast",
+      "spirit_break",
+      "psycho_cut",
+      "shadow_sneak",
+      "thunderbolt",
+      "ice_beam",
+      "swords_dance",
+      "calm_mind",
+      "trick",
       "knock_off"
+    ]
+  },
+  {
+    "id": "iron_hands",
+    "name_ja": "テツノカイナ",
+    "types": [
+      "かくとう",
+      "でんき"
+    ],
+    "base_stats": {
+      "hp": 154,
+      "attack": 140,
+      "defense": 108,
+      "sp_attack": 50,
+      "sp_defense": 68,
+      "speed": 50
+    },
+    "abilities": [
+      "クォークチャージ"
+    ],
+    "learnset": [
+      "drain_punch",
+      "wild_charge",
+      "thunder_punch",
+      "fake_out",
+      "ice_punch",
+      "earthquake",
+      "close_combat",
+      "swords_dance",
+      "volt_switch"
+    ]
+  },
+  {
+    "id": "roaring_moon",
+    "name_ja": "トドロクツキ",
+    "types": [
+      "ドラゴン",
+      "あく"
+    ],
+    "base_stats": {
+      "hp": 105,
+      "attack": 139,
+      "defense": 71,
+      "sp_attack": 55,
+      "sp_defense": 101,
+      "speed": 119
+    },
+    "abilities": [
+      "こだいかっせい"
+    ],
+    "learnset": [
+      "crunch",
+      "dragon_claw",
+      "outrage",
+      "acrobatics",
+      "u_turn",
+      "earthquake",
+      "dragon_dance",
+      "roost",
+      "taunt",
+      "knock_off"
+    ]
+  },
+  {
+    "id": "chien_pao",
+    "name_ja": "パオジアン",
+    "types": [
+      "あく",
+      "こおり"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 80,
+      "sp_attack": 90,
+      "sp_defense": 65,
+      "speed": 135
+    },
+    "abilities": [
+      "わざわいのつるぎ"
+    ],
+    "learnset": [
+      "icicle_crash",
+      "crunch",
+      "ice_shard",
+      "sucker_punch",
+      "sacred_sword",
+      "swords_dance",
+      "psychic_fangs",
+      "haze"
+    ]
+  },
+  {
+    "id": "ting_lu",
+    "name_ja": "ディンルー",
+    "types": [
+      "あく",
+      "じめん"
+    ],
+    "base_stats": {
+      "hp": 155,
+      "attack": 110,
+      "defense": 125,
+      "sp_attack": 55,
+      "sp_defense": 80,
+      "speed": 45
+    },
+    "abilities": [
+      "わざわいのうつわ"
+    ],
+    "learnset": [
+      "earthquake",
+      "ruination",
+      "heavy_slam",
+      "stealth_rock",
+      "spikes",
+      "whirlwind",
+      "taunt",
+      "stone_edge"
+    ]
+  },
+  {
+    "id": "chi_yu",
+    "name_ja": "イーユイ",
+    "types": [
+      "あく",
+      "ほのお"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 80,
+      "defense": 80,
+      "sp_attack": 135,
+      "sp_defense": 120,
+      "speed": 100
+    },
+    "abilities": [
+      "わざわいのたま"
+    ],
+    "learnset": [
+      "overheat",
+      "flamethrower",
+      "heat_wave",
+      "dark_pulse",
+      "psychic",
+      "nasty_plot",
+      "snarl",
+      "will_o_wisp",
+      "substitute"
+    ]
+  },
+  {
+    "id": "raging_bolt",
+    "name_ja": "タケルライコ",
+    "types": [
+      "でんき",
+      "ドラゴン"
+    ],
+    "base_stats": {
+      "hp": 125,
+      "attack": 73,
+      "defense": 91,
+      "sp_attack": 137,
+      "sp_defense": 89,
+      "speed": 75
+    },
+    "abilities": [
+      "こだいかっせい"
+    ],
+    "learnset": [
+      "thunderclap",
+      "thunderbolt",
+      "draco_meteor",
+      "dragon_pulse",
+      "calm_mind",
+      "snarl",
+      "weather_ball",
+      "sunny_day"
+    ]
+  },
+  {
+    "id": "iron_crown",
+    "name_ja": "テツノカシラ",
+    "types": [
+      "はがね",
+      "エスパー"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 72,
+      "defense": 100,
+      "sp_attack": 122,
+      "sp_defense": 108,
+      "speed": 98
+    },
+    "abilities": [
+      "クォークチャージ"
+    ],
+    "learnset": [
+      "tachyon_cutter",
+      "psychic",
+      "psyshock",
+      "expanding_force",
+      "calm_mind",
+      "volt_switch",
+      "flash_cannon",
+      "air_slash"
+    ]
+  },
+  {
+    "id": "ogerpon_wellspring",
+    "name_ja": "オーガポン(井戸)",
+    "types": [
+      "くさ",
+      "みず"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 84,
+      "sp_attack": 60,
+      "sp_defense": 96,
+      "speed": 110
+    },
+    "abilities": [
+      "ちょすい"
+    ],
+    "learnset": [
+      "ivy_cudgel",
+      "horn_leech",
+      "wood_hammer",
+      "u_turn",
+      "swords_dance",
+      "spiky_shield",
+      "follow_me",
+      "superpower",
+      "play_rough"
+    ]
+  },
+  {
+    "id": "ogerpon_hearthflame",
+    "name_ja": "オーガポン(竈)",
+    "types": [
+      "くさ",
+      "ほのお"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 84,
+      "sp_attack": 60,
+      "sp_defense": 96,
+      "speed": 110
+    },
+    "abilities": [
+      "かたやぶり"
+    ],
+    "learnset": [
+      "ivy_cudgel",
+      "horn_leech",
+      "wood_hammer",
+      "u_turn",
+      "swords_dance",
+      "spiky_shield",
+      "stomp_tantrum",
+      "superpower",
+      "play_rough"
+    ]
+  },
+  {
+    "id": "ursa_luna_bloodmoon",
+    "name_ja": "ガチグマ(アカツキ)",
+    "types": [
+      "ノーマル",
+      "じめん"
+    ],
+    "base_stats": {
+      "hp": 113,
+      "attack": 70,
+      "defense": 120,
+      "sp_attack": 135,
+      "sp_defense": 65,
+      "speed": 52
+    },
+    "abilities": [
+      "しんがん"
+    ],
+    "learnset": [
+      "blood_moon",
+      "earth_power",
+      "hyper_voice",
+      "scorching_sands",
+      "vacuum_wave",
+      "calm_mind",
+      "moonlight",
+      "taunt"
+    ]
+  },
+  {
+    "id": "landorus_therian",
+    "name_ja": "ランドロス(霊獣)",
+    "types": [
+      "じめん",
+      "ひこう"
+    ],
+    "base_stats": {
+      "hp": 89,
+      "attack": 145,
+      "defense": 90,
+      "sp_attack": 105,
+      "sp_defense": 80,
+      "speed": 91
+    },
+    "abilities": [
+      "いかく"
+    ],
+    "learnset": [
+      "earthquake",
+      "u_turn",
+      "stone_edge",
+      "rock_blast",
+      "swords_dance",
+      "stealth_rock",
+      "psychic_fangs",
+      "crunch"
+    ]
+  },
+  {
+    "id": "tornadus_therian",
+    "name_ja": "トルネロス(霊獣)",
+    "types": [
+      "ひこう"
+    ],
+    "base_stats": {
+      "hp": 79,
+      "attack": 100,
+      "defense": 80,
+      "sp_attack": 110,
+      "sp_defense": 90,
+      "speed": 121
+    },
+    "abilities": [
+      "さいせいりょく"
+    ],
+    "learnset": [
+      "hurricane",
+      "air_slash",
+      "u_turn",
+      "heat_wave",
+      "knock_off",
+      "tailwind",
+      "taunt",
+      "icy_wind",
+      "rain_dance",
+      "sunny_day"
+    ]
+  },
+  {
+    "id": "thundurus_incarnate",
+    "name_ja": "ボルトロス(化身)",
+    "types": [
+      "でんき",
+      "ひこう"
+    ],
+    "base_stats": {
+      "hp": 79,
+      "attack": 115,
+      "defense": 70,
+      "sp_attack": 125,
+      "sp_defense": 80,
+      "speed": 111
+    },
+    "abilities": [
+      "いたずらごころ"
+    ],
+    "learnset": [
+      "thunderbolt",
+      "volt_switch",
+      "sludge_bomb",
+      "psychic",
+      "thunder_wave",
+      "taunt",
+      "nasty_plot",
+      "scary_face",
+      "eerie_impulse"
+    ]
+  },
+  {
+    "id": "urshifu_rapid",
+    "name_ja": "ウーラオス(連撃)",
+    "types": [
+      "かくとう",
+      "みず"
+    ],
+    "base_stats": {
+      "hp": 100,
+      "attack": 130,
+      "defense": 100,
+      "sp_attack": 63,
+      "sp_defense": 60,
+      "speed": 97
+    },
+    "abilities": [
+      "ふかしのこぶし"
+    ],
+    "learnset": [
+      "surging_strikes",
+      "close_combat",
+      "aqua_jet",
+      "u_turn",
+      "swords_dance",
+      "ice_punch",
+      "thunder_punch",
+      "drain_punch",
+      "detect"
+    ]
+  },
+  {
+    "id": "urshifu_single",
+    "name_ja": "ウーラオス(一撃)",
+    "types": [
+      "かくとう",
+      "あく"
+    ],
+    "base_stats": {
+      "hp": 100,
+      "attack": 130,
+      "defense": 100,
+      "sp_attack": 63,
+      "sp_defense": 60,
+      "speed": 97
+    },
+    "abilities": [
+      "ふかしのこぶし"
+    ],
+    "learnset": [
+      "wicked_blow",
+      "close_combat",
+      "sucker_punch",
+      "u_turn",
+      "swords_dance",
+      "iron_head",
+      "poison_jab",
+      "drain_punch",
+      "detect"
+    ]
+  },
+  {
+    "id": "porygon2",
+    "name_ja": "ポリゴン2",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 80,
+      "defense": 90,
+      "sp_attack": 105,
+      "sp_defense": 95,
+      "speed": 60
+    },
+    "abilities": [
+      "ダウンロード",
+      "トレース"
+    ],
+    "learnset": [
+      "tri_attack",
+      "ice_beam",
+      "thunderbolt",
+      "shadow_ball",
+      "recover",
+      "trick_room",
+      "thunder_wave",
+      "toxic",
+      "foul_play"
+    ]
+  },
+  {
+    "id": "incineroar",
+    "name_ja": "ガオガエン",
+    "types": [
+      "ほのお",
+      "あく"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 115,
+      "defense": 90,
+      "sp_attack": 80,
+      "sp_defense": 90,
+      "speed": 60
+    },
+    "abilities": [
+      "いかく"
+    ],
+    "learnset": [
+      "flare_blitz",
+      "knock_off",
+      "parting_shot",
+      "fake_out",
+      "u_turn",
+      "will_o_wisp",
+      "taunt",
+      "drain_punch",
+      "crunch",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "rillaboom",
+    "name_ja": "ゴリランダー",
+    "types": [
+      "くさ"
+    ],
+    "base_stats": {
+      "hp": 100,
+      "attack": 125,
+      "defense": 90,
+      "sp_attack": 60,
+      "sp_defense": 70,
+      "speed": 85
+    },
+    "abilities": [
+      "グラスメイカー"
+    ],
+    "learnset": [
+      "wood_hammer",
+      "grassy_glide",
+      "u_turn",
+      "knock_off",
+      "fake_out",
+      "swords_dance",
+      "superpower",
+      "drum_beating"
+    ]
+  },
+  {
+    "id": "amoonguss",
+    "name_ja": "モロバレル",
+    "types": [
+      "くさ",
+      "どく"
+    ],
+    "base_stats": {
+      "hp": 114,
+      "attack": 85,
+      "defense": 70,
+      "sp_attack": 85,
+      "sp_defense": 80,
+      "speed": 30
+    },
+    "abilities": [
+      "さいせいりょく"
+    ],
+    "learnset": [
+      "spore",
+      "rage_powder",
+      "giga_drain",
+      "sludge_bomb",
+      "pollen_puff",
+      "clear_smog",
+      "protect",
+      "helping_hand",
+      "yawn"
+    ]
+  },
+  {
+    "id": "torkoal",
+    "name_ja": "コータス",
+    "types": [
+      "ほのお"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 140,
+      "sp_attack": 85,
+      "sp_defense": 70,
+      "speed": 20
+    },
+    "abilities": [
+      "ひでり"
+    ],
+    "learnset": [
+      "eruption",
+      "heat_wave",
+      "overheat",
+      "earth_power",
+      "scorching_sands",
+      "yawn",
+      "stealth_rock",
+      "will_o_wisp",
+      "protect",
+      "body_press"
+    ]
+  },
+  {
+    "id": "pelipper",
+    "name_ja": "ペリッパー",
+    "types": [
+      "みず",
+      "ひこう"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 100,
+      "sp_attack": 95,
+      "sp_defense": 70,
+      "speed": 65
+    },
+    "abilities": [
+      "あめふらし"
+    ],
+    "learnset": [
+      "hydro_pump",
+      "surf",
+      "scald",
+      "hurricane",
+      "u_turn",
+      "tailwind",
+      "roost",
+      "haze",
+      "protect",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "ninetales_alola",
+    "name_ja": "アローラキュウコン",
+    "types": [
+      "こおり",
+      "フェアリー"
+    ],
+    "base_stats": {
+      "hp": 73,
+      "attack": 67,
+      "defense": 75,
+      "sp_attack": 81,
+      "sp_defense": 100,
+      "speed": 109
+    },
+    "abilities": [
+      "ゆきふらし"
+    ],
+    "learnset": [
+      "blizzard",
+      "freeze_dry",
+      "moonblast",
+      "dazzling_gleam",
+      "aurora_veil",
+      "hypnosis",
+      "encore",
+      "nasty_plot",
+      "haze"
     ]
   },
   {
@@ -385,10 +1241,377 @@
     ],
     "learnset": [
       "stone_edge",
+      "rock_blast",
       "crunch",
+      "knock_off",
+      "earthquake",
+      "fire_punch",
+      "ice_punch",
+      "thunder_punch",
+      "dragon_dance",
+      "stealth_rock",
+      "low_kick"
+    ]
+  },
+  {
+    "id": "whimsicott",
+    "name_ja": "エルフーン",
+    "types": [
+      "くさ",
+      "フェアリー"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 67,
+      "defense": 85,
+      "sp_attack": 77,
+      "sp_defense": 75,
+      "speed": 116
+    },
+    "abilities": [
+      "いたずらごころ"
+    ],
+    "learnset": [
+      "moonblast",
+      "energy_ball",
+      "tailwind",
+      "encore",
+      "taunt",
+      "helping_hand",
+      "fake_tears",
+      "trick_room",
+      "memento",
+      "leech_seed"
+    ]
+  },
+  {
+    "id": "grimmsnarl",
+    "name_ja": "オーロンゲ",
+    "types": [
+      "あく",
+      "フェアリー"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 120,
+      "defense": 65,
+      "sp_attack": 95,
+      "sp_defense": 75,
+      "speed": 60
+    },
+    "abilities": [
+      "いたずらごころ"
+    ],
+    "learnset": [
+      "spirit_break",
+      "foul_play",
+      "sucker_punch",
+      "reflect",
+      "light_screen",
+      "thunder_wave",
+      "scary_face",
+      "taunt",
+      "fake_out",
+      "parting_shot"
+    ]
+  },
+  {
+    "id": "pao_dragon",
+    "name_ja": "セグレイブ",
+    "types": [
+      "ドラゴン",
+      "こおり"
+    ],
+    "base_stats": {
+      "hp": 115,
+      "attack": 145,
+      "defense": 92,
+      "sp_attack": 75,
+      "sp_defense": 86,
+      "speed": 87
+    },
+    "abilities": [
+      "ねつこうかん"
+    ],
+    "learnset": [
+      "glaive_rush",
+      "icicle_crash",
+      "ice_shard",
       "earthquake",
       "dragon_dance",
-      "stealth_rock"
+      "swords_dance",
+      "scale_shot",
+      "iron_head"
+    ]
+  },
+  {
+    "id": "dragonite",
+    "name_ja": "カイリュー",
+    "types": [
+      "ドラゴン",
+      "ひこう"
+    ],
+    "base_stats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "sp_attack": 100,
+      "sp_defense": 100,
+      "speed": 80
+    },
+    "abilities": [
+      "マルチスケイル"
+    ],
+    "learnset": [
+      "extreme_speed",
+      "outrage",
+      "dragon_claw",
+      "dual_wingbeat",
+      "earthquake",
+      "fire_punch",
+      "dragon_dance",
+      "roost",
+      "hurricane",
+      "tailwind"
+    ]
+  },
+  {
+    "id": "glaceon",
+    "name_ja": "グレイシア",
+    "types": [
+      "こおり"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 110,
+      "sp_attack": 130,
+      "sp_defense": 95,
+      "speed": 65
+    },
+    "abilities": [
+      "ゆきがくれ"
+    ],
+    "learnset": [
+      "blizzard",
+      "freeze_dry",
+      "ice_beam",
+      "shadow_ball",
+      "hyper_voice",
+      "fake_tears",
+      "calm_mind",
+      "yawn",
+      "aurora_veil"
+    ]
+  },
+  {
+    "id": "sylveon",
+    "name_ja": "ニンフィア",
+    "types": [
+      "フェアリー"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 65,
+      "sp_attack": 110,
+      "sp_defense": 130,
+      "speed": 60
+    },
+    "abilities": [
+      "フェアリースキン"
+    ],
+    "learnset": [
+      "hyper_voice",
+      "moonblast",
+      "dazzling_gleam",
+      "psyshock",
+      "shadow_ball",
+      "quick_attack",
+      "calm_mind",
+      "yawn",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "clefable",
+    "name_ja": "ピクシー",
+    "types": [
+      "フェアリー"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "sp_attack": 95,
+      "sp_defense": 90,
+      "speed": 60
+    },
+    "abilities": [
+      "マジックガード",
+      "てんねん"
+    ],
+    "learnset": [
+      "moonblast",
+      "flamethrower",
+      "ice_beam",
+      "thunderbolt",
+      "calm_mind",
+      "moonlight",
+      "thunder_wave",
+      "stealth_rock",
+      "encore",
+      "follow_me"
+    ]
+  },
+  {
+    "id": "milotic",
+    "name_ja": "ミロカロス",
+    "types": [
+      "みず"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 60,
+      "defense": 79,
+      "sp_attack": 100,
+      "sp_defense": 125,
+      "speed": 81
+    },
+    "abilities": [
+      "かちき",
+      "ふしぎなうろこ"
+    ],
+    "learnset": [
+      "scald",
+      "hydro_pump",
+      "surf",
+      "ice_beam",
+      "recover",
+      "haze",
+      "coils",
+      "helping_hand",
+      "icy_wind"
+    ]
+  },
+  {
+    "id": "suicune",
+    "name_ja": "スイクン",
+    "types": [
+      "みず"
+    ],
+    "base_stats": {
+      "hp": 100,
+      "attack": 75,
+      "defense": 115,
+      "sp_attack": 90,
+      "sp_defense": 115,
+      "speed": 85
+    },
+    "abilities": [
+      "プレッシャー",
+      "せいしんりょく"
+    ],
+    "learnset": [
+      "scald",
+      "hydro_pump",
+      "ice_beam",
+      "freeze_dry",
+      "tailwind",
+      "snarl",
+      "roar",
+      "haze",
+      "recover",
+      "protect"
+    ]
+  },
+  {
+    "id": "wash_rotom",
+    "name_ja": "ウォッシュロトム",
+    "types": [
+      "でんき",
+      "みず"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "sp_attack": 105,
+      "sp_defense": 107,
+      "speed": 86
+    },
+    "abilities": [
+      "ふゆう"
+    ],
+    "learnset": [
+      "hydro_pump",
+      "thunderbolt",
+      "volt_switch",
+      "shadow_ball",
+      "will_o_wisp",
+      "trick",
+      "nasty_plot",
+      "thunder_wave",
+      "protect"
+    ]
+  },
+  {
+    "id": "heat_rotom",
+    "name_ja": "ヒートロトム",
+    "types": [
+      "でんき",
+      "ほのお"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "sp_attack": 105,
+      "sp_defense": 107,
+      "speed": 86
+    },
+    "abilities": [
+      "ふゆう"
+    ],
+    "learnset": [
+      "overheat",
+      "thunderbolt",
+      "volt_switch",
+      "dark_pulse",
+      "will_o_wisp",
+      "trick",
+      "nasty_plot",
+      "light_screen",
+      "reflect"
+    ]
+  },
+  {
+    "id": "mamoswine",
+    "name_ja": "マンムー",
+    "types": [
+      "こおり",
+      "じめん"
+    ],
+    "base_stats": {
+      "hp": 110,
+      "attack": 130,
+      "defense": 80,
+      "sp_attack": 70,
+      "sp_defense": 60,
+      "speed": 80
+    },
+    "abilities": [
+      "あついしぼう"
+    ],
+    "learnset": [
+      "earthquake",
+      "icicle_crash",
+      "ice_shard",
+      "knock_off",
+      "stealth_rock",
+      "stone_edge",
+      "superpower",
+      "heavy_slam"
     ]
   },
   {
@@ -413,66 +1636,2681 @@
     "learnset": [
       "earthquake",
       "iron_head",
+      "rock_blast",
       "stone_edge",
       "swords_dance",
-      "rapid_spin"
+      "rapid_spin",
+      "stealth_rock",
+      "poison_jab"
     ]
   },
   {
-    "id": "pelipper",
-    "name_ja": "ペリッパー",
+    "id": "archaludon",
+    "name_ja": "ブリジュラス",
     "types": [
-      "みず",
+      "はがね",
+      "ドラゴン"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 105,
+      "defense": 130,
+      "sp_attack": 125,
+      "sp_defense": 65,
+      "speed": 85
+    },
+    "abilities": [
+      "じきゅうりょく",
+      "がんじょう"
+    ],
+    "learnset": [
+      "electro_shot",
+      "flash_cannon",
+      "make_it_rain",
+      "draco_meteor",
+      "dragon_pulse",
+      "body_press",
+      "iron_defense",
+      "stealth_rock",
+      "snarl",
+      "haze"
+    ]
+  },
+  {
+    "id": "baxcalibur",
+    "name_ja": "セグレイブ",
+    "types": [
+      "ドラゴン",
+      "こおり"
+    ],
+    "base_stats": {
+      "hp": 115,
+      "attack": 145,
+      "defense": 92,
+      "sp_attack": 75,
+      "sp_defense": 86,
+      "speed": 87
+    },
+    "abilities": [
+      "ねつこうかん"
+    ],
+    "learnset": [
+      "glaive_rush",
+      "icicle_crash",
+      "ice_shard",
+      "earthquake",
+      "dragon_dance",
+      "swords_dance",
+      "scale_shot",
+      "iron_head",
+      "crunch"
+    ]
+  },
+  {
+    "id": "hydreigon",
+    "name_ja": "サザンドラ",
+    "types": [
+      "あく",
+      "ドラゴン"
+    ],
+    "base_stats": {
+      "hp": 92,
+      "attack": 105,
+      "defense": 90,
+      "sp_attack": 125,
+      "sp_defense": 90,
+      "speed": 98
+    },
+    "abilities": [
+      "ふゆう"
+    ],
+    "learnset": [
+      "draco_meteor",
+      "dark_pulse",
+      "flamethrower",
+      "fire_blast",
+      "heat_wave",
+      "flash_cannon",
+      "nasty_plot",
+      "u_turn",
+      "tailwind",
+      "snarl"
+    ]
+  },
+  {
+    "id": "goodra_hisui",
+    "name_ja": "ヒスイヌメルゴン",
+    "types": [
+      "はがね",
+      "ドラゴン"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 100,
+      "sp_attack": 110,
+      "sp_defense": 150,
+      "speed": 60
+    },
+    "abilities": [
+      "そうしょく",
+      "シェルアーマー"
+    ],
+    "learnset": [
+      "draco_meteor",
+      "flash_cannon",
+      "surf",
+      "flamethrower",
+      "ice_beam",
+      "thunderbolt",
+      "body_press",
+      "iron_defense",
+      "shelter",
+      "recover"
+    ]
+  },
+  {
+    "id": "corviknight",
+    "name_ja": "アーマーガア",
+    "types": [
+      "ひこう",
+      "はがね"
+    ],
+    "base_stats": {
+      "hp": 98,
+      "attack": 87,
+      "defense": 105,
+      "sp_attack": 53,
+      "sp_defense": 85,
+      "speed": 67
+    },
+    "abilities": [
+      "ミラーアーマー"
+    ],
+    "learnset": [
+      "brave_bird",
+      "u_turn",
+      "body_press",
+      "iron_defense",
+      "roost",
+      "tailwind",
+      "taunt",
+      "iron_head",
+      "haze"
+    ]
+  },
+  {
+    "id": "skarmory",
+    "name_ja": "エアームド",
+    "types": [
+      "はがね",
       "ひこう"
     ],
     "base_stats": {
-      "hp": 60,
-      "attack": 50,
-      "defense": 100,
-      "sp_attack": 95,
+      "hp": 65,
+      "attack": 80,
+      "defense": 140,
+      "sp_attack": 40,
       "sp_defense": 70,
-      "speed": 65
+      "speed": 70
     },
     "abilities": [
-      "あめふらし"
+      "がんじょう"
     ],
     "learnset": [
-      "surf",
-      "hydro_pump",
-      "hurricane",
-      "u_turn",
-      "roost"
+      "brave_bird",
+      "iron_defense",
+      "body_press",
+      "stealth_rock",
+      "spikes",
+      "whirlwind",
+      "roost",
+      "taunt",
+      "iron_head"
     ]
   },
   {
-    "id": "swampert_mega",
-    "name_ja": "メガラグラージ",
+    "id": "gliscor",
+    "name_ja": "グライオン",
+    "types": [
+      "じめん",
+      "ひこう"
+    ],
+    "base_stats": {
+      "hp": 75,
+      "attack": 95,
+      "defense": 125,
+      "sp_attack": 45,
+      "sp_defense": 75,
+      "speed": 95
+    },
+    "abilities": [
+      "ポイズンヒール"
+    ],
+    "learnset": [
+      "earthquake",
+      "knock_off",
+      "u_turn",
+      "toxic",
+      "stealth_rock",
+      "spikes",
+      "protect",
+      "swords_dance",
+      "roost",
+      "taunt"
+    ]
+  },
+  {
+    "id": "gastrodon",
+    "name_ja": "トリトドン",
+    "types": [
+      "みず",
+      "じめん"
+    ],
+    "base_stats": {
+      "hp": 111,
+      "attack": 83,
+      "defense": 68,
+      "sp_attack": 92,
+      "sp_defense": 82,
+      "speed": 39
+    },
+    "abilities": [
+      "よびみず"
+    ],
+    "learnset": [
+      "earth_power",
+      "scald",
+      "ice_beam",
+      "recover",
+      "yawn",
+      "clear_smog",
+      "haze",
+      "protect",
+      "helping_hand",
+      "surf"
+    ]
+  },
+  {
+    "id": "swampert",
+    "name_ja": "ラグラージ",
     "types": [
       "みず",
       "じめん"
     ],
     "base_stats": {
       "hp": 100,
-      "attack": 150,
-      "defense": 110,
+      "attack": 110,
+      "defense": 90,
+      "sp_attack": 85,
+      "sp_defense": 90,
+      "speed": 60
+    },
+    "abilities": [
+      "げきりゅう"
+    ],
+    "learnset": [
+      "earthquake",
+      "liquidation",
+      "aqua_jet",
+      "ice_punch",
+      "u_turn",
+      "stealth_rock",
+      "yawn",
+      "roar",
+      "flip_turn"
+    ]
+  },
+  {
+    "id": "porygon_z",
+    "name_ja": "ポリゴンZ",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 80,
+      "defense": 70,
+      "sp_attack": 135,
+      "sp_defense": 75,
+      "speed": 90
+    },
+    "abilities": [
+      "てきおうりょく",
+      "ダウンロード"
+    ],
+    "learnset": [
+      "tri_attack",
+      "boomburst",
+      "hyper_voice",
+      "ice_beam",
+      "thunderbolt",
+      "shadow_ball",
+      "nasty_plot",
+      "agility",
+      "trick"
+    ]
+  },
+  {
+    "id": "haxorus",
+    "name_ja": "オノノクス",
+    "types": [
+      "ドラゴン"
+    ],
+    "base_stats": {
+      "hp": 76,
+      "attack": 147,
+      "defense": 90,
+      "sp_attack": 60,
+      "sp_defense": 70,
+      "speed": 97
+    },
+    "abilities": [
+      "かたやぶり"
+    ],
+    "learnset": [
+      "outrage",
+      "dragon_claw",
+      "earthquake",
+      "close_combat",
+      "poison_jab",
+      "iron_head",
+      "dragon_dance",
+      "swords_dance",
+      "first_impression"
+    ]
+  },
+  {
+    "id": "salamence",
+    "name_ja": "ボーマンダ",
+    "types": [
+      "ドラゴン",
+      "ひこう"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 135,
+      "defense": 80,
+      "sp_attack": 110,
+      "sp_defense": 80,
+      "speed": 100
+    },
+    "abilities": [
+      "いかく"
+    ],
+    "learnset": [
+      "dragon_claw",
+      "outrage",
+      "dual_wingbeat",
+      "earthquake",
+      "draco_meteor",
+      "hyper_voice",
+      "fire_blast",
+      "dragon_dance",
+      "roost",
+      "tailwind"
+    ]
+  },
+  {
+    "id": "metagross",
+    "name_ja": "メタグロス",
+    "types": [
+      "はがね",
+      "エスパー"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 135,
+      "defense": 130,
+      "sp_attack": 95,
+      "sp_defense": 90,
+      "speed": 70
+    },
+    "abilities": [
+      "クリアボディ"
+    ],
+    "learnset": [
+      "iron_head",
+      "zen_headbutt",
+      "bullet_punch",
+      "earthquake",
+      "ice_punch",
+      "thunder_punch",
+      "rock_slide",
+      "stealth_rock",
+      "agility"
+    ]
+  },
+  {
+    "id": "gallade",
+    "name_ja": "エルレイド",
+    "types": [
+      "エスパー",
+      "かくとう"
+    ],
+    "base_stats": {
+      "hp": 68,
+      "attack": 125,
+      "defense": 65,
+      "sp_attack": 65,
+      "sp_defense": 115,
+      "speed": 80
+    },
+    "abilities": [
+      "きれあじ"
+    ],
+    "learnset": [
+      "sacred_sword",
+      "psycho_cut",
+      "aqua_cutter",
+      "night_slash",
+      "shadow_sneak",
+      "close_combat",
+      "swords_dance",
+      "trick",
+      "trick_room",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "gardevoir",
+    "name_ja": "サーナイト",
+    "types": [
+      "エスパー",
+      "フェアリー"
+    ],
+    "base_stats": {
+      "hp": 68,
+      "attack": 65,
+      "defense": 65,
+      "sp_attack": 125,
+      "sp_defense": 115,
+      "speed": 80
+    },
+    "abilities": [
+      "トレース",
+      "テレパシー"
+    ],
+    "learnset": [
+      "moonblast",
+      "dazzling_gleam",
+      "psychic",
+      "psyshock",
+      "shadow_ball",
+      "mystical_fire",
+      "trick_room",
+      "calm_mind",
+      "trick",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "blaziken",
+    "name_ja": "バシャーモ",
+    "types": [
+      "ほのお",
+      "かくとう"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 70,
+      "sp_attack": 110,
+      "sp_defense": 70,
+      "speed": 80
+    },
+    "abilities": [
+      "かそく"
+    ],
+    "learnset": [
+      "flare_blitz",
+      "close_combat",
+      "high_jump_kick",
+      "knock_off",
+      "earthquake",
+      "swords_dance",
+      "protect",
+      "overheat",
+      "rock_slide"
+    ]
+  },
+  {
+    "id": "skeledirge",
+    "name_ja": "ラウドボーン",
+    "types": [
+      "ほのお",
+      "ゴースト"
+    ],
+    "base_stats": {
+      "hp": 104,
+      "attack": 75,
+      "defense": 100,
+      "sp_attack": 110,
+      "sp_defense": 75,
+      "speed": 66
+    },
+    "abilities": [
+      "てんねん"
+    ],
+    "learnset": [
+      "torch_song",
+      "shadow_ball",
+      "hex",
+      "earth_power",
+      "scorching_sands",
+      "slack_off",
+      "will_o_wisp",
+      "yawn",
+      "snarl",
+      "protect"
+    ]
+  },
+  {
+    "id": "meowscarada",
+    "name_ja": "マスカーニャ",
+    "types": [
+      "くさ",
+      "あく"
+    ],
+    "base_stats": {
+      "hp": 76,
+      "attack": 110,
+      "defense": 70,
+      "sp_attack": 81,
+      "sp_defense": 70,
+      "speed": 123
+    },
+    "abilities": [
+      "へんげんじざい",
+      "しんりょく"
+    ],
+    "learnset": [
+      "flower_trick",
+      "knock_off",
+      "sucker_punch",
+      "u_turn",
+      "play_rough",
+      "triple_axel",
+      "swords_dance",
+      "taunt",
+      "trick",
+      "protect"
+    ]
+  },
+  {
+    "id": "quaquaval",
+    "name_ja": "ウェーニバル",
+    "types": [
+      "みず",
+      "かくとう"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 120,
+      "defense": 80,
+      "sp_attack": 85,
+      "sp_defense": 75,
+      "speed": 85
+    },
+    "abilities": [
+      "じしんかじょう"
+    ],
+    "learnset": [
+      "aqua_step",
+      "wave_crash",
+      "close_combat",
+      "drain_punch",
+      "aqua_jet",
+      "u_turn",
+      "ice_spinner",
+      "swords_dance",
+      "roost",
+      "brave_bird"
+    ]
+  },
+  {
+    "id": "primarina",
+    "name_ja": "アシレーヌ",
+    "types": [
+      "みず",
+      "フェアリー"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 74,
+      "defense": 74,
+      "sp_attack": 126,
+      "sp_defense": 116,
+      "speed": 60
+    },
+    "abilities": [
+      "うるおいボイス"
+    ],
+    "learnset": [
+      "hyper_voice",
+      "moonblast",
+      "dazzling_gleam",
+      "surf",
+      "hydro_pump",
+      "psychic",
+      "ice_beam",
+      "calm_mind",
+      "haze",
+      "helping_hand",
+      "perish_song"
+    ]
+  },
+  {
+    "id": "charizard",
+    "name_ja": "リザードン",
+    "types": [
+      "ほのお",
+      "ひこう"
+    ],
+    "base_stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "sp_attack": 109,
+      "sp_defense": 85,
+      "speed": 100
+    },
+    "abilities": [
+      "サンパワー",
+      "もうか"
+    ],
+    "learnset": [
+      "flamethrower",
+      "fire_blast",
+      "overheat",
+      "heat_wave",
+      "air_slash",
+      "hurricane",
+      "solarbeam",
+      "roost",
+      "dragon_pulse",
+      "will_o_wisp"
+    ]
+  },
+  {
+    "id": "venusaur",
+    "name_ja": "フシギバナ",
+    "types": [
+      "くさ",
+      "どく"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "sp_attack": 100,
+      "sp_defense": 100,
+      "speed": 80
+    },
+    "abilities": [
+      "ようりょくそ"
+    ],
+    "learnset": [
+      "leaf_storm",
+      "giga_drain",
+      "sludge_bomb",
+      "weather_ball",
+      "earth_power",
+      "solarbeam",
+      "sleep_powder",
+      "growth",
+      "leech_seed",
+      "protect"
+    ]
+  },
+  {
+    "id": "blastoise",
+    "name_ja": "カメックス",
+    "types": [
+      "みず"
+    ],
+    "base_stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "sp_attack": 85,
+      "sp_defense": 105,
+      "speed": 78
+    },
+    "abilities": [
+      "げきりゅう",
+      "あめうけざら"
+    ],
+    "learnset": [
+      "water_spout",
+      "hydro_pump",
+      "surf",
+      "ice_beam",
+      "flash_cannon",
+      "aura_sphere",
+      "fake_out",
+      "shell_smash",
+      "rapid_spin",
+      "yawn",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "eevee",
+    "name_ja": "イーブイ",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "sp_attack": 45,
+      "sp_defense": 65,
+      "speed": 55
+    },
+    "abilities": [
+      "てきおうりょく"
+    ],
+    "learnset": [
+      "double_edge",
+      "quick_attack",
+      "facade",
+      "bite",
+      "yawn",
+      "baton_pass",
+      "helping_hand",
+      "protect",
+      "wish"
+    ]
+  },
+  {
+    "id": "vaporeon",
+    "name_ja": "シャワーズ",
+    "types": [
+      "みず"
+    ],
+    "base_stats": {
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "sp_attack": 110,
+      "sp_defense": 95,
+      "speed": 65
+    },
+    "abilities": [
+      "ちょすい"
+    ],
+    "learnset": [
+      "scald",
+      "hydro_pump",
+      "ice_beam",
+      "shadow_ball",
+      "hyper_voice",
+      "recover",
+      "haze",
+      "yawn",
+      "wish",
+      "calm_mind",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "jolteon",
+    "name_ja": "サンダース",
+    "types": [
+      "でんき"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "sp_attack": 110,
+      "sp_defense": 95,
+      "speed": 130
+    },
+    "abilities": [
+      "ちくでん"
+    ],
+    "learnset": [
+      "thunderbolt",
+      "volt_switch",
+      "shadow_ball",
+      "hyper_voice",
+      "thunder_wave",
+      "yawn",
+      "fake_tears",
+      "agility",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "flareon",
+    "name_ja": "ブースター",
+    "types": [
+      "ほのお"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
       "sp_attack": 95,
       "sp_defense": 110,
+      "speed": 65
+    },
+    "abilities": [
+      "もらいび"
+    ],
+    "learnset": [
+      "flare_blitz",
+      "fire_punch",
+      "superpower",
+      "quick_attack",
+      "facade",
+      "bite",
+      "yawn",
+      "will_o_wisp",
+      "wish",
+      "swords_dance"
+    ]
+  },
+  {
+    "id": "espeon",
+    "name_ja": "エーフィ",
+    "types": [
+      "エスパー"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "sp_attack": 130,
+      "sp_defense": 95,
+      "speed": 110
+    },
+    "abilities": [
+      "マジックミラー"
+    ],
+    "learnset": [
+      "psychic",
+      "psyshock",
+      "dazzling_gleam",
+      "shadow_ball",
+      "hyper_voice",
+      "calm_mind",
+      "trick",
+      "yawn",
+      "light_screen",
+      "reflect",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "umbreon",
+    "name_ja": "ブラッキー",
+    "types": [
+      "あく"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 110,
+      "sp_attack": 60,
+      "sp_defense": 130,
+      "speed": 65
+    },
+    "abilities": [
+      "せいしんりょく"
+    ],
+    "learnset": [
+      "foul_play",
+      "snarl",
+      "yawn",
+      "wish",
+      "protect",
+      "taunt",
+      "toxic",
+      "haze",
+      "helping_hand",
+      "moonlight"
+    ]
+  },
+  {
+    "id": "leafeon",
+    "name_ja": "リーフィア",
+    "types": [
+      "くさ"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 110,
+      "defense": 130,
+      "sp_attack": 60,
+      "sp_defense": 65,
+      "speed": 95
+    },
+    "abilities": [
+      "ようりょくそ"
+    ],
+    "learnset": [
+      "leaf_blade",
+      "seed_bomb",
+      "knock_off",
+      "quick_attack",
+      "swords_dance",
+      "yawn",
+      "wish",
+      "protect",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "snarl_alola",
+    "name_ja": "アローラベトベトン",
+    "types": [
+      "どく",
+      "あく"
+    ],
+    "base_stats": {
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "sp_attack": 65,
+      "sp_defense": 100,
+      "speed": 50
+    },
+    "abilities": [
+      "くいしんぼう",
+      "かがくのちから"
+    ],
+    "learnset": [
+      "knock_off",
+      "gunk_shot",
+      "poison_jab",
+      "sucker_punch",
+      "fire_punch",
+      "ice_punch",
+      "thunder_punch",
+      "clear_smog",
+      "taunt",
+      "minimize"
+    ]
+  },
+  {
+    "id": "weavile",
+    "name_ja": "マニューラ",
+    "types": [
+      "あく",
+      "こおり"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 120,
+      "defense": 65,
+      "sp_attack": 45,
+      "sp_defense": 85,
+      "speed": 125
+    },
+    "abilities": [
+      "プレッシャー",
+      "わるいてぐせ"
+    ],
+    "learnset": [
+      "triple_axel",
+      "icicle_crash",
+      "ice_shard",
+      "knock_off",
+      "night_slash",
+      "fake_out",
+      "swords_dance",
+      "taunt",
+      "low_kick",
+      "poison_jab"
+    ]
+  },
+  {
+    "id": "cloyster",
+    "name_ja": "パルシェン",
+    "types": [
+      "みず",
+      "こおり"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "sp_attack": 85,
+      "sp_defense": 45,
       "speed": 70
+    },
+    "abilities": [
+      "スキルリンク"
+    ],
+    "learnset": [
+      "icicle_spear",
+      "rock_blast",
+      "liquidation",
+      "aqua_jet",
+      "ice_shard",
+      "shell_smash",
+      "hydro_pump",
+      "rapid_spin",
+      "spikes",
+      "toxic_spikes"
+    ]
+  },
+  {
+    "id": "toxapex",
+    "name_ja": "ドヒドイデ",
+    "types": [
+      "どく",
+      "みず"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 63,
+      "defense": 152,
+      "sp_attack": 53,
+      "sp_defense": 142,
+      "speed": 35
+    },
+    "abilities": [
+      "さいせいりょく"
+    ],
+    "learnset": [
+      "scald",
+      "toxic",
+      "baneful_bunker",
+      "recover",
+      "haze",
+      "infestation",
+      "sludge_bomb",
+      "toxic_spikes",
+      "chilling_water"
+    ]
+  },
+  {
+    "id": "porygon",
+    "name_ja": "ポリゴン",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 70,
+      "sp_attack": 85,
+      "sp_defense": 75,
+      "speed": 40
+    },
+    "abilities": [
+      "トレース",
+      "ダウンロード"
+    ],
+    "learnset": [
+      "tri_attack",
+      "ice_beam",
+      "thunderbolt",
+      "shadow_ball",
+      "recover",
+      "trick_room",
+      "thunder_wave",
+      "toxic",
+      "foul_play"
+    ]
+  },
+  {
+    "id": "chansey",
+    "name_ja": "ラッキー",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "sp_attack": 35,
+      "sp_defense": 105,
+      "speed": 50
+    },
+    "abilities": [
+      "しぜんかいふく",
+      "てんのめぐみ"
+    ],
+    "learnset": [
+      "seismic_toss",
+      "soft_boiled",
+      "thunder_wave",
+      "toxic",
+      "stealth_rock",
+      "helping_hand",
+      "minimize",
+      "heal_bell",
+      "counter",
+      "chilling_water"
+    ]
+  },
+  {
+    "id": "blissey",
+    "name_ja": "ハピナス",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 255,
+      "attack": 10,
+      "defense": 10,
+      "sp_attack": 75,
+      "sp_defense": 135,
+      "speed": 55
+    },
+    "abilities": [
+      "しぜんかいふく",
+      "てんのめぐみ"
+    ],
+    "learnset": [
+      "seismic_toss",
+      "soft_boiled",
+      "shadow_ball",
+      "hyper_voice",
+      "flamethrower",
+      "ice_beam",
+      "thunderbolt",
+      "thunder_wave",
+      "calm_mind",
+      "helping_hand",
+      "stealth_rock"
+    ]
+  },
+  {
+    "id": "snorlax",
+    "name_ja": "カビゴン",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "sp_attack": 65,
+      "sp_defense": 110,
+      "speed": 30
+    },
+    "abilities": [
+      "あついしぼう",
+      "くいしんぼう"
+    ],
+    "learnset": [
+      "body_slam",
+      "double_edge",
+      "facade",
+      "crunch",
+      "earthquake",
+      "heavy_slam",
+      "high_horse_power",
+      "fire_punch",
+      "ice_punch",
+      "thunder_punch",
+      "belly_drum",
+      "yawn",
+      "recycle"
+    ]
+  },
+  {
+    "id": "porygon_link",
+    "name_ja": "シビルドン",
+    "types": [
+      "でんき"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 115,
+      "defense": 80,
+      "sp_attack": 105,
+      "sp_defense": 80,
+      "speed": 50
+    },
+    "abilities": [
+      "ふゆう"
+    ],
+    "learnset": [
+      "thunderbolt",
+      "wild_charge",
+      "flamethrower",
+      "fire_punch",
+      "giga_drain",
+      "drain_punch",
+      "aqua_tail",
+      "knock_off",
+      "u_turn",
+      "volt_switch",
+      "coil"
+    ]
+  },
+  {
+    "id": "eevee_luna",
+    "name_ja": "ルナトーン",
+    "types": [
+      "いわ",
+      "エスパー"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 55,
+      "defense": 65,
+      "sp_attack": 95,
+      "sp_defense": 85,
+      "speed": 70
+    },
+    "abilities": [
+      "ふゆう"
+    ],
+    "learnset": [
+      "power_gem",
+      "meteor_beam",
+      "psychic",
+      "psyshock",
+      "earth_power",
+      "ice_beam",
+      "trick_room",
+      "stealth_rock",
+      "calm_mind",
+      "light_screen",
+      "reflect",
+      "moonlight"
+    ]
+  },
+  {
+    "id": "eevee_sol",
+    "name_ja": "ソルロック",
+    "types": [
+      "いわ",
+      "エスパー"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 95,
+      "defense": 85,
+      "sp_attack": 55,
+      "sp_defense": 65,
+      "speed": 70
+    },
+    "abilities": [
+      "ふゆう"
+    ],
+    "learnset": [
+      "stone_edge",
+      "rock_blast",
+      "zen_headbutt",
+      "earthquake",
+      "flare_blitz",
+      "fire_punch",
+      "will_o_wisp",
+      "stealth_rock",
+      "trick_room",
+      "swords_dance",
+      "morning_sun",
+      "explosion"
+    ]
+  },
+  {
+    "id": "pelipper_mega",
+    "name_ja": "メガシビルドン",
+    "types": [
+      "でんき",
+      "みず"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 135,
+      "defense": 105,
+      "sp_attack": 125,
+      "sp_defense": 105,
+      "speed": 60
+    },
+    "abilities": [
+      "ふゆう"
+    ],
+    "learnset": [
+      "thunderbolt",
+      "wild_charge",
+      "surf",
+      "liquidation",
+      "aqua_jet",
+      "flamethrower",
+      "fire_punch",
+      "giga_drain",
+      "drain_punch",
+      "knock_off",
+      "u_turn",
+      "volt_switch",
+      "coil"
+    ]
+  },
+  {
+    "id": "grimmsnarl_mega",
+    "name_ja": "メガライチュウX",
+    "types": [
+      "でんき",
+      "かくとう"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 130,
+      "defense": 85,
+      "sp_attack": 90,
+      "sp_defense": 80,
+      "speed": 130
+    },
+    "abilities": [
+      "てきおうりょく"
+    ],
+    "learnset": [
+      "wild_charge",
+      "thunder_punch",
+      "close_combat",
+      "mach_punch",
+      "drain_punch",
+      "knock_off",
+      "extreme_speed",
+      "fake_out",
+      "swords_dance",
+      "volt_switch"
+    ]
+  },
+  {
+    "id": "ludicolo",
+    "name_ja": "ルンパッパ",
+    "types": [
+      "みず",
+      "くさ"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 70,
+      "sp_attack": 90,
+      "sp_defense": 100,
+      "speed": 70
+    },
+    "abilities": [
+      "すいすい",
+      "受け皿"
+    ],
+    "learnset": [
+      "hydro_pump",
+      "surf",
+      "scald",
+      "leaf_storm",
+      "giga_drain",
+      "energy_ball",
+      "ice_beam",
+      "fake_out"
+    ]
+  },
+  {
+    "id": "kingdra",
+    "name_ja": "キングドラ",
+    "types": [
+      "みず",
+      "ドラゴン"
+    ],
+    "base_stats": {
+      "hp": 75,
+      "attack": 95,
+      "defense": 95,
+      "sp_attack": 95,
+      "sp_defense": 95,
+      "speed": 85
+    },
+    "abilities": [
+      "すいすい",
+      "スナイパー"
+    ],
+    "learnset": [
+      "hydro_pump",
+      "surf",
+      "draco_meteor",
+      "dragon_pulse",
+      "ice_beam",
+      "flash_cannon",
+      "flip_turn",
+      "clear_smog"
+    ]
+  },
+  {
+    "id": "basculegion_male",
+    "name_ja": "イダイトウ(オス)",
+    "types": [
+      "みず",
+      "ゴースト"
+    ],
+    "base_stats": {
+      "hp": 120,
+      "attack": 112,
+      "defense": 65,
+      "sp_attack": 80,
+      "sp_defense": 75,
+      "speed": 78
+    },
+    "abilities": [
+      "すいすい",
+      "適応力"
+    ],
+    "learnset": [
+      "wave_crash",
+      "liquidation",
+      "phantom_force",
+      "aqua_jet",
+      "shadow_sneak",
+      "crunch",
+      "ice_fang",
+      "flip_turn"
+    ]
+  },
+  {
+    "id": "politoed",
+    "name_ja": "ニョロトノ",
+    "types": [
+      "みず"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 75,
+      "defense": 75,
+      "sp_attack": 90,
+      "sp_defense": 100,
+      "speed": 70
+    },
+    "abilities": [
+      "あめふらし"
+    ],
+    "learnset": [
+      "scald",
+      "surf",
+      "hydro_pump",
+      "ice_beam",
+      "icy_wind",
+      "helping_hand",
+      "haze",
+      "encore",
+      "protect"
+    ]
+  },
+  {
+    "id": "overqwil",
+    "name_ja": "ハリーマン",
+    "types": [
+      "あく",
+      "どく"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 115,
+      "defense": 95,
+      "sp_attack": 65,
+      "sp_defense": 65,
+      "speed": 85
+    },
+    "abilities": [
+      "すいすい",
+      "威嚇"
+    ],
+    "learnset": [
+      "barb_barrage",
+      "poison_jab",
+      "crunch",
+      "knock_off",
+      "gunk_shot",
+      "aqua_jet",
+      "swords_dance",
+      "toxic_spikes",
+      "taunt"
+    ]
+  },
+  {
+    "id": "barraskewda",
+    "name_ja": "カマスジョー",
+    "types": [
+      "みず"
+    ],
+    "base_stats": {
+      "hp": 61,
+      "attack": 123,
+      "defense": 50,
+      "sp_attack": 60,
+      "sp_defense": 50,
+      "speed": 136
     },
     "abilities": [
       "すいすい"
     ],
     "learnset": [
-      "water_fall",
-      "earthquake",
-      "ice_punch",
-      "stealth_rock",
-      "yawn"
+      "liquidation",
+      "wave_crash",
+      "aqua_jet",
+      "close_combat",
+      "poison_jab",
+      "ice_fang",
+      "psychic_fangs",
+      "flip_turn",
+      "drill_run"
     ]
   },
   {
-    "id": "amoonguss",
-    "name_ja": "モロバレル",
+    "id": "pelipper_rain",
+    "name_ja": "ドックラー",
+    "types": [
+      "かくとう"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 105,
+      "defense": 85,
+      "sp_attack": 40,
+      "sp_defense": 50,
+      "speed": 40
+    },
+    "abilities": [
+      "根性"
+    ],
+    "learnset": [
+      "close_combat",
+      "drain_punch",
+      "mach_punch",
+      "facade",
+      "knock_off",
+      "ice_punch",
+      "thunder_punch",
+      "fire_punch",
+      "bulk_up"
+    ]
+  },
+  {
+    "id": "conkeldurr",
+    "name_ja": "ローブシン",
+    "types": [
+      "かくとう"
+    ],
+    "base_stats": {
+      "hp": 105,
+      "attack": 140,
+      "defense": 95,
+      "sp_attack": 55,
+      "sp_defense": 65,
+      "speed": 45
+    },
+    "abilities": [
+      "根性",
+      "鉄の拳"
+    ],
+    "learnset": [
+      "close_combat",
+      "drain_punch",
+      "mach_punch",
+      "facade",
+      "knock_off",
+      "ice_punch",
+      "thunder_punch",
+      "fire_punch",
+      "bulk_up",
+      "rock_slide"
+    ]
+  },
+  {
+    "id": "guts_ursa",
+    "name_ja": "ガチグマ",
+    "types": [
+      "ノーマル",
+      "じめん"
+    ],
+    "base_stats": {
+      "hp": 130,
+      "attack": 140,
+      "defense": 105,
+      "sp_attack": 45,
+      "sp_defense": 80,
+      "speed": 50
+    },
+    "abilities": [
+      "根性"
+    ],
+    "learnset": [
+      "facade",
+      "earthquake",
+      "high_horse_power",
+      "head_long_rush",
+      "crunch",
+      "close_combat",
+      "fire_punch",
+      "ice_punch",
+      "thunder_punch",
+      "swords_dance",
+      "play_rough"
+    ]
+  },
+  {
+    "id": "scizor",
+    "name_ja": "ハッサム",
+    "types": [
+      "むし",
+      "はがね"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 130,
+      "defense": 100,
+      "sp_attack": 55,
+      "sp_defense": 80,
+      "speed": 65
+    },
+    "abilities": [
+      "テクニシャン"
+    ],
+    "learnset": [
+      "bullet_punch",
+      "u_turn",
+      "knock_off",
+      "swords_dance",
+      "roost",
+      "close_combat",
+      "iron_head",
+      "dual_wingbeat",
+      "pounce"
+    ]
+  },
+  {
+    "id": "breloom",
+    "name_ja": "キノガッサ",
+    "types": [
+      "くさ",
+      "かくとう"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 130,
+      "defense": 80,
+      "sp_attack": 60,
+      "sp_defense": 60,
+      "speed": 70
+    },
+    "abilities": [
+      "テクニシャン",
+      "ポイズンヒール"
+    ],
+    "learnset": [
+      "spore",
+      "bullet_seed",
+      "mach_punch",
+      "close_combat",
+      "force_palm",
+      "rock_tomb",
+      "swords_dance",
+      "facade",
+      "protect"
+    ]
+  },
+  {
+    "id": "maushold",
+    "name_ja": "イッカネズミ",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 74,
+      "attack": 75,
+      "defense": 70,
+      "sp_attack": 65,
+      "sp_defense": 75,
+      "speed": 111
+    },
+    "abilities": [
+      "テクニシャン",
+      "フレンドガード"
+    ],
+    "learnset": [
+      "population_bomb",
+      "bite",
+      "u_turn",
+      "tidying_up",
+      "encore",
+      "taunt",
+      "helping_hand",
+      "follow_me",
+      "protect",
+      "super_fang"
+    ]
+  },
+  {
+    "id": "cinccino",
+    "name_ja": "チラチーノ",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 75,
+      "attack": 95,
+      "defense": 60,
+      "sp_attack": 65,
+      "sp_defense": 60,
+      "speed": 115
+    },
+    "abilities": [
+      "スキルリンク",
+      "テクニシャン"
+    ],
+    "learnset": [
+      "tail_slap",
+      "bullet_seed",
+      "rock_blast",
+      "triple_axel",
+      "u_turn",
+      "knock_off",
+      "swords_dance",
+      "encore",
+      "play_rough"
+    ]
+  },
+  {
+    "id": "smeargle",
+    "name_ja": "ドーブル",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 20,
+      "defense": 35,
+      "sp_attack": 20,
+      "sp_defense": 45,
+      "speed": 75
+    },
+    "abilities": [
+      "ムラっけ",
+      "マイペース"
+    ],
+    "learnset": [
+      "spore",
+      "fake_out",
+      "follow_me",
+      "rage_powder",
+      "tailwind",
+      "trick_room",
+      "stealth_rock",
+      "spikes",
+      "baneful_bunker",
+      "memento",
+      "parting_shot",
+      "decorations"
+    ]
+  },
+  {
+    "id": "ditto",
+    "name_ja": "メタモン",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "sp_attack": 48,
+      "sp_defense": 48,
+      "speed": 48
+    },
+    "abilities": [
+      "かわりもの"
+    ],
+    "learnset": [
+      "transform"
+    ]
+  },
+  {
+    "id": "shedinja",
+    "name_ja": "ヌケニン",
+    "types": [
+      "むし",
+      "ゴースト"
+    ],
+    "base_stats": {
+      "hp": 1,
+      "attack": 90,
+      "defense": 45,
+      "sp_attack": 30,
+      "sp_defense": 30,
+      "speed": 40
+    },
+    "abilities": [
+      "ふしぎなまもり"
+    ],
+    "learnset": [
+      "phantom_force",
+      "shadow_sneak",
+      "x_scissor",
+      "sucker_punch",
+      "will_o_wisp",
+      "swords_dance",
+      "protect",
+      "ally_switch"
+    ]
+  },
+  {
+    "id": "sableye",
+    "name_ja": "ヤミラミ",
+    "types": [
+      "あく",
+      "ゴースト"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 75,
+      "sp_attack": 65,
+      "sp_defense": 65,
+      "speed": 50
+    },
+    "abilities": [
+      "いたずらごころ"
+    ],
+    "learnset": [
+      "fake_out",
+      "foul_play",
+      "knock_off",
+      "will_o_wisp",
+      "quash",
+      "taunt",
+      "encore",
+      "recover",
+      "helping_hand",
+      "ally_switch"
+    ]
+  },
+  {
+    "id": "murkrow",
+    "name_ja": "ヤミカラス",
+    "types": [
+      "あく",
+      "ひこう"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 42,
+      "sp_attack": 85,
+      "sp_defense": 42,
+      "speed": 91
+    },
+    "abilities": [
+      "いたずらごころ"
+    ],
+    "learnset": [
+      "foul_play",
+      "brave_bird",
+      "tailwind",
+      "haze",
+      "thunder_wave",
+      "taunt",
+      "quash",
+      "feather_dance",
+      "scary_face",
+      "perish_song"
+    ]
+  },
+  {
+    "id": "tornadus_incarnate",
+    "name_ja": "トルネロス(化身)",
+    "types": [
+      "ひこう"
+    ],
+    "base_stats": {
+      "hp": 79,
+      "attack": 115,
+      "defense": 70,
+      "sp_attack": 125,
+      "sp_defense": 80,
+      "speed": 111
+    },
+    "abilities": [
+      "いたずらごころ"
+    ],
+    "learnset": [
+      "hurricane",
+      "air_slash",
+      "bleakwind_storm",
+      "u_turn",
+      "tailwind",
+      "taunt",
+      "rain_dance",
+      "sunny_day",
+      "scary_face",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "klefki",
+    "name_ja": "クレッフィ",
+    "types": [
+      "はがね",
+      "フェアリー"
+    ],
+    "base_stats": {
+      "hp": 57,
+      "attack": 80,
+      "defense": 91,
+      "sp_attack": 80,
+      "sp_defense": 87,
+      "speed": 75
+    },
+    "abilities": [
+      "いたずらごころ"
+    ],
+    "learnset": [
+      "foul_play",
+      "flash_cannon",
+      "dazzling_gleam",
+      "reflect",
+      "light_screen",
+      "thunder_wave",
+      "toxic",
+      "spikes",
+      "haze",
+      "switcheroo"
+    ]
+  },
+  {
+    "id": "liepard",
+    "name_ja": "レパルダス",
+    "types": [
+      "あく"
+    ],
+    "base_stats": {
+      "hp": 64,
+      "attack": 88,
+      "defense": 50,
+      "sp_attack": 88,
+      "sp_defense": 50,
+      "speed": 106
+    },
+    "abilities": [
+      "いたずらごころ"
+    ],
+    "learnset": [
+      "fake_out",
+      "foul_play",
+      "sucker_punch",
+      "u_turn",
+      "thunder_wave",
+      "taunt",
+      "encore",
+      "yawn",
+      "copycat",
+      "trick"
+    ]
+  },
+  {
+    "id": "meowstic_male",
+    "name_ja": "ニャオニクス(オス)",
+    "types": [
+      "エスパー"
+    ],
+    "base_stats": {
+      "hp": 74,
+      "attack": 48,
+      "defense": 76,
+      "sp_attack": 83,
+      "sp_defense": 81,
+      "speed": 104
+    },
+    "abilities": [
+      "いたずらごころ"
+    ],
+    "learnset": [
+      "psychic",
+      "psyshock",
+      "fake_out",
+      "reflect",
+      "light_screen",
+      "thunder_wave",
+      "yawn",
+      "taunt",
+      "helping_hand",
+      "ally_switch",
+      "trick_room"
+    ]
+  },
+  {
+    "id": "illumise",
+    "name_ja": "イルミーゼ",
+    "types": [
+      "むし"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 47,
+      "defense": 75,
+      "sp_attack": 73,
+      "sp_defense": 85,
+      "speed": 85
+    },
+    "abilities": [
+      "いたずらごころ"
+    ],
+    "learnset": [
+      "bug_buzz",
+      "tailwind",
+      "encore",
+      "taunt",
+      "helping_hand",
+      "fake_tears",
+      "charm",
+      "wish",
+      "baton_pass",
+      "struggle_bug"
+    ]
+  },
+  {
+    "id": "volbeat",
+    "name_ja": "バルビート",
+    "types": [
+      "むし"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 73,
+      "defense": 75,
+      "sp_attack": 47,
+      "sp_defense": 85,
+      "speed": 85
+    },
+    "abilities": [
+      "いたずらごころ"
+    ],
+    "learnset": [
+      "lunge",
+      "u_turn",
+      "tail_glow",
+      "baton_pass",
+      "encore",
+      "thunder_wave",
+      "taunt",
+      "helping_hand",
+      "trick",
+      "roost"
+    ]
+  },
+  {
+    "id": "grafaiai",
+    "name_ja": "タギングル",
+    "types": [
+      "どく",
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 63,
+      "attack": 95,
+      "defense": 65,
+      "sp_attack": 75,
+      "sp_defense": 72,
+      "speed": 110
+    },
+    "abilities": [
+      "いたずらごころ",
+      "軽業"
+    ],
+    "learnset": [
+      "poison_jab",
+      "gunk_shot",
+      "knock_off",
+      "u_turn",
+      "doodle",
+      "parting_shot",
+      "taunt",
+      "encore",
+      "toxic",
+      "scary_face"
+    ]
+  },
+  {
+    "id": "gengar",
+    "name_ja": "ゲンガー",
+    "types": [
+      "ゴースト",
+      "どく"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "sp_attack": 130,
+      "sp_defense": 75,
+      "speed": 110
+    },
+    "abilities": [
+      "のろわれボディ"
+    ],
+    "learnset": [
+      "shadow_ball",
+      "sludge_bomb",
+      "sludge_wave",
+      "focus_blast",
+      "dazzling_gleam",
+      "taunt",
+      "will_o_wisp",
+      "destiny_bond",
+      "perish_song",
+      "trick",
+      "trick_room",
+      "haze"
+    ]
+  },
+  {
+    "id": "farigiraf",
+    "name_ja": "リキキリン",
+    "types": [
+      "ノーマル",
+      "エスパー"
+    ],
+    "base_stats": {
+      "hp": 120,
+      "attack": 90,
+      "defense": 70,
+      "sp_attack": 110,
+      "sp_defense": 70,
+      "speed": 60
+    },
+    "abilities": [
+      "テイルアーマー",
+      "草食"
+    ],
+    "learnset": [
+      "psychic",
+      "psyshock",
+      "hyper_voice",
+      "twin_beam",
+      "dazzling_gleam",
+      "thunderbolt",
+      "trick_room",
+      "nasty_plot",
+      "helping_hand",
+      "ally_switch",
+      "protect"
+    ]
+  },
+  {
+    "id": "bruxish",
+    "name_ja": "ハギギシリ",
+    "types": [
+      "みず",
+      "エスパー"
+    ],
+    "base_stats": {
+      "hp": 68,
+      "attack": 105,
+      "defense": 70,
+      "sp_attack": 70,
+      "sp_defense": 70,
+      "speed": 92
+    },
+    "abilities": [
+      "ビビりボディ",
+      "頑丈あご"
+    ],
+    "learnset": [
+      "psychic_fangs",
+      "wave_crash",
+      "liquidation",
+      "aqua_jet",
+      "crunch",
+      "ice_fang",
+      "poison_jab",
+      "swords_dance",
+      "trick_room",
+      "taunt"
+    ]
+  },
+  {
+    "id": "tsareena",
+    "name_ja": "アマージョ",
+    "types": [
+      "くさ"
+    ],
+    "base_stats": {
+      "hp": 72,
+      "attack": 120,
+      "defense": 98,
+      "sp_attack": 50,
+      "sp_defense": 98,
+      "speed": 72
+    },
+    "abilities": [
+      "女王の威厳"
+    ],
+    "learnset": [
+      "trop_kick",
+      "power_whip",
+      "high_jump_kick",
+      "u_turn",
+      "knock_off",
+      "play_rough",
+      "triple_axel",
+      "helping_hand",
+      "reflect",
+      "light_screen"
+    ]
+  },
+  {
+    "id": "gothitelle",
+    "name_ja": "ゴチルゼル",
+    "types": [
+      "エスパー"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 55,
+      "defense": 95,
+      "sp_attack": 95,
+      "sp_defense": 110,
+      "speed": 65
+    },
+    "abilities": [
+      "かげふみ"
+    ],
+    "learnset": [
+      "psychic",
+      "psyshock",
+      "fake_out",
+      "trick_room",
+      "helping_hand",
+      "ally_switch",
+      "taunt",
+      "flamethrower",
+      "thunderbolt",
+      "protect",
+      "heal_pulse"
+    ]
+  },
+  {
+    "id": "wobbuffet",
+    "name_ja": "ソーナンス",
+    "types": [
+      "エスパー"
+    ],
+    "base_stats": {
+      "hp": 190,
+      "attack": 33,
+      "defense": 58,
+      "sp_attack": 33,
+      "sp_defense": 58,
+      "speed": 33
+    },
+    "abilities": [
+      "かげふみ"
+    ],
+    "learnset": [
+      "counter",
+      "mirror_coat",
+      "destiny_bond",
+      "safeguard",
+      "encore",
+      "amnesia",
+      "charm"
+    ]
+  },
+  {
+    "id": "ursaluna",
+    "name_ja": "ガチグマ(通常)",
+    "types": [
+      "ノーマル",
+      "じめん"
+    ],
+    "base_stats": {
+      "hp": 130,
+      "attack": 140,
+      "defense": 105,
+      "sp_attack": 45,
+      "sp_defense": 80,
+      "speed": 50
+    },
+    "abilities": [
+      "根性",
+      "防弾"
+    ],
+    "learnset": [
+      "facade",
+      "earthquake",
+      "high_horse_power",
+      "head_long_rush",
+      "crunch",
+      "close_combat",
+      "fire_punch",
+      "ice_punch",
+      "thunder_punch",
+      "swords_dance",
+      "belly_drum"
+    ]
+  },
+  {
+    "id": "camerupt",
+    "name_ja": "バクーダ",
+    "types": [
+      "ほのお",
+      "じめん"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 100,
+      "defense": 70,
+      "sp_attack": 105,
+      "sp_defense": 75,
+      "speed": 40
+    },
+    "abilities": [
+      "ハードロック"
+    ],
+    "learnset": [
+      "eruption",
+      "heat_wave",
+      "overheat",
+      "earth_power",
+      "flash_cannon",
+      "ancient_power",
+      "yawn",
+      "will_o_wisp",
+      "stealth_rock"
+    ]
+  },
+  {
+    "id": "hatterene",
+    "name_ja": "ブリムオン",
+    "types": [
+      "エスパー",
+      "フェアリー"
+    ],
+    "base_stats": {
+      "hp": 57,
+      "attack": 90,
+      "defense": 95,
+      "sp_attack": 136,
+      "sp_defense": 103,
+      "speed": 29
+    },
+    "abilities": [
+      "マジックミラー"
+    ],
+    "learnset": [
+      "mystical_fire",
+      "psychic",
+      "psyshock",
+      "moonblast",
+      "dazzling_gleam",
+      "shadow_ball",
+      "trick_room",
+      "calm_mind",
+      "nasty_plot",
+      "healing_wish"
+    ]
+  },
+  {
+    "id": "torkoal_tr",
+    "name_ja": "コータス(TR)",
+    "types": [
+      "ほのお"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 140,
+      "sp_attack": 85,
+      "sp_defense": 70,
+      "speed": 20
+    },
+    "abilities": [
+      "ひでり"
+    ],
+    "learnset": [
+      "eruption",
+      "heat_wave",
+      "overheat",
+      "earth_power",
+      "scorching_sands",
+      "solarbeam",
+      "yawn",
+      "will_o_wisp",
+      "body_press",
+      "iron_defense"
+    ]
+  },
+  {
+    "id": "kingambit_tr",
+    "name_ja": "ドドゲザン(TR)",
+    "types": [
+      "あく",
+      "はがね"
+    ],
+    "base_stats": {
+      "hp": 100,
+      "attack": 135,
+      "defense": 120,
+      "sp_attack": 60,
+      "sp_defense": 85,
+      "speed": 50
+    },
+    "abilities": [
+      "そうだいしょう"
+    ],
+    "learnset": [
+      "kowtow_cleave",
+      "iron_head",
+      "sucker_punch",
+      "swords_dance",
+      "low_kick",
+      "brick_break",
+      "stone_edge",
+      "substitute"
+    ]
+  },
+  {
+    "id": "brute_bonnet",
+    "name_ja": "アラブルタケ",
+    "types": [
+      "くさ",
+      "あく"
+    ],
+    "base_stats": {
+      "hp": 111,
+      "attack": 127,
+      "defense": 99,
+      "sp_attack": 79,
+      "sp_defense": 99,
+      "speed": 55
+    },
+    "abilities": [
+      "こだいかっせい"
+    ],
+    "learnset": [
+      "spore",
+      "crunch",
+      "sucker_punch",
+      "seed_bomb",
+      "close_combat",
+      "rage_powder",
+      "clear_smog",
+      "swords_dance",
+      "synthesis"
+    ]
+  },
+  {
+    "id": "iron_hands_tr",
+    "name_ja": "テツノカイナ(TR)",
+    "types": [
+      "かくとう",
+      "でんき"
+    ],
+    "base_stats": {
+      "hp": 154,
+      "attack": 140,
+      "defense": 108,
+      "sp_attack": 50,
+      "sp_defense": 68,
+      "speed": 50
+    },
+    "abilities": [
+      "クォークチャージ"
+    ],
+    "learnset": [
+      "drain_punch",
+      "close_combat",
+      "wild_charge",
+      "thunder_punch",
+      "fake_out",
+      "ice_punch",
+      "earthquake",
+      "swords_dance",
+      "belly_drum"
+    ]
+  },
+  {
+    "id": "porygon2_tr",
+    "name_ja": "ポリゴン2(TR)",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 80,
+      "defense": 90,
+      "sp_attack": 105,
+      "sp_defense": 95,
+      "speed": 60
+    },
+    "abilities": [
+      "ダウンロード"
+    ],
+    "learnset": [
+      "trick_room",
+      "recover",
+      "tri_attack",
+      "ice_beam",
+      "thunderbolt",
+      "shadow_ball",
+      "foul_play",
+      "thunder_wave",
+      "eerie_impulse"
+    ]
+  },
+  {
+    "id": "cresselia",
+    "name_ja": "クレセリア",
+    "types": [
+      "エスパー"
+    ],
+    "base_stats": {
+      "hp": 120,
+      "attack": 70,
+      "defense": 110,
+      "sp_attack": 75,
+      "sp_defense": 120,
+      "speed": 85
+    },
+    "abilities": [
+      "ふゆう"
+    ],
+    "learnset": [
+      "psychic",
+      "psyshock",
+      "moonblast",
+      "ice_beam",
+      "lunar_blessing",
+      "recover",
+      "trick_room",
+      "calm_mind",
+      "helping_hand",
+      "ally_switch"
+    ]
+  },
+  {
+    "id": "dusclops",
+    "name_ja": "サマヨール",
+    "types": [
+      "ゴースト"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 70,
+      "defense": 130,
+      "sp_attack": 60,
+      "sp_defense": 130,
+      "speed": 25
+    },
+    "abilities": [
+      "プレッシャー",
+      "おみとおし"
+    ],
+    "learnset": [
+      "night_shade",
+      "foul_play",
+      "shadow_sneak",
+      "trick_room",
+      "will_o_wisp",
+      "haze",
+      "taunt",
+      "helping_hand",
+      "ally_switch",
+      "pain_split"
+    ]
+  },
+  {
+    "id": "dusknoir",
+    "name_ja": "ヨノワール",
+    "types": [
+      "ゴースト"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 100,
+      "defense": 135,
+      "sp_attack": 65,
+      "sp_defense": 135,
+      "speed": 45
+    },
+    "abilities": [
+      "プレッシャー",
+      "おみとおし"
+    ],
+    "learnset": [
+      "shadow_punch",
+      "poltergeist",
+      "shadow_sneak",
+      "earthquake",
+      "ice_punch",
+      "thunder_punch",
+      "fire_punch",
+      "trick_room",
+      "will_o_wisp",
+      "haze"
+    ]
+  },
+  {
+    "id": "porygon_z_tr",
+    "name_ja": "ポリゴンZ(TR)",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 80,
+      "defense": 70,
+      "sp_attack": 135,
+      "sp_defense": 75,
+      "speed": 90
+    },
+    "abilities": [
+      "適応力"
+    ],
+    "learnset": [
+      "tri_attack",
+      "hyper_voice",
+      "boomburst",
+      "ice_beam",
+      "thunderbolt",
+      "shadow_ball",
+      "nasty_plot",
+      "trick_room",
+      "trick"
+    ]
+  },
+  {
+    "id": "ursaluna_bloodmoon_tr",
+    "name_ja": "ガチグマ(紅月TR)",
+    "types": [
+      "ノーマル",
+      "じめん"
+    ],
+    "base_stats": {
+      "hp": 113,
+      "attack": 70,
+      "defense": 120,
+      "sp_attack": 135,
+      "sp_defense": 65,
+      "speed": 52
+    },
+    "abilities": [
+      "しんがん"
+    ],
+    "learnset": [
+      "blood_moon",
+      "earth_power",
+      "hyper_voice",
+      "scorching_sands",
+      "vacuum_wave",
+      "calm_mind",
+      "moonlight",
+      "protect"
+    ]
+  },
+  {
+    "id": "amoonguss_tr",
+    "name_ja": "モロバレル(TR)",
     "types": [
       "くさ",
       "どく"
@@ -490,36 +4328,281 @@
     ],
     "learnset": [
       "spore",
-      "energy_ball",
+      "rage_powder",
+      "giga_drain",
       "sludge_bomb",
-      "foul_play",
+      "pollen_puff",
+      "clear_smog",
+      "protect",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "smeargle_tr",
+    "name_ja": "ドーブル(TR)",
+    "types": [
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 20,
+      "defense": 35,
+      "sp_attack": 20,
+      "sp_defense": 45,
+      "speed": 75
+    },
+    "abilities": [
+      "マイペース"
+    ],
+    "learnset": [
+      "spore",
+      "fake_out",
+      "follow_me",
+      "rage_powder",
+      "trick_room",
+      "baneful_bunker",
+      "parting_shot",
+      "decorations",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "gastrodon_tr",
+    "name_ja": "トリトドン(TR)",
+    "types": [
+      "みず",
+      "じめん"
+    ],
+    "base_stats": {
+      "hp": 111,
+      "attack": 83,
+      "defense": 68,
+      "sp_attack": 92,
+      "sp_defense": 82,
+      "speed": 39
+    },
+    "abilities": [
+      "よびみず"
+    ],
+    "learnset": [
+      "earth_power",
+      "scald",
+      "ice_beam",
+      "recover",
+      "yawn",
+      "clear_smog",
+      "haze",
+      "protect",
+      "helping_hand"
+    ]
+  },
+  {
+    "id": "scizor_tr",
+    "name_ja": "ハッサム(TR)",
+    "types": [
+      "むし",
+      "はがね"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 130,
+      "defense": 100,
+      "sp_attack": 55,
+      "sp_defense": 80,
+      "speed": 65
+    },
+    "abilities": [
+      "テクニシャン"
+    ],
+    "learnset": [
+      "bullet_punch",
+      "u_turn",
+      "knock_off",
+      "swords_dance",
+      "close_combat",
+      "iron_head",
+      "dual_wingbeat",
       "protect"
     ]
   },
   {
-    "id": "togekiss",
-    "name_ja": "トゲキッス",
+    "id": "snorlax_tr",
+    "name_ja": "カビゴン(TR)",
     "types": [
-      "フェアリー",
+      "ノーマル"
+    ],
+    "base_stats": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "sp_attack": 65,
+      "sp_defense": 110,
+      "speed": 30
+    },
+    "abilities": [
+      "あついしぼう"
+    ],
+    "learnset": [
+      "body_slam",
+      "double_edge",
+      "facade",
+      "heavy_slam",
+      "high_horse_power",
+      "crunch",
+      "belly_drum",
+      "recycle",
+      "yawn",
+      "protect"
+    ]
+  },
+  {
+    "id": "glaceon_tr",
+    "name_ja": "グレイシア(TR)",
+    "types": [
+      "こおり"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 110,
+      "sp_attack": 130,
+      "sp_defense": 95,
+      "speed": 65
+    },
+    "abilities": [
+      "アイスボディ"
+    ],
+    "learnset": [
+      "blizzard",
+      "freeze_dry",
+      "ice_beam",
+      "shadow_ball",
+      "hyper_voice",
+      "fake_tears",
+      "calm_mind",
+      "yawn",
+      "protect"
+    ]
+  },
+  {
+    "id": "haze_murkrow",
+    "name_ja": "ドンカラス",
+    "types": [
+      "あく",
       "ひこう"
     ],
     "base_stats": {
-      "hp": 85,
-      "attack": 50,
-      "defense": 95,
-      "sp_attack": 120,
-      "sp_defense": 115,
-      "speed": 80
+      "hp": 100,
+      "attack": 125,
+      "defense": 52,
+      "sp_attack": 105,
+      "sp_defense": 52,
+      "speed": 71
     },
     "abilities": [
-      "てんのめぐみ"
+      "強運",
+      "不眠"
     ],
     "learnset": [
-      "air_slash",
+      "night_slash",
+      "brave_bird",
+      "sucker_punch",
+      "heat_wave",
+      "foul_play",
+      "tailwind",
+      "haze",
+      "taunt",
+      "roost",
+      "superpower"
+    ]
+  },
+  {
+    "id": "tinkaton_support",
+    "name_ja": "ナカヌチャン",
+    "types": [
+      "フェアリー",
+      "はがね"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 55,
+      "sp_attack": 45,
+      "sp_defense": 65,
+      "speed": 58
+    },
+    "abilities": [
+      "マイペース"
+    ],
+    "learnset": [
+      "play_rough",
+      "knock_off",
+      "stealth_rock",
+      "thunder_wave",
+      "encore",
+      "fake_out",
+      "helping_hand",
+      "reflect",
+      "light_screen"
+    ]
+  },
+  {
+    "id": "clefairy",
+    "name_ja": "ピッピ",
+    "types": [
+      "フェアリー"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 45,
+      "defense": 48,
+      "sp_attack": 60,
+      "sp_defense": 65,
+      "speed": 35
+    },
+    "abilities": [
+      "フレンドガード"
+    ],
+    "learnset": [
       "moonblast",
-      "flamethrower",
-      "nasty_plot",
-      "roost"
+      "follow_me",
+      "helping_hand",
+      "thunder_wave",
+      "encore",
+      "sing",
+      "heal_pulse",
+      "icy_wind",
+      "protect",
+      "light_screen"
+    ]
+  },
+  {
+    "id": "raging_bolt_tr",
+    "name_ja": "タケルライコ(TR)",
+    "types": [
+      "でんき",
+      "ドラゴン"
+    ],
+    "base_stats": {
+      "hp": 125,
+      "attack": 73,
+      "defense": 91,
+      "sp_attack": 137,
+      "sp_defense": 89,
+      "speed": 75
+    },
+    "abilities": [
+      "こだいかっせい"
+    ],
+    "learnset": [
+      "thunderclap",
+      "thunderbolt",
+      "draco_meteor",
+      "dragon_pulse",
+      "calm_mind",
+      "snarl",
+      "weather_ball",
+      "protect"
     ]
   }
 ]
