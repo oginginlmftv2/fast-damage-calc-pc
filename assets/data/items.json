@@ -1,0 +1,17 @@
+[
+  { "id": "choice-band",    "name": "こだわりハチマキ", "effectCategory": "StatMultiplier",          "targetStat": "atk", "value": 1.5 },
+  { "id": "choice-specs",   "name": "こだわりメガネ",   "effectCategory": "StatMultiplier",          "targetStat": "spa", "value": 1.5 },
+  { "id": "choice-scarf",   "name": "こだわりスカーフ", "effectCategory": "StatMultiplier",          "targetStat": "spe", "value": 1.5 },
+  { "id": "assault-vest",   "name": "とつげきチョッキ", "effectCategory": "StatMultiplier",          "targetStat": "spd", "value": 1.5 },
+  { "id": "life-orb",       "name": "いのちのたま",     "effectCategory": "DamageDealtMultiplier",   "targetStat": "all", "value": 1.3 },
+  { "id": "expert-belt",    "name": "たつじんのおび",   "effectCategory": "SuperEffectiveMultiplier","targetStat": "all", "value": 1.2 },
+  { "id": "eviolite",       "name": "しんかのきせき",   "effectCategory": "StatMultiplier",          "targetStat": "defenses", "value": 1.5 },
+  { "id": "booster-energy", "name": "ブーストエナジー", "effectCategory": "ParadoxTrigger",          "targetStat": "highest", "value": 1.0 },
+  { "id": "miracle-seed",   "name": "もくぞう",         "effectCategory": "TypeDamageMultiplier",    "targetStat": "くさ", "value": 1.2 },
+  { "id": "mystic-water",   "name": "しんぴのしずく",   "effectCategory": "TypeDamageMultiplier",    "targetStat": "みず", "value": 1.2 },
+  { "id": "magnet",         "name": "じしゃく",         "effectCategory": "TypeDamageMultiplier",    "targetStat": "でんき", "value": 1.2 },
+  { "id": "sitrus-berry",   "name": "オボンののみ",     "effectCategory": "Healing",                 "targetStat": "hp", "value": 0.25 },
+  { "id": "focus-sash",     "name": "きあいのタスキ",   "effectCategory": "Survival",                "targetStat": "hp", "value": 0.0 },
+  { "id": "resist-berry",   "name": "半減きのみ",       "effectCategory": "TypeResistBerry",         "targetStat": "specific", "value": 0.5 },
+  { "id": "pixie-plate",    "name": "せいれいのプレート","effectCategory": "TypeDamageMultiplier",   "targetStat": "フェアリー", "value": 1.2 }
+]

@@ -1,0 +1,17 @@
+[
+  { "id": "mouka", "name": "もうか", "effectCategory": "MovePowerMultiplier", "description": "HP1/3以下の時、炎技の威力が1.5倍になる" },
+  { "id": "chikaramochi", "name": "ちからもち", "effectCategory": "StatMultiplier", "description": "物理攻撃（こうげき）のステータスが2倍になる" },
+  { "id": "tekiouryoku", "name": "てきおうりょく", "effectCategory": "StabMultiplier", "description": "タイプ一致の補正が2.0倍になる" },
+  { "id": "technician", "name": "テクニシャン", "effectCategory": "MovePowerMultiplier", "description": "威力60以下の技の威力が1.5倍になる" },
+  { "id": "multiscale", "name": "マルチスケイル", "effectCategory": "DamageReceivedMultiplier", "description": "HP満タンの時、受けるダメージが半減する" },
+  { "id": "intimidate", "name": "いかく", "effectCategory": "TargetStatDebuff", "description": "登場時に相手の攻撃を1段階下げる" },
+  { "id": "chikaranone", "name": "ちからのねっこ", "effectCategory": "StatMultiplier", "description": "特定の技の威力が上がる（マスター拡張用）" },
+  { "id": "wazawai-tsurugi", "name": "わざわいのつるぎ", "effectCategory": "FieldStatMultiplier", "description": "自分以外の防御を0.75倍にする" },
+  { "id": "wazawai-utsuwa", "name": "わざわいのうつわ", "effectCategory": "FieldStatMultiplier", "description": "自分以外の特攻を0.75倍にする" },
+  { "id": "kodaikassei", "name": "こだいかっせい", "effectCategory": "StatMultiplier", "description": "ブーストエナジーか晴れで一番高いステータスが上がる" },
+  { "id": "quartzcharge", "name": "クォークチャージ", "effectCategory": "StatMultiplier", "description": "ブーストエナジーかエレキフィールドで一番高いステータスが上がる" },
+  { "id": "tennen", "name": "てんねん", "effectCategory": "IgnoreTargetStatChanges", "description": "相手の能力変化を無視してダメージ計算する" },
+  { "id": "hardrock", "name": "ハードロック", "effectCategory": "DamageReceivedMultiplier", "description": "効果バツグンの時に受けるダメージを0.75倍に軽減する" },
+  { "id": "wonderguard", "name": "ふしぎなまもり", "effectCategory": "DamageImmunity", "description": "効果バツグン以外のダメージを受けない" },
+  { "id": "sandstream", "name": "すなおこし", "effectCategory": "WeatherTrigger", "description": "戦闘に出たとき天気をすなあらしにする" }
+]

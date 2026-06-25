@@ -1,5 +1,32 @@
 # AI間申し送り
 
+## 2026/06/25
+
+### 完了
+- 性格選択ドロップダウン（nature_table.dartのデータ使用、+A/-B形式で表示）
+- 努力値テキスト入力（0-252クランプ、攻撃側A/C・防御側H/B/D）
+- テラスタイプ選択チップ（18タイプ、選択解除対応）
+- assets/data/moves.json 作成（41技、日本語タイプ・カテゴリ）
+- assets/data/type_chart.json 作成（18×18タイプ相性表、日本語キー）
+- pubspec.yaml にassetsセクション追加
+- MoveSearchField 実装（インクリメンタル検索、候補6件表示）
+- 技選択UIをプレースホルダーから差し替え完了
+
+### 未着手
+- ポケモン検索UI（pokemon.json待ち）
+- パーティ保存機能
+
+### 待ち状態
+- ユーザーが pokemon.json を用意する
+
+### 次にClaudeがやること
+pokemon.jsonが `assets/data/` に配置されたら、
+PokemonSearchField を実装してプレースホルダーを差し替える。
+pokemon.jsonのフォーマット：
+`[{"id":"...","name":"...","types":["ほのお"],"baseStats":{"hp":78,"atk":84,"def":78,"spa":109,"spd":85,"spe":100},"abilities":["もうか"]}]`
+
+---
+
 ## 2026/06/24
 
 ### 完了
